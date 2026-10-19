@@ -1,0 +1,47 @@
+{
+  "code": "bpgrandpcana",
+  "name": "Bahia Principe Explore Punta Cana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "The Bahia Scouts Mini-Club (ages 4-12) is on site and included, with a teen club alongside, and Explore Turquesa's guests use it too. The resort publishes no hours; TripAdvisor reports put them at about 9am-5pm with a strictly enforced 12:30-2:30pm pickup, and recent detailed parent reviews are thin."},
+    "water_play": {"score": 4, "evidence": "Five or six pools depending on the source, including a kids' pool. The official site places the included water park with slides next door at Explore Turquesa; BP Privilege Club also lists a water park among this hotel's services, so an on-site splash area is possible but unconfirmed. The Wave Rider wave pool costs extra (age 4+, fee not published)."},
+    "beach": {"score": 3, "evidence": "Directly beachfront on Arena Gorda with soft sand and generally calm, swimmable water, plus the Las Olas beach club. This stretch is rated moderately exposed to sargassum, which usually starts building in April."},
+    "rooms": {"score": 5, "evidence": "Standard junior suites have two double beds plus a sofa (up to 2 adults + 2 children), and BP Privilege Club confirms connecting rooms for the Junior Suite Superior. Family suites and two-bedroom family suites are also bookable (Air Canada Vacations)."},
+    "food": {"score": 3, "evidence": "Four à la carte restaurants of its own (steakhouse, Italian, Japanese, Mongolian), plus Las Olas Beach House and Turquesa's Takara, but the official plan caps it at 3 à la carte dinners a week, bookable in the app up to 10 days ahead. Reviewers often call the buffets chaotic, and some venues were closed for the 2026 renovation."},
+    "transfer": {"score": 5, "evidence": "About 25 km from PUJ, a drive of roughly 25-30 minutes."},
+    "condition": {"score": 4, "evidence": "Formerly Grand Punta Cana. 820 rooms were renovated by January 2026 and the Nacar lobby in 2025, and a second phase covering 358 rooms runs from Apr 10 to Nov 30, 2026 (work 9am-6pm daily), with full reopening due Dec 1, 2026. Older reviews of unrenovated blocks mention mould and broken air conditioning."}
+  },
+  "kids_club": {"name": "Bahia Scouts Kids Club (Mini-Club)", "ages": "4-12", "hours": "about 9am-5pm with a 12:30-2:30pm pickup, per TripAdvisor reports; official hours unverified", "cost": "included", "notes": "On site, with a separate teen club (13-17); the official Turquesa page says Turquesa's kids club is this one. Reviewers say late pickups are turned away. Babysitting costs extra. Guests can also use Explore Turquesa (its water park and Takara restaurant), buffets excluded. Explore Legend's facilities are not listed for these guests, and the adults-only Escape hotels are off-limits with a child. The La Isla hub (food trucks, a kids' area and the paid Wave Rider), Las Olas Beach House, Bahia Principe Village and shuttle trains are shared across the complex."},
+  "transfer_minutes": {"PUJ": 30},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Beachfront on Arena Gorda, with the Las Olas beach club and its restaurants on site",
+    "Connecting junior suites, family suites and two-bedroom suites, more choice than any other hotel in the complex",
+    "Most rooms freshly renovated across 2025-26, with work due to finish before an April 2027 stay",
+    "Kids club is on site, and the included water park with slides is next door at Turquesa"
+  ],
+  "cons": [
+    "Only 3 à la carte dinners per week; on 5 nights expect two buffet dinners",
+    "Two of the four on-site specialty restaurants are beef-centred (Flame steakhouse, Las Olas Rodizio)",
+    "Kids club reportedly needs a midday pickup (about 12:30-2:30pm) and closes around 5pm",
+    "Very large (about 1,400 rooms), with crowded buffets and early towel-saving on loungers",
+    "Water park is at a neighbouring hotel, the wave pool costs extra, and there are no post-renovation reviews yet for the 2026 phase"
+  ],
+  "verdict": "A beachfront, newly renovated choice with the best room options for families, held back by the 3-per-week à la carte cap, a short kids-club day and a water park at the next hotel.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Punta Cana (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-punta-cana/"},
+    {"title": "Explore Punta Cana restaurants (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-punta-cana/restaurants/"},
+    {"title": "Explore Punta Cana all-inclusive (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-punta-cana/all-inclusive/"},
+    {"title": "Explore Punta Cana services (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-punta-cana/services/"},
+    {"title": "Explore Turquesa all-inclusive: kids club located at Explore Punta Cana (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-turquesa/all-inclusive/"},
+    {"title": "BP Privilege Club: Explore Punta Cana (connecting rooms, Mini-Club ages, venue closures)", "url": "https://bpprivilegeclub.com/Hotel-Punta-Cana"},
+    {"title": "Air Canada Vacations: Explore Punta Cana (renovation notice, room types, app booking)", "url": "https://vacations.aircanada.com/en/accommodation-details/PUJGPC/bahia-principe-explore-punta-cana"},
+    {"title": "TripAdvisor: Explore Punta Cana kids club reports (seen via search excerpts; page did not load)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "PAX: Bahia Principe completes three major projects (Jan 2026)", "url": "https://www.paxnews.com/news/hotel/bahia-principe-completes-three-major-projects-across-mexico-spain-and-caribbean"},
+    {"title": "Hyatt newsroom: Bahia Principe joins World of Hyatt (Mar 2026)", "url": "https://newsroom.hyatt.com/2026-march-25-bahiaprincipejoinsworldofhyatt"},
+    {"title": "ResortFlock overview: Grand Punta Cana", "url": "https://www.resortflock.com/resorts/bahia-principe-grand-punta-cana/overview"},
+    {"title": "Where Is My Beach: Arena Gorda", "url": "https://whereismybeach.com/en/beach/playa-de-arena-gorda"},
+    {"title": "Dominican Activities: Punta Cana seaweed 2026", "url": "https://dominicanactivities.com/punta-cana-seaweed-2026-monthly-forecast-affected-beaches-clean-alternatives/"}
+  ]
+}

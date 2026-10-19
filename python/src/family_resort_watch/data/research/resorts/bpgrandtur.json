@@ -1,0 +1,47 @@
+{
+  "code": "bpgrandtur",
+  "name": "Bahia Principe Explore Turquesa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "The official all-inclusive page places Turquesa's included Kids Club (Bahia Scouts, ages 4-12) at neighbouring Explore Punta Cana, not at this hotel. TripAdvisor reports describe about 9am-5pm with a 12:30-2:30pm pickup; official hours are unverified and parent reports are thin."},
+    "water_play": {"score": 5, "evidence": "The complex's Bahia Scouts water park is on site, with several slides, zero-entry shallow water and splash features, alongside a children's pool. Families with under-6s rate it well; slide counts are not published, and only the Wave Rider wave pool costs extra (age 4+, fee not published)."},
+    "beach": {"score": 3, "evidence": "Shares Arena Gorda's soft sand and generally calm water, but it is the hotel farthest from the beach: about 15 minutes on foot or a shuttle ride each way. Sargassum exposure is moderate from April."},
+    "rooms": {"score": 4, "evidence": "Junior suites (Superior, standard and Deluxe) have two double beds or a king plus a sofa, for up to 2 adults + 2 children. An undated travel-agent page describes a Family Master Suite of two adjoining junior suites here, but the current official room list does not show it, so connecting rooms remain unverified."},
+    "food": {"score": 3, "evidence": "Only one à la carte restaurant of its own (Takara, Asian), plus Explore Punta Cana's 4 and Las Olas Beach House's 4 family-friendly ones. The official plan includes just 3 à la carte dinners a week (bookable in the app up to 10 days ahead), and reviewers find the buffet repetitive."},
+    "transfer": {"score": 5, "evidence": "About 25 km from PUJ, a drive of roughly 21-30 minutes."},
+    "condition": {"score": 3, "evidence": "The last major renovation was reportedly in 2015, and recent reviews call some room blocks dated, with mould and wear. Reviewers praise the grounds and staff. New room category names (including Deluxe junior suites) are bookable from Nov 1, 2026, but we could not confirm any refurbishment behind them."}
+  },
+  "kids_club": {"name": "Bahia Scouts Kids Club (at Explore Punta Cana)", "ages": "4-12", "hours": "about 9am-5pm with a 12:30-2:30pm pickup, per TripAdvisor reports; official hours unverified", "cost": "included", "notes": "The official Turquesa all-inclusive page says the Kids Club is located at Explore Punta Cana; Air Canada Vacations also lists a teen club (13-17) and the La Isla hub's kids' area. Babysitting (2-12) costs extra. The complex water park is at this hotel, and guests of Explore Punta Cana use it too. Turquesa guests can use Explore Punta Cana's facilities and restaurants (buffets excluded) and Las Olas Beach House. Explore Legend's facilities are not listed for them, and the adults-only Escape hotels are off-limits with a child."},
+  "transfer_minutes": {"PUJ": 30},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Complex water park with slides and zero-entry splash areas right at the hotel",
+    "Junior suites with two double beds and a sofa, enough room for 3",
+    "Can use Explore Punta Cana's restaurants and Las Olas Beach House",
+    "Reviewers praise the staff and the well-kept grounds"
+  ],
+  "cons": [
+    "Farthest hotel from the beach: about 15 minutes on foot or a shuttle ride each way with young children",
+    "Kids club is at Explore Punta Cana next door, and reportedly needs a midday pickup (about 12:30-2:30pm)",
+    "Only one specialty restaurant on site and a cap of 3 à la carte dinners per week",
+    "Dated rooms, with mould and wear reported, and no confirmed recent renovation"
+  ],
+  "verdict": "Best for water-park days and shortest walk to the slides, but families would trade beach access, dining variety and an on-site kids club for it.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Turquesa (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-turquesa/"},
+    {"title": "Explore Turquesa restaurants (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-turquesa/restaurants/"},
+    {"title": "Explore Turquesa rooms (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-turquesa/rooms/"},
+    {"title": "Explore Turquesa all-inclusive: kids club located at Explore Punta Cana (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-turquesa/all-inclusive/"},
+    {"title": "Explore Punta Cana all-inclusive: water park located at Turquesa (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-punta-cana/all-inclusive/"},
+    {"title": "BP Privilege Club: Explore Turquesa (Mini-Club ages, water park)", "url": "https://bpprivilegeclub.com/Hotel-Turquesa"},
+    {"title": "Air Canada Vacations: Explore Turquesa (kids and teen clubs, à la carte cap)", "url": "https://vacations.aircanada.com/en/accommodation-details/PUJBGT/bahia-principe-grand-turquesa"},
+    {"title": "GlobalAgents USA: Bahia Principe family rooms (Family Master Suite, undated)", "url": "https://globalagents.us/evergreen/bahia-principe-family-rooms"},
+    {"title": "TripAdvisor: Explore Punta Cana kids club reports (seen via search excerpts; page did not load)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "Bahia Principe Explore Turquesa microsite", "url": "https://www.bahiaprincipegrandturquesa.com/"},
+    {"title": "Oyster review: Grand Bahia Principe Turquesa", "url": "https://www.oyster.com/dominican-republic/hotels/grand-bahia-principe-turquesa/"},
+    {"title": "ResortFlock overview: Grand Turquesa", "url": "https://www.resortflock.com/resorts/bahia-principe-grand-turquesa/overview"},
+    {"title": "Wanderlog: Bahia Scouts Water Park", "url": "https://wanderlog.com/place/details/554192/bahia-scouts-water-park"},
+    {"title": "Where Is My Beach: Arena Gorda", "url": "https://whereismybeach.com/en/beach/playa-de-arena-gorda"}
+  ]
+}

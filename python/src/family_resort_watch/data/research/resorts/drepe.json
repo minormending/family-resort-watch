@@ -1,0 +1,43 @@
+{
+  "code": "drepe",
+  "name": "Dreams Playa Esmeralda Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club":  {"score": 4, "evidence": "Explorer's Club takes ages 3-12 daily 9am-10pm at no extra charge, and several families (including ones with 3- and 4-year-olds) say their kids loved it. One reviewer felt very young children weren't catered for, and another saw lifeguards inattentive at the kids' pool."},
+    "water_play": {"score": 5, "evidence": "There is an on-site water park with slides for different ages and a separate splash zone for small children (about 10am-6pm), plus a family pool."},
+    "beach":      {"score": 3, "evidence": "Soft sand, a quiet setting and very little sargassum in guest reports, and the Miches coast is usually spared. But the water right in front of the resort often has strong waves and black-flag days; calmer water is a walk away."},
+    "rooms":      {"score": 5, "evidence": "Entry junior suites (about 570 sq ft) come with two double beds, and family junior suites are guaranteed connecting (one king room plus one room with two doubles)."},
+    "food":       {"score": 3, "evidence": "Ten venues, including Dominican, Mexican, South American, Italian and Asian, with no reservations needed. Early reviews report long waits, lukewarm buffet food and undercooked kids' burgers, so service is still settling in."},
+    "transfer":   {"score": 2, "evidence": "About 100 km from PUJ; transfer companies quote 75-90 minutes and the resort-area guides say about 90, using the new Miches-Punta Cana boulevard."},
+    "condition":  {"score": 4, "evidence": "Brand new: it opened 2 September 2025. Reviews praise cleanliness and modern facilities but report opening-phase problems with check-in, reservations and service consistency."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "The water park runs about 10am-6pm. One reviewer saw lifeguards inattentive at the children's pool, and teens have the Core Zone club."},
+  "transfer_minutes": {"PUJ": 90},
+  "sargassum_late_april": "low",
+  "pros": [
+    "A real water park with slides plus a separate splash zone for young children",
+    "Brand new, opened September 2025",
+    "Junior suites with two double beds, and guaranteed connecting family suites",
+    "Free kids' club open until 10pm",
+    "The Miches coast rarely gets sargassum"
+  ],
+  "cons": [
+    "About 90 minutes each way from PUJ with a tired young child",
+    "Waves and red-flag days in front of the resort make the beach poor for a young child to swim at",
+    "Early reviews report long restaurant queues and uneven food",
+    "Remote: nothing else nearby beyond Secrets next door and Club Med"
+  ],
+  "verdict": "Great facilities for young children (water park, connecting suites, a new build), but the 90-minute transfer and wavy beach count against it for a short trip.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Newsroom - Dreams Playa Esmeralda debuts (2 Sep 2025)", "url": "https://newsroom.hyatt.com/2025-september-2-dreamsplayaesmeraldaresortandspa"},
+    {"title": "Hyatt Inclusive Collection - Dreams Playa Esmeralda activities (via search listing)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/dominican-republic/playa-esmeralda/activities/"},
+    {"title": "Costco Travel - Dreams Playa Esmeralda (room configurations)", "url": "https://www.costcotravel.com/Hotels/Caribbean/Dominican-Republic/PuntaCanaDreamsPlayaEsmeralda"},
+    {"title": "Shoreline Destinations - Dreams Playa Esmeralda review", "url": "https://www.shorelinedestinations.com/travel-blog/dreams-playa-esmeralda-resort-and-spa-review"},
+    {"title": "ResortFlock - Dreams Playa Esmeralda overview and review themes", "url": "https://www.resortflock.com/resorts/dreams-playa-esmeralda-resort-and-spa/overview"},
+    {"title": "TripAdvisor - Dreams Playa Esmeralda reviews (via search listing)", "url": "https://www.tripadvisor.com/Hotel_Review-g1072143-d28985437-Reviews-Dreams_Playa_Esmeralda_Resort_Spa-El_Cedro_El_Seibo_Province_Dominican_Republic.html"},
+    {"title": "Puntacana.vip - Dreams Playa Esmeralda transportation", "url": "https://puntacana.vip/dreams-playa-esmeralda-transportation/"},
+    {"title": "VacationsTaxis - PUJ to Dreams Playa Esmeralda transfers", "url": "https://www.vacationstaxis.com/punta-cana-airport-to-dreams-playa-esmeralda"},
+    {"title": "Punta Cana Travel Blog - seaweed guide (updated Jan 2026)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

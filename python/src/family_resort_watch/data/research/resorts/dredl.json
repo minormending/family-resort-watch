@@ -1,0 +1,40 @@
+{
+  "code": "dredl",
+  "name": "Dreams Dominicus La Romana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club":  {"score": 4, "evidence": "Explorer's Club takes ages 3-12 daily 9am-10pm at no extra charge, in a large dedicated space, and guest comments are positive. Recent reports specifically from parents of young children are thin."},
+    "water_play": {"score": 4, "evidence": "The family section has its own pool with a splash area and water games for small children. There is no water park or slides."},
+    "beach":      {"score": 5, "evidence": "Playa Dominicus faces the Caribbean on the sheltered Bayahibe coast, with soft sand and calm, clear water. A regional seaweed guide says Bayahibe is seaweed-free nearly all year, and a January 2026 family review saw very little."},
+    "rooms":      {"score": 5, "evidence": "Deluxe rooms (about 538 sq ft) come with a king or two double beds. A separate family section offers guaranteed interconnecting family suites."},
+    "food":       {"score": 3, "evidence": "Eight venues including Italian, Pan-Asian/teppanyaki, a seaside grill, pizzeria and family restaurant, with no reservations needed; the French restaurant is adults-only. Recent reviews are mixed, with complaints about a repetitive or poor buffet and an occasional food-poisoning report alongside praise."},
+    "transfer":   {"score": 3, "evidence": "About 50-60 minutes from PUJ by road (one package seller quotes 40 minutes, which looks optimistic)."},
+    "condition":  {"score": 3, "evidence": "Built around 2016; 2025-26 reviews call rooms spacious and clean but say décor is dated and maintenance and loungers are inconsistent. TripAdvisor averages 4/5."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Large kids' club with a separate Core Zone teens club; the family section has its own splash pool, family restaurant and pizzeria."},
+  "transfer_minutes": {"PUJ": 60},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Bayahibe's sheltered, calm beach rarely gets sargassum, which is the safest bet for late April in this batch",
+    "Free kids' club open until 10pm",
+    "A dedicated family section with a splash pool and guaranteed connecting family suites",
+    "Rooms come with two double beds, so three fit without a sofa bed",
+    "No restaurant reservations needed"
+  ],
+  "cons": [
+    "No water slides or water park, just a splash area",
+    "Food reviews are mixed, especially the buffet",
+    "Décor is dated (opened around 2016), and recent reviews mention uneven maintenance",
+    "About an hour's drive from PUJ"
+  ],
+  "verdict": "A strong, calm-beach pick for young children with a free late-hours kids' club and two-bed rooms, as long as families are fine with no slides and so-so food.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt - Dreams Dominicus La Romana (dredl)", "url": "https://www.hyatt.com/en-US/hotel/dominican-republic/dreams-dominicus-la-romana/dredl"},
+    {"title": "Costco Travel - Dreams Dominicus La Romana (rooms, restaurants, kids clubs)", "url": "https://www.costcotravel.com/hotels/caribbean/dominican-republic/LaRomanaDreamsDominicus"},
+    {"title": "Punta Cana Travel Blog - Dreams Dominicus La Romana (2022)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/dreams-dominicus-la-romana-all-inclusive-resort/"},
+    {"title": "Stack the Miles - Dreams Dominicus La Romana with kids (Jan 2026)", "url": "https://stackthemiles.com/dreams-dominicus-la-romana-with-kids/"},
+    {"title": "TripAdvisor - Dreams Dominicus La Romana reviews (via search listing)", "url": "https://www.tripadvisor.com/Hotel_Review-g23594254-d10400968-Reviews-Dreams_Dominicus_La_Romana-Dominicus_Bayahibe_La_Altagracia_Province_Dominican_Repu.html"},
+    {"title": "Punta Cana Travel Blog - seaweed guide (updated Jan 2026)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

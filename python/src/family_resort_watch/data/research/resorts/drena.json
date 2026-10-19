@@ -1,0 +1,43 @@
+{
+  "code": "drena",
+  "name": "Dreams Natura Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "Explorer's Club takes potty-trained 3-12s at no charge and parents of preschoolers praise it, but the only published hours (10am-6pm) date from 2020 and current hours are unverified."},
+    "water_play": {"score": 5, "evidence": "Free on-site water park with a lazy river and three big slides (reported 1.20 m minimum height, so likely too tall for young children), plus a separate kids' water area with spray jets, four mini slides and a tipping bucket."},
+    "beach": {"score": 2, "evidence": "The beach sits on the open coast between Cancun and Puerto Morelos, not in Costa Mujeres; several reviews describe heaped sargassum, brownish water and little ocean swimming. Sargassum season usually builds through late April, and April 2026 set regional records."},
+    "rooms": {"score": 5, "evidence": "Junior suites come with two double beds or a king plus sofa bed, and a Family Junior Suite with connecting rooms is offered; 553 rooms in total."},
+    "food": {"score": 3, "evidence": "Nine venues including Italian, seafood, Pan-Asian/hibachi, Mexican and a steakhouse, but the French restaurant is 16+ and several reviewers say the booking system fills fast and tables are hard to get."},
+    "transfer": {"score": 5, "evidence": "About 16 km from CUN; sources put the drive at roughly 15-30 minutes."},
+    "condition": {"score": 4, "evidence": "Opened in 2020 (rebranded from Now Natura before opening), so it is fairly new, but 2025-26 reviews mention musty rooms, AC and hot-water faults and worn fixtures."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "10am-6pm (2020 report; current hours unverified)", "cost": "included", "notes": "Must be potty-trained. Separate Core Zone teen club. Recent parents of 3-4 year olds rate the staff highly."},
+  "transfer_minutes": {"CUN": 20},
+  "sargassum_late_april": "high",
+  "pros": [
+    "Kids' splash area with mini slides and a bucket, plus a lazy river, all included",
+    "Roughly 20-minute drive from CUN",
+    "Two-double-bed suites and connecting family suites",
+    "Wide cuisine variety: Italian, seafood, Pan-Asian, Mexican"
+  ],
+  "cons": [
+    "Beach is regularly hit by heavy sargassum, and the ocean is often not swimmable",
+    "Big water slides likely need 1.20 m height, so young children may be limited to the kids' area",
+    "Kids' club hours reported as 10am-6pm (old data), so evenings are on the parents",
+    "À la carte reservations are hard to get, according to several reviewers",
+    "Not actually in Costa Mujeres: it is on the Puerto Morelos stretch of coast south of Cancun"
+  ],
+  "verdict": "Great pools and a short transfer for young children, but plan the week around the water park rather than the sea, because the beach is one of the area's worst for sargassum.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Air Canada Vacations: Dreams Natura Resort & Spa", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNNOW/dreams-natura-resort-spa"},
+    {"title": "PAX: Now Natura Riviera Cancun rebrands to Dreams Natura Resort & Spa", "url": "https://www.paxnews.com/news/hotel/now-natura-riviera-cancun-rebrands-dreams-natura-resort-spa"},
+    {"title": "The WDW Guru: Dreams Natura Resort & Spa review (Dec 2020)", "url": "https://thewdwguru.com/dreams-natura-resort-spa-review/"},
+    {"title": "AllInclusiveResorts.com: Dreams Natura Resort and Spa", "url": "https://www.allinclusiveresorts.com/dreams-natura-resort-and-spa"},
+    {"title": "Traveling Ears: Dreams Natura Resort review (Mar 2026)", "url": "https://travelingears.com/dreams-natura-resort-review/"},
+    {"title": "Tripadvisor: Dreams Natura reviews (sargassum, reservations, maintenance; search snippets only, page blocked)", "url": "https://www.tripadvisor.com/Hotel_Review-g240327-d17789250-Reviews-Dreams_Natura_Resort_Spa-Puerto_Morelos_Yucatan_Peninsula.html"},
+    {"title": "Tripadvisor FAQ: Dreams Natura water slide height requirements", "url": "https://www.tripadvisor.com/FAQ_Answers-g240327-d17789250-t8983471-What_are_the_height_requirements_for_the_water.html"},
+    {"title": "Cancun Trip Insider: Puerto Morelos sargassum (Jun 2026)", "url": "https://www.cancuntripinsider.com/guides/puerto-morelos/puerto-morelos-sargassum"},
+    {"title": "Riviera Maya News: Quintana Roo sargassum record 2026", "url": "https://www.rivieramayanews.mx/sargassum-collection-in-quintana-roo-tops-133000-tons-setting-new-record/"}
+  ]
+}

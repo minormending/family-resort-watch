@@ -1,0 +1,44 @@
+{
+  "code": "dropc",
+  "name": "Dreams Onyx Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club (ages 3-12) is included and open 9am-10pm, has its own building with a splash-pad kiddie pool, playground and games room, and takes 3-year-olds for drop-off. Parent reviews consistently call it a highlight."},
+    "water_play": {"score": 4, "evidence": "The Jungle water park has four slides and a lazy river, plus a toddler splash pad and shallow kids' sections in the pools. Most slides suit kids about 7 and up, and reviewers warn the lazy river runs fast with strong waterfalls, so young children mainly get the splash pad and kids' pool."},
+    "beach": {"score": 2, "evidence": "Uvero Alto faces open Atlantic surf. Reports range from calm weeks to waves that knock adults over, and the area's sargassum is described as unpredictable and heavier than Bávaro."},
+    "rooms": {"score": 5, "evidence": "All junior suites (about 600-645 sq ft) with a king or two doubles/queens. Most of the newer Premium Junior Suites can connect, and two-bedroom family suites are available."},
+    "food": {"score": 4, "evidence": "Twelve restaurants, and only the teppanyaki one needs a reservation, with plenty of variety (Italian, Mexican, Mediterranean, Asian, French). Reviewers complain about long waits for popular spots at peak times."},
+    "transfer": {"score": 4, "evidence": "About 40-45 minutes from PUJ in the far north of the Punta Cana coast."},
+    "condition": {"score": 3, "evidence": "Rebranded from Now Onyx to Dreams in 2021, and a 2019 wing (water park, Premium Junior Suites) is noticeably newer. Several 2025 reviews describe dated rooms, clogged drains, worn patio furniture and slow maintenance in the older buildings."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Has its own splash-pad kiddie pool inside the club. Core Zone teen club (13-17) runs about 9am-midnight. Adults 18+ can use the restaurants and bars at the adults-only Breathless Punta Cana next door; children cannot."},
+  "transfer_minutes": {"PUJ": 45},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Kids' club is free, open 9am-10pm, has its own splash pad and is consistently praised",
+    "Twelve restaurants and only one needs a reservation",
+    "Connecting Premium Junior Suites and two-bedroom family suites",
+    "Large resort with a lot to do away from the sea"
+  ],
+  "cons": [
+    "Uvero Alto surf and unpredictable sargassum make the sea unreliable for young children",
+    "45-minute transfer, the longest of the Punta Cana Dreams",
+    "Older buildings show wear in 2025 reviews; ask for the newer Premium wing",
+    "Main slides and the fast lazy river are mostly for kids 7 and up",
+    "The Breathless restaurants next door are adults-only, so families can't use them together"
+  ],
+  "verdict": "Probably the best kids' club in this group, at a remote, older resort where families should plan on pools rather than the sea.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Dreams Onyx Resort & Spa (Hyatt Inclusive Collection)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/dominican-republic/onyx-resort-spa/"},
+    {"title": "Dreams Onyx Punta Cana (Costco Travel listing)", "url": "https://www.costcotravel.com/hotels/Caribbean/Dominican-Republic/PuntaCanaNowOnyxPuntaCana"},
+    {"title": "Dreams Onyx Resort & Spa, Uvero Alto (Vacation Express)", "url": "https://www.vacationexpress.com/hotels/punta-cana-dreams-onyx-resort-and-spa.aspx"},
+    {"title": "Dreams Onyx Resort & Spa Review (All-Inclusive Guide)", "url": "https://all-inclusive-guide.com/resorts/dreams-onyx-punta-cana/"},
+    {"title": "Dreams Onyx in-depth review (Upgraded Points)", "url": "https://upgradedpoints.com/travel/hotels/dreams-onyx-punta-cana-review/"},
+    {"title": "Review of Dreams Onyx Punta Cana (On The Go Fam)", "url": "https://jettsetterstravel.com/dreams-onyx-punta-cana/"},
+    {"title": "Review of Dreams Onyx Punta Cana (Travel Addicted Unicorn)", "url": "https://traveladdictedunicorn.com/review-dreams-onyx-punta-cana-resort/"},
+    {"title": "Dreams Onyx Resort & Spa (TripAdvisor, 2025 reviews)", "url": "https://www.tripadvisor.com/Hotel_Review-g147293-d10074376-Reviews-or140-Dreams_Onyx_Resort_Spa-Punta_Cana_La_Altagracia_Province_Dominican_Republic.html"},
+    {"title": "Best resorts with water parks in Punta Cana 2026 (Descubriendo Viajes)", "url": "https://descubriendoviajes.com/en/dominican-republic/best-resorts-with-waterparks-in-punta-cana-guide/"},
+    {"title": "Punta Cana seaweed guide (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

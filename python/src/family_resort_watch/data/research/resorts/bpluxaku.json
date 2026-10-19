@@ -1,0 +1,54 @@
+{
+  "code": "bpluxaku",
+  "name": "Bahia Principe Explore Akumal",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "The complex-wide Bahia Scouts club is included and takes ages 4-12. One family put the Akumal club at about 9am-5pm, with lunch taken together and an evening show, but official hours are unpublished, reports are mixed (some call it closer to babysitting), and Akumal has only just started running as an all-family hotel."},
+    "water_play": {"score": 4, "evidence": "revised from 3: the official site says the internal shuttle gives access to facilities at the neighbouring hotels, and other sources confirm Akumal guests can use the Coba kids' water park (splash zones and slides) by shuttle; Tulum also has a kids' water park with slides. Akumal itself has three pools plus an adults-only infinity pool, and whether it has its own shallow kids' pool is unverified."},
+    "beach": {"score": 3, "evidence": "This is the most compact beach in the complex and the calmest, with a cove-like feel. Reviewers in 2025-26 describe rocky stretches and steps into the water but a protected swimming zone that keeps sargassum out, so bring water shoes."},
+    "rooms": {"score": 5, "evidence": "revised from 4: 2-double-bed Junior Suites have a sofa bed and sleep 3 adults plus a child, the 2-bedroom suite adds a separate living area, and both the official family page and a 2025 family blog say connecting rooms are offered. Which room types connect is unverified, so request it at booking."},
+    "food": {"score": 3, "evidence": "Akumal has four à la carte restaurants (gourmet, seafood, grill, Italian) and a YUM buffet, with Coba and Tulum à la carte also bookable for more variety. From Nov 1, 2026 guests are capped at 3 à la carte dinners a week, and Coba guests can then book Akumal's restaurants too, which may tighten reservations."},
+    "transfer": {"score": 2, "evidence": "About 100 km from CUN; private shuttles quote roughly 80-90 min. TQO is about an hour away but has fewer international nonstops than CUN."},
+    "condition": {"score": 4, "evidence": "A phased refurbishment renovates 252 rooms between Apr 10 and Nov 30, 2026, so April 2027 should be fresh, and 2026 reviewers praised renovated rooms. Risk: the adults-only section ends and the whole hotel goes family in Nov 2026, so the new setup has no track record."}
+  },
+  "kids_club": {"name": "Bahia Scouts (complex-wide) + Teens Club", "ages": "4-12 (one resort-branded site says 4-11 for Akumal)", "hours": "about 9am-5pm, plus evening shows (one traveller report; official hours unpublished)", "cost": "included", "notes": "Kids club programs run across all three Explore hotels, and a traveller report says the club takes kids to the Coba and Tulum water parks and to lunch as a group. The 12:30-14:30 pickup reported at a Punta Cana sister resort is unverified for Akumal. The shared Hacienda Doña Isabel hosts evening kids' events, and babysitting is extra, on request."},
+  "transfer_minutes": {"CUN": 85, "TQO": 60},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Calmest, most compact beach in the complex, with a protected swim zone",
+    "Coba's kids' water park (slides, splash zones) is open to Akumal guests by shuttle",
+    "Junior suites have 2 double beds plus a sofa bed, and connecting rooms are offered",
+    "Rooms freshly renovated by Nov 2026",
+    "Can book à la carte dinners at Coba and Tulum too"
+  ],
+  "cons": [
+    "Kids' club reportedly closes around 5pm and Akumal reports are mixed",
+    "Slides are at Coba or Tulum, a shuttle ride away, and an on-site shallow kids' pool is unverified",
+    "Max 3 à la carte dinners a week from Nov 2026, with Coba guests now competing for Akumal tables",
+    "Nearly 90 min from CUN",
+    "First spring season as an all-family hotel, so unproven"
+  ],
+  "verdict": "Best beach and freshest rooms in the Bahia Principe complex, with Coba's slide park a shuttle ride away, but the kids' club likely ends around 5pm and the all-family setup is untested.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Akumal (official)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-akumal/"},
+    {"title": "Bahia Principe Explore Akumal services (official; internal shuttle to neighbouring hotels' facilities)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-akumal/services/"},
+    {"title": "Bahia Principe Explore Akumal families (official; connecting options)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-akumal/families/"},
+    {"title": "Bahia Principe Explore Akumal rooms (official; occupancy and bed types)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-akumal/rooms/"},
+    {"title": "Bahia Principe Explore Coba services (official; water park with splash zones and slides)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-coba/services/"},
+    {"title": "Bahia Principe Explore Tulum services (official; kids' water park with slides)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-tulum/services/"},
+    {"title": "Air Canada Vacations: Bahia Principe Explore Akumal (renovation, all-family switch, à la carte cap, exchange privileges)", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNBPL/bahia-principe-explore-akumal"},
+    {"title": "Air Canada Vacations: Bahia Principe Explore Coba (Bahia Scouts ages; Coba guests get Akumal à la carte from Nov 2026)", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNBPC/bahia-principe-explore-coba"},
+    {"title": "Bahia Principe Explore Akumal resort-branded site, likely third-party (Coba water park access with transfer; Mini-Club 4-11)", "url": "https://www.bahiaprincipeluxuryakumal.com/all_inclusive.asp"},
+    {"title": "Carful of Kids: Bahia Principe Luxury Akumal review (2025; connecting suites, rocky beach areas, families use Coba/Tulum water parks)", "url": "https://www.carfulofkids.com/bahia-principe-luxury-akumal-resort-review-a-riviera-maya-all-inclusive/"},
+    {"title": "TripAdvisor: Bahia Principe Explore Akumal reviews", "url": "https://www.tripadvisor.com/Hotel_Review-g499445-d247628-Reviews-Bahia_Principe_Explore_Akumal-Akumal_Tulum_Yucatan_Peninsula.html"},
+    {"title": "TripAdvisor: 'Best Kids Club Ever' Akumal review (9am-5pm, lunch and water park trips; seen via search excerpt)", "url": "https://www.tripadvisor.com/ShowUserReviews-g499445-d247628-r859097991-Bahia_Principe_Explore_Akumal-Akumal_Tulum_Yucatan_Peninsula.html"},
+    {"title": "TripAdvisor: Bahia Principe Explore Punta Cana kids' club page (12:30-14:30 pickup at a sister resort; seen via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "Find My Food Stu: Bahia Principe Riviera Maya (Nov 2025)", "url": "https://findmyfoodstu.com/bahia-principe-riviera-maya-mexico/"},
+    {"title": "Hyatt newsroom: Bahia Principe joins World of Hyatt (Mar 25, 2026)", "url": "https://newsroom.hyatt.com/2026-march-25-bahiaprincipejoinsworldofhyatt"},
+    {"title": "Happy Shuttle Cancun: CUN to Bahia Principe Akumal", "url": "https://happyshuttlecancun.com/cancun-airport-transportation-to-bahia-principe-akumal"},
+    {"title": "Rome2rio: TQO to Bahia Principe Explore Tulum", "url": "https://www.rome2rio.com/s/Tulum-Airport-TQO/Bahia-Principe-Explore-Tulum-All-Inclusive-Akumal"},
+    {"title": "How Is The Sargassum: season calendar (Mar 2026)", "url": "https://www.howisthesargassum.com/blog/sargassum-season-cancun-riviera-maya"},
+    {"title": "Deep Arrival: Riviera Maya sargassum 2026", "url": "https://deeparrival.com/news/cancun-riviera-maya-sargassum-2026/"}
+  ]
+}

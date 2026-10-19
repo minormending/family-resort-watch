@@ -1,0 +1,44 @@
+{
+  "code": "drepm",
+  "name": "Dreams Playa Mujeres Golf & Spa Resort",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club (3-12) is included and runs from about 9-10am to roughly 9:30pm. It has its own indoor/outdoor space, a pool and an indoor playground, and families say the programme suits under-8s best."},
+    "water_play": {"score": 5, "evidence": "Included water park with slides, a splash pad with a giant tipping bucket and small slides, children's pools and a lazy river. One 2026 guide says the lazy river is Preferred Club only (unverified)."},
+    "beach": {"score": 4, "evidence": "Soft, powdery sand with no rocks and a gentle slope. Playa Mujeres faces north-west behind Isla Mujeres and usually gets less sargassum than the Hotel Zone or Riviera Maya; an April 2026 guest reported little to no seaweed. Some days are windy and wavy enough to keep small children out."},
+    "rooms": {"score": 5, "evidence": "All 502 rooms are 602 sq ft junior suites with two queens or a king plus sofa bed; a Family Junior Suite joins two suites, and connecting rooms can be requested or guaranteed for a fee."},
+    "food": {"score": 3, "evidence": "Ten venues, six of them à la carte (French, seafood, Asian and others), with no reservations needed at most. Family reviewers call the food just okay and say lunch is thin, and Gaucho Grill is a beef-heavy Brazilian rodizio."},
+    "transfer": {"score": 4, "evidence": "Transfer companies quote 30-45 minutes from CUN, typically about 35."},
+    "condition": {"score": 4, "evidence": "Generally well kept in 2026 reports, with minor maintenance issues (for example a leaking shower door). Secrets Playa Mujeres next door was under renovation until December 2025. Recent first-hand evidence is limited because Tripadvisor would not load."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "about 9-10am to 9:30pm (sources vary)", "cost": "included", "notes": "Own pool and indoor playground, kids' lunch and dinner offered, nightly movies. A small splash pad inside the club is reported as limited to under-4s for an hour a day; the main splash pad is open to all."},
+  "transfer_minutes": {"CUN": 35},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Kids' club runs until about 9:30pm with dinner, so parents get evenings",
+    "Splash pad with tipping bucket and small slides, plus a water park and lazy river",
+    "Every room is a 602 sq ft suite with two queens available",
+    "Playa Mujeres is one of the most reliably low-sargassum stretches near Cancun"
+  ],
+  "cons": [
+    "About 35 minutes from CUN, longer than Hotel Zone options",
+    "Food is described as merely okay, with thin lunch options",
+    "Steakhouse is a beef-heavy Brazilian rodizio",
+    "Windy days bring waves that can keep young children out of the sea",
+    "Evening shows start late (about 9pm in older reports)"
+  ],
+  "verdict": "The strongest all-round Cancun-area Dreams for young children: an evening kids' club, a real splash pad and a usually clean beach, if families can live with average food and a 35-minute transfer.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Inclusive Collection: Dreams Playa Mujeres rooms & suites", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/playa-mujeres-golf-spa-resort/accommodations/rooms-suites/"},
+    {"title": "Hyatt Inclusive Collection: Dreams Playa Mujeres dining", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/playa-mujeres-golf-spa-resort/dining-drinks/"},
+    {"title": "All-Inclusive Guide: Dreams Playa Mujeres review 2026", "url": "https://all-inclusive-guide.com/resorts/dreams-playa-mujeres/"},
+    {"title": "Sea of Blush: Dreams Playa Mujeres family review", "url": "https://seaofblush.com/best-all-inclusive-family-resort-cancun-mexico/"},
+    {"title": "Travel With A Plan: Dreams Playa Mujeres review (Feb 2019 stay)", "url": "https://travelwithaplan.com/dreams-playa-mujeres-review/"},
+    {"title": "Well Traveled Kids: Dreams Playa Mujeres", "url": "https://welltraveledkids.com/dreams-playa-mujeres/"},
+    {"title": "Tripadvisor: Dreams Playa Mujeres reviews incl. April 2026 family stay (search snippets only, page blocked)", "url": "https://www.tripadvisor.com/Hotel_Review-g1229340-d11737960-Reviews-or30-Dreams_Playa_Mujeres_Golf_Spa_Resort-Playa_Mujeres_Costa_Mujeres_Yucatan_Penins.html"},
+    {"title": "How Is The Sargassum: Playa Mujeres", "url": "https://www.howisthesargassum.com/playa-mujeres"},
+    {"title": "Rome2rio: Cancun Airport to Dreams Playa Mujeres", "url": "https://www.rome2rio.com/s/Cancun-Airport-CUN/Dreams-Playa-Mujeres-Golf-Spa-Resort-All-Inclusive-Canc%C3%BAn"},
+    {"title": "Cvent: Secrets Playa Mujeres renovation notice", "url": "https://www.cvent.com/venues/puerto-morelos/resort/secrets-playa-mujeres-resort-under-renovations-until-12-15-25-dreams-playa-mujeres-accepting-rfps/venue-c55b5a84-27b0-4488-9302-72402d948abc"}
+  ]
+}

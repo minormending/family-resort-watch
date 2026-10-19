@@ -1,0 +1,66 @@
+# Hand-researched facts the booking engine does not expose. Researched
+# 2026-10-03 from third-party guides; hyatt.com itself blocks scripted reads,
+# so award categories are approximate and worth confirming before booking.
+#
+# Whether a resort takes the party at all is NOT recorded here: `classify`
+# learns that from the engine (adults-only resorts refuse a child).
+
+# Kids club by brand prefix (longest matching prefix wins). "Camp Hyatt" is a
+# separate per-hotel program at Hyatt Regency-type resorts; none of these
+# all-inclusive brands use that name, so the hyatt.com "Camp Hyatt" filter
+# hides them.
+[brand."Dreams"]
+kids_club = "Explorer's Club"
+ages = "3-12"
+
+[brand."Sunscape"]
+kids_club = "Explorer's Club"
+ages = "3-12"
+
+[brand."Bahia Principe Explore"]
+kids_club = "Bahia Scouts"
+ages = "4-12"
+
+[brand."Zoëtry"]
+kids_club = ""          # takes children, but no kids club
+ages = ""
+
+[brand."Zoetry"]
+kids_club = ""
+ages = ""
+
+# World of Hyatt all-inclusive award chart since 2026-05-20: points per night
+# for 2 guests, by category and demand tier (lowest, low, moderate, upper, top).
+# Each extra guest aged 3+ is roughly half the base rate again.
+[award]
+extra_guest_factor = 0.5
+chart = { A = [12000, 15000, 20000, 22500, 25000], B = [15000, 20000, 25000, 30000, 35000], C = [20000, 25000, 30000, 35000, 40000], D = [25000, 30000, 35000, 45000, 55000], E = [35000, 45000, 55000, 65000, 75000], F = [45000, 55000, 65000, 75000, 85000] }
+
+# Award categories (approximate; "" = unknown).
+[resort]
+drepm = { category = "D" }
+drena = { category = "C" }
+drerc = { category = "C" }
+dretu = { category = "C" }
+drczm = { category = "C" }
+drelc = { category = "C" }
+drvpv = { category = "C" }
+drbmi = { category = "C" }
+drecc = { category = "C" }
+drmpc = { category = "C" }
+dropc = { category = "C" }
+drjrc = { category = "B", note = "Reported plans to turn it adults-only (Secrets); the booking engine still priced a child for Apr 2027 when checked on 2026-10-03" }
+drsrc = { category = "B" }
+drepa = { category = "B" }
+dresc = { category = "B" }
+drrpc = { category = "B" }
+drfpc = { category = "B" }
+dredl = { category = "B" }
+drcur = { category = "B" }
+drctg = { category = "B" }
+sucdp = { category = "B" }
+sudlr = { category = "B" }
+sunpv = { category = "A" }
+bpgrandrom = { category = "A" }
+cunif = { category = "", note = "Was Hyatt Ziva Riviera Cancun (Category C) until Nov 2025" }
+bpgrandpor = { category = "", note = "Flights only via Samaná (AZS, ~40 min), which has few US nonstops; PUJ is a 4-4.5 hour drive, so it is not used" }

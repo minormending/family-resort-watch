@@ -1,0 +1,43 @@
+{
+  "code": "drrpc",
+  "name": "Dreams Royal Beach Punta Cana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (ages 3-12) is included and open 9am until 9:30 or 10pm (sources differ); children must be fully potty trained. Reports are positive but thin, and one family review says drop-off starts at 4."},
+    "water_play": {"score": 5, "evidence": "Water park opened in January 2024 with a slide tower and racer slides, plus a splash pad with short slides and a tipping bucket for younger kids, open 10am-6pm. There are also two children's pools and a long lazy river."},
+    "beach": {"score": 4, "evidence": "Wide, palm-lined Bávaro beach, described as calm and reef-protected, with seaweed fences and daily cleaning. Seaweed still shows up in the warmer months."},
+    "rooms": {"score": 5, "evidence": "Deluxe rooms are about 570 sq ft with a king or two doubles. The Deluxe Family Room is two interconnecting units (about 1,140 sq ft) sleeping up to six."},
+    "food": {"score": 3, "evidence": "About seven restaurants with no reservations needed, but 10-20 minute waits at peak dinner times, and reviewers call the lunch and dinner buffet mediocre and the à la carte line-up unremarkable. Guests from Secrets Royal Beach on the same complex can also use Dreams' restaurants."},
+    "transfer": {"score": 5, "evidence": "About 20-25 minutes (roughly 11 miles) from PUJ."},
+    "condition": {"score": 4, "evidence": "Formerly Now Larimar, it was renovated in 2020-21 (lobby, pools, buffet, bars) and gained the water park in 2024. Some recent reviews say rooms need updating (broken furniture, leaking showers)."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-9:30pm (some sources say 10pm)", "cost": "included", "notes": "Must be potty trained. Core Zone teen club (13-17) runs mid-afternoon to midnight. Shares a complex with adults-only Secrets Royal Beach, which shares the spa, gym and casino; Secrets guests can use Dreams venues but not the reverse."},
+  "transfer_minutes": {"PUJ": 25},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "About 25 minutes from PUJ",
+    "The 2024 water park has a splash pad with small slides for younger kids, plus two kids' pools",
+    "Family Rooms are two connected units, and standard rooms come with two doubles",
+    "Calm, wide Bávaro beach with seaweed fences",
+    "No restaurant reservations needed"
+  ],
+  "cons": [
+    "The food is the weak spot: buffet dinners and à la carte variety get lukewarm reviews",
+    "Secrets Royal Beach guests share the Dreams restaurants and pools, adding to the crowds",
+    "Some rooms reported as worn despite the 2020-21 renovation",
+    "Kids' club hours and minimum drop-off age are inconsistent across sources (check whether drop-off starts at 3 or 4)"
+  ],
+  "verdict": "A very good all-round match, with a short transfer, calm beach, new splash pad and connecting family rooms, if families can live with average food.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Dreams Royal Beach Punta Cana review (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/dreams-royal-beach-punta-cana-all-inclusive-resort/"},
+    {"title": "Dreams Royal Beach Punta Cana (Costco Travel listing)", "url": "https://www.costcotravel.com/Hotels/Caribbean/Dominican-Republic/PuntaCanaDreamsRoyalBeachPuntaCana"},
+    {"title": "Dreams Royal Beach Punta Cana (Tropical Sky)", "url": "https://www.tropicalsky.co.uk/caribbean-holidays/dominican-republic/dreams-royal-beach-punta-cana-hotel"},
+    {"title": "Best resorts with water parks in Punta Cana 2026 (Descubriendo Viajes)", "url": "https://descubriendoviajes.com/en/dominican-republic/best-resorts-with-waterparks-in-punta-cana-guide/"},
+    {"title": "Best Punta Cana resorts with water park (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/punta-cana-resorts-with-water-park/"},
+    {"title": "Dreams Royal Beach Punta Cana review (Trips with Angie)", "url": "https://allinclusivevacations.substack.com/p/dreams-royal-beach-punta-cana-review"},
+    {"title": "Dreams Royal Beach Punta Cana guide (Best All-Inclusive Resorts)", "url": "https://best-all-inclusiveresorts.com/dreams-royal-beach-punta-cana/"},
+    {"title": "Dreams Royal Beach Punta Cana (TripAdvisor)", "url": "https://www.tripadvisor.com/Hotel_Review-g3176298-d897108-Reviews-Dreams_Royal_Beach_Punta_Cana-Bavaro_Punta_Cana_La_Altagracia_Province_Dominican_Repub.html"},
+    {"title": "Dreams Royal Beach Punta Cana (Hyatt Inclusive Collection)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/dominican-republic/royal-beach-punta-cana"}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "code": "drctg",
+  "name": "Dreams Karibana Cartagena Golf & Spa Resort",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Hyatt lists Explorer's Club for ages 3-12, open daily 9am-9pm, included in the rate, with weekly campouts and beach movie nights. Several TripAdvisor family reviews single out the kids' club staff as a highlight. One reseller says 4-12, so check the minimum age."},
+    "water_play": {"score": 3, "evidence": "Resellers list a children's pool among five pools, and the kids' club has its own paddling pool. One listing mentions slides in the kids' pool, but this is unverified, and no source describes a splash pad or water park."},
+    "beach": {"score": 2, "evidence": "The resort is not on the sand: guests ride a golf cart or bus about 250 m to a beach club. Reviewers call the beach small and say the sea is hard to get into. Mainland Cartagena beaches have murky water and grey sand, and the dry season (through April) brings windy, choppy afternoons. Sargassum is rarely reported here."},
+    "rooms": {"score": 4, "evidence": "Standard Junior Suites come with a king or two doubles, and occupancy runs from 3 to 6 depending on category. A Preferred Club Family Suite exists. Connecting rooms are unverified."},
+    "food": {"score": 3, "evidence": "Five or six venues: a World Café buffet, Portofino (Italian), Oceana (seafood), Seaside Grill, and Barefoot Grill for burgers and hot dogs. Only Portofino needs a reservation. Recent reviews are split between praise for Oceana and Seaside Grill and complaints about thin buffet choice."},
+    "transfer": {"score": 5, "evidence": "About 16 km (10 mi) from CTG, roughly 20-30 minutes by car. The walled old city is about 30-40 minutes away, with a free shuttle once daily on weekdays and twice daily at weekends."},
+    "condition": {"score": 4, "evidence": "This is the former Conrad Cartagena, which closed in the pandemic and was remodeled and reopened as a Dreams in spring 2022. It holds about 4.5-4.6 on TripAdvisor with mostly positive 2025-26 reviews, but a few 2026 reviews mention a musty smell and say parts need renovating."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12 (one reseller says 4-12)", "hours": "9am-9pm daily", "cost": "included", "notes": "Kids must be potty-trained (Dreams brand rule). It has its own paddling pool, weekly campouts and beach movie nights, and Red Cross CPR-certified staff. Core Zone teens' club is separate."},
+  "transfer_minutes": {"CTG": 25},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Explorer's Club runs 9am-9pm at no extra charge, and family reviews praise the staff by name",
+    "About 25 minutes from CTG, with a free shuttle to the walled old city for a day trip",
+    "Two-double Junior Suites and a Family Suite category fit families",
+    "Only one restaurant (Portofino) needs a reservation, plus a seafood restaurant (Oceana)"
+  ],
+  "cons": [
+    "The beach is a separate beach club reached by golf cart, and the water is murky mainland Caribbean rather than clear and calm",
+    "Late-April afternoons are often windy with choppy sea, so it is less swimmable for young children",
+    "Only a kids' pool, with no confirmed splash pad or water park",
+    "Few restaurants for a 260-room resort, and buffet complaints come up repeatedly",
+    "Some 2026 reviews mention mustiness and dated areas"
+  ],
+  "verdict": "Strong on kids' club and a short transfer, but families would be swimming in the pool rather than the sea, so it fits best if a Cartagena old-city day matters more than the beach.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Inclusive Collection - Dreams Karibana activities (kids' club ages/hours; seen via search excerpt, page blocks direct fetch)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/colombia/karibana-cartagena-beach-golf-resort/activities/"},
+    {"title": "Air Canada Vacations - Dreams Karibana Cartagena (rooms, pools, distances, shuttle)", "url": "https://vacations.aircanada.com/en/accommodation-details/CTGDKC/dreams-karibana-cartagena-golf-spa-resort"},
+    {"title": "Pleasant Holidays - Dreams Karibana Cartagena (restaurants, 10 mi from CTG)", "url": "https://beta.pleasantholidays.com/south-america/colombia/cartagena/dreams-karibana-cartagena-golf-spa-resort"},
+    {"title": "Caribbean Journal - Hyatt's Dreams brand to open in Cartagena (2022)", "url": "https://www.caribjournal.com/2022/01/04/all-inclusive-hyatt-dreams-cartagena/"},
+    {"title": "Finance Colombia - Former Conrad Cartagena to reopen as Dreams Karibana", "url": "https://www.financecolombia.com/former-conrad-cartagena-to-reopen-as-hyatt-affiliated-dreams-karibana-cartagena-beach-golf-resort/"},
+    {"title": "Tom Plan My Trip - Best beaches in Cartagena (mainland water clarity, dry-season wind)", "url": "https://www.tomplanmytrip.com/everything-cartagena-beaches/"},
+    {"title": "TripAdvisor - Dreams Karibana reviews (beach, kids' club, 2026 condition comments; seen via search excerpts)", "url": "https://www.tripadvisor.com/Hotel_Review-g297476-d24025128-Reviews-Dreams_Karibana_Cartagena_Golf_Spa_Resort-Cartagena_Cartagena_District_Bolivar_Depart.html"},
+    {"title": "TripAdvisor - 'Overall good, kids club excellent' review", "url": "https://www.tripadvisor.com/ShowUserReviews-g297476-d24025128-r982862704-Dreams_Karibana_Cartagena_Golf_Spa_Resort-Cartagena_Cartagena_District_Bolivar_.html"}
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "code": "bpluxesm",
+  "name": "Bahia Principe Explore Esmeralda",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "Esmeralda has its own included Kids Club (ages 4-12), which ResortFlock places next to the hotel's children's water park; a 2025-26 family blog relays good guest reports but did not use it. Official hours are unverified; TripAdvisor reports for the complex describe about 9am-5pm with a 12:30-2:30pm pickup."},
+    "water_play": {"score": 5, "evidence": "Revised from 4: the official services page, BP Privilege Club and a March 2026 travel blog all describe Esmeralda's own children's water park with slides (small, roughly ages 3-11, next to the buffet), alongside a shallow kiddie pool. The bigger complex park is at Turquesa, and the Wave Rider wave pool costs extra (age 4+, fee not published)."},
+    "beach": {"score": 3, "evidence": "Beachfront on Arena Gorda with soft white sand and generally calm, swimmable water. This east-facing stretch is rated moderately exposed to sargassum, and April is when build-up usually starts."},
+    "rooms": {"score": 4, "evidence": "Every room is a junior suite with two double canopy beds or a king plus a sofa, sleeping up to 2 adults + 2 children, refurbished in the 2023 renovation. A Connecting Junior Suite Deluxe (two units booked together) shows up in Hyatt Inclusive Collection listings in search results, but that page did not load and the official room list omits it, so connecting rooms remain unverified."},
+    "food": {"score": 4, "evidence": "Officially unlimited à la carte dinners (reservation and dress code) at five restaurants of its own (Italian, Indian, Mongolian, Dominican, Brazilian), plus the Explore Punta Cana and Las Olas restaurants. Reviews say tables are hard to get; the app takes bookings up to 10 days ahead, and the Fish Market seafood restaurant is adults-only."},
+    "transfer": {"score": 5, "evidence": "About 25 km from PUJ, a drive of roughly 25-30 minutes."},
+    "condition": {"score": 4, "evidence": "It reopened in December 2023 after a $35M renovation with a Taino theme, new rooms and swim-up suites. Recent reviews praise the rooms and staff, and complain about crowded beach loungers and occasional noise between rooms."}
+  },
+  "kids_club": {"name": "Kids Club (Bahia Scouts programme)", "ages": "4-12", "hours": "about 9am-5pm with a 12:30-2:30pm pickup, per TripAdvisor reports for the complex; official hours unverified", "cost": "included", "notes": "ResortFlock places the club beside Esmeralda's own children's water park; the official page gives no hours or location. Babysitting (2-12) costs extra. The larger Bahia Scouts water park is at Explore Turquesa. Esmeralda guests can use every other hotel in the complex except Explore Legend; adults-only hotels and buffets are off-limits with a child."},
+  "transfer_minutes": {"PUJ": 30},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Unlimited à la carte dinners: 5 restaurants on site plus Explore Punta Cana's and Las Olas Beach House's, bookable in the app up to 10 days ahead",
+    "Wide cuisine variety: Italian, Indian, Mongolian, Dominican, Mexican, Greek, Japanese",
+    "Own children's water park with slides and a shallow kiddie pool, plus the bigger complex park at Turquesa",
+    "Beachfront on Arena Gorda; rooms refurbished in the 2023 renovation"
+  ],
+  "cons": [
+    "On-site water park is small; the big slides are at Turquesa, and the wave pool costs extra",
+    "Kids club reportedly needs a midday pickup (about 12:30-2:30pm) and closes around 5pm",
+    "Cannot use Explore Legend (castle, water park, shows) despite being next door",
+    "À la carte reservations reportedly fill fast; book in the app before arrival",
+    "Arena Gorda is moderately exposed to sargassum in late April"
+  ],
+  "verdict": "The most polished family hotel in the complex, with the best dining access and its own small water park, though the kids club gives only a short, split day.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Esmeralda (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/"},
+    {"title": "Explore Esmeralda restaurants (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/restaurants/"},
+    {"title": "Explore Esmeralda services: own water park with slides (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/services/"},
+    {"title": "Explore Esmeralda all-inclusive (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/all-inclusive/"},
+    {"title": "Explore Esmeralda rooms (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/rooms/"},
+    {"title": "BP Privilege Club: Explore Esmeralda (children's water park, restaurant hours)", "url": "https://bpprivilegeclub.com/Hotel-Esmeralda"},
+    {"title": "Hyatt Inclusive Collection: Esmeralda junior suites (connecting category seen via search; page did not load)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/bahia-principe-explore/dominican-republic/esmeralda/accommodations/rooms/"},
+    {"title": "Punta Cana Travel Blog: Luxury Esmeralda review (updated Mar 2026)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/bahia-principe-luxury-esmeralda-all-inclusive-resort/"},
+    {"title": "Craft Your Happy Place: Esmeralda review (updated Sep 2026)", "url": "https://craftyourhappyplace.com/bahia-principe-luxury-esmeralda-review-punta-cana-dr/"},
+    {"title": "TripAdvisor: Explore Punta Cana kids club reports (seen via search excerpts; page did not load)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "PAX: Luxury Esmeralda reopens after $35M renovation", "url": "https://www.paxnews.com/news/hotel/bahia-principe-reopens-luxury-esmeralda-punta-cana-after-35m-rennovation"},
+    {"title": "Hyatt newsroom: Bahia Principe joins World of Hyatt (Mar 2026)", "url": "https://newsroom.hyatt.com/2026-march-25-bahiaprincipejoinsworldofhyatt"},
+    {"title": "Oyster review: Luxury Bahia Principe Esmeralda", "url": "https://www.oyster.com/dominican-republic/hotels/luxury-bahia-principe-esmeralda/"},
+    {"title": "ResortFlock overview: Luxury Esmeralda", "url": "https://www.resortflock.com/resorts/bahia-principe-luxury-esmeralda/overview"},
+    {"title": "Where Is My Beach: Arena Gorda", "url": "https://whereismybeach.com/en/beach/playa-de-arena-gorda"},
+    {"title": "Dominican Activities: Punta Cana seaweed 2026", "url": "https://dominicanactivities.com/punta-cana-seaweed-2026-monthly-forecast-affected-beaches-clean-alternatives/"}
+  ]
+}

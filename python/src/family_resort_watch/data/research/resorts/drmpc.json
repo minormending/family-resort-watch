@@ -1,0 +1,43 @@
+{
+  "code": "drmpc",
+  "name": "Dreams Macao Beach Punta Cana Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club (ages 3-12) is included and open 9am-10pm. Family reviewers consistently praise it (climbing wall, games room, stage, crafts)."},
+    "water_play": {"score": 5, "evidence": "Large included water park with a slide tower, racer slides and a lazy river, plus a separate kids' splash area with many small slides and a kids' pool by the main pool. Main slides need about 3.9 ft / age 9, so young children use the kids' section."},
+    "beach": {"score": 3, "evidence": "Macao is one of the least sargassum-affected beaches in the area, with soft sand, but it faces open surf. Sources say waves are strongest December-March and that some days nobody is allowed in; late April is usually calmer but not reliably calm for young children."},
+    "rooms": {"score": 4, "evidence": "Around 500 junior suites, each over 600 sq ft, and two-bedroom villas near the water park for families. I could not confirm that standard junior suites come with two beds, so that is unverified."},
+    "food": {"score": 4, "evidence": "Six à la carte restaurants plus a buffet, grill and café, mostly with no reservations needed. Recurring complaints are slow service and uneven food; Secrets Macao guests next door will be allowed to eat at these restaurants from April 2027, which may make them busier."},
+    "transfer": {"score": 4, "evidence": "About 30-50 minutes from PUJ depending on the source (most say 35-40)."},
+    "condition": {"score": 4, "evidence": "Opened 2019-2020 and still modern and clean in 2025-26 reviews. The adults-only Secrets Macao Beach is being built next door, with construction noise reported; it is now due to open April 1, 2027, after slipping from 2026."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Core Zone teen club (13-17) runs about 11am-11pm. The kids' splash area and small slides are separate from the main slides, which have a height minimum."},
+  "transfer_minutes": {"PUJ": 40},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Kids' club is free and open 9am-10pm with strong family reviews",
+    "Separate kids' splash zone with small slides, plus a big water park and lazy river",
+    "Macao usually has the least sargassum in the Punta Cana area",
+    "Most restaurants need no reservation"
+  ],
+  "cons": [
+    "The surf can be strong and red flags close the sea on some days, so it's a poor beach for young children",
+    "40-ish minute transfer, longer than the Bávaro and Cabeza de Toro resorts",
+    "Secrets Macao Beach opens next door April 1, 2027, about three weeks before late April: risk of late construction, opening teething problems and its guests filling Dreams' restaurants",
+    "Compact grounds that feel concrete-heavy, with little garden"
+  ],
+  "verdict": "Excellent kids' club and water park, but families should expect to swim in the pools rather than the sea, and the Secrets opening next door is a timing risk.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Dreams Macao Beach Punta Cana (resort site)", "url": "https://www.macaobeachpuntacana.com/"},
+    {"title": "Dreams Macao Beach review (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/dreams-macao-beach-punta-cana-all-inclusive-resort/"},
+    {"title": "Dreams Macao Beach Punta Cana Review 2026 (All-Inclusive Guide)", "url": "https://all-inclusive-guide.com/resorts/dreams-macao-beach-dr/"},
+    {"title": "Dreams Macao Beach Punta Cana Review & Tips 2026 (ResortFlock)", "url": "https://www.resortflock.com/resorts/dreams-macao-beach-punta-cana"},
+    {"title": "Dreams Macao Beach Reviews 2026 (Punta Cana Adventures)", "url": "https://www.puntacanaadventures.com/dreams-macao-beach-punta-cana-reviews/"},
+    {"title": "Dreams Macao review (Shoreline Destinations)", "url": "https://www.shorelinedestinations.com/travel-blog/dreams-macao-punta-cana-review"},
+    {"title": "Hyatt Announces Secrets Macao Beach Punta Cana (Upgraded Points)", "url": "https://upgradedpoints.com/news/secrets-macao-beach-punta-cana/"},
+    {"title": "Secrets Macao Beach Punta Cana: everything we know before the 2027 opening (Caballeros Vacations)", "url": "https://caballerosvacations.com/resort-guides/secrets-macao-beach-punta-cana-everything-we-know-before-the-2027-opening/"},
+    {"title": "Best Punta Cana resorts with water park (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/punta-cana-resorts-with-water-park/"},
+    {"title": "Punta Cana seaweed guide (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

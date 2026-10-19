@@ -1,0 +1,42 @@
+{
+  "code": "drjrc",
+  "name": "Dreams Jade Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (3-12) is included and open 9am-10pm daily, with parents given pagers; recent reviews name and praise individual staff. Ongoing construction and the planned adults-only conversion cloud whether it will run as now in April 2027."},
+    "water_play": {"score": 3, "evidence": "Three heated pools including a shallow kids' pool, but no water slides or splash park; families have noted the lack."},
+    "beach": {"score": 2, "evidence": "Swimming is in a rock-enclosed section of a modest beach with some rocks and weed; 2025-26 reviews report heavy sargassum, with some guests unable to use the beach despite daily raking."},
+    "rooms": {"score": 5, "evidence": "Base Junior Suites are about 700 sq ft with two double beds available, and Family Suites are two connecting Junior Suites."},
+    "food": {"score": 2, "evidence": "Six à la carte venues on paper, but 2026 reviews report Spice closed for renovation, the buffet shut at dinner and only about three restaurants open some nights; dinner dress code applies."},
+    "transfer": {"score": 5, "evidence": "About 12 miles from CUN; sources quote 15-30 minutes."},
+    "condition": {"score": 2, "evidence": "Opened 2008, last major refresh around 2020-21; 2026 reviews describe construction noise, closed areas, broken elevators and worn rooms. A conversion to an adults-only Secrets was announced for November 2025 but had not happened as of February 2026, and its timing is unverified."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Pagers for parents; activities include crafts, movie nights and beach campouts. Could disappear if the resort converts to an adults-only Secrets; check status before booking."},
+  "transfer_minutes": {"CUN": 25},
+  "sargassum_late_april": "high",
+  "pros": [
+    "Kids' club open until 10pm at no charge",
+    "Junior Suites are large, with two double beds",
+    "About 25 minutes from Cancun airport",
+    "Heated pools, including a shallow kids' pool"
+  ],
+  "cons": [
+    "Planned conversion to an adults-only Secrets resort, timing unverified, could affect an April 2027 booking",
+    "Construction in 2026, with restaurant closures and noise",
+    "No water slides or splash pad for young children",
+    "Rocky swim area and repeated sargassum complaints",
+    "Dress code at dinner restaurants"
+  ],
+  "verdict": "Hard to recommend for April 2027 while construction runs and the adults-only conversion is unresolved, and it offers little water play for young children.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Costco Travel: Dreams Jade Resort & Spa", "url": "https://www.costcotravel.com/hotels/mexico/riviera-maya/RivieraMayaNowJadeRivieraCancun"},
+    {"title": "All Inclusive Gal: Some major resort changes to report (Nov 2025, comments Feb 2026)", "url": "https://allinclusivegal.com/some-major-resort-changes-to-report/"},
+    {"title": "ResortFlock: Dreams Jade review and tips (2026)", "url": "https://www.resortflock.com/resorts/dreams-jade-resort-and-spa"},
+    {"title": "Traveling Ears: Dreams Jade review (July 2026)", "url": "https://travelingears.com/dreams-jade-resort-review/"},
+    {"title": "Family on Standby: Dreams Jade with kids (2020)", "url": "https://familyonstandby.com/dreams-jade-with-kids/"},
+    {"title": "Travel by Bob: Now Jade and Now Sapphire become Dreams (2021)", "url": "https://www.travelbybob.com/three-now-branded-properties-to-become-dreams-branded-properties/"},
+    {"title": "Tripadvisor: Dreams Jade reviews (2026, via search excerpts)", "url": "https://www.tripadvisor.com/Hotel_Review-g240327-d1213971-Reviews-Dreams_Jade_Resort_Spa-Puerto_Morelos_Yucatan_Peninsula.html"},
+    {"title": "Cancun Trip Insider: Puerto Morelos sargassum (June 2026)", "url": "https://www.cancuntripinsider.com/guides/puerto-morelos/puerto-morelos-sargassum"}
+  ]
+}

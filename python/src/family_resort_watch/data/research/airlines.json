@@ -1,0 +1,141 @@
+{
+  "researched_on": "2026-10-03",
+  "notes": "Fees are per person, per one-way leg, as published in 2026; they change often, so re-check at booking. Late-April time zones: PUJ and CUR are UTC-4; MBJ, CTG and CUN are UTC-5; SJD is UTC-7.",
+  "airlines": {
+    "Arajet": {
+      "summary": "Dominican low-cost airline based in Santo Domingo, flying since September 2022 with an all-Boeing 737 MAX 8 fleet (16 jets as of July 2026). It is growing fast (1.8 million passengers from Sept 2025 to Sept 2026, up 58%). Its low fare buys a no-frills cabin and a thin schedule with little backup if a flight is cancelled.",
+      "fare_includes": "Four bundles were redesigned in December 2025. Basic, the Basic Economy equivalent to avoid, includes only a personal item (15x9x7 in, 6 kg), a random seat and no changes. Classic is the cheapest bundle with a carry-on: personal item plus a 22x18x10 in carry-on up to 12 kg (26 lb), seat selection included, changes allowed for a fee plus any fare difference, and no checked bag. Comfort swaps the carry-on for one 23 kg checked bag and keeps seat selection. Extra includes personal item, carry-on, checked bag, seat selection, priority boarding and changes for the fare difference only. Add-on 'from' prices per leg: carry-on $30 at booking, $40 within 14 days, $45 within 2 days, $55 at online check-in and $80 at the airport. First 23 kg checked bag: $33 at booking, $50/$55/$60 later, $70 at the airport. Second bag: $60 at booking. Priority boarding: $9-11 online. Booking by phone adds $20. Airport counter check-in has been free since December 2025. With carry-ons, compare Classic with Basic plus a $30 carry-on each way. Basic is likely cheaper but gives random seats, so Classic is the safe choice for keeping a child next to a parent.",
+      "family_notes": "Arajet publishes no guarantee of free adjacent seating for children. Basic seats are random, and the seat page only says unchosen seats are assigned 'based on availability'. Booking Classic, Comfort or Extra for everyone in the party includes seat selection and solves this. A child aged 2 or older pays the full adult fare. Under-16s must travel with an adult aged 16 or older. Strollers and car seats are tagged at check-in and can go to the aircraft door. There are no kids' meals, entertainment or family perks. Recent Trustpilot reviews mention trouble adding an infant to a booking.",
+      "seat_and_comfort": "Boeing 737 MAX 8 with 3-3 economy seating. Google Flights shows 29 in of legroom, the least of the five airlines here; a 2023 review measured about 30 in. No seatback screens and no wifi. Power is unverified: a 2023 review found a USB socket at each seat, but a February 2026 review of the front rows found no outlets. Download shows and bring a charged power bank. Food and drinks are for sale only; a 2023 review said cash only (US, Canadian or Dominican currency), unverified for 2026. A February 2026 review found most fresh food sold out. Seat zones are Space+ (rows 1-2, middle blocked), Front (3-14), Legroom exits (15-16), Standard (17-25) and Back (26+).",
+      "reliability": "Arajet is not in the US DOT/BTS on-time data, and no Cirium or OAG figure for it was found. Airportia rates its recent arrivals 3.5/5 over a 10-day window (seen in a search snippet; the page itself would not load, unverified). Trustpilot scores it 3.3/5 from about 1,070 reviews. Reviews from September-October 2026 report 2-hour-plus delays with poor communication, one return moved almost 24 hours earlier with only a $50 credit, slow refunds, website payment failures and fees that surprised people. Others praise the friendly crew and new planes. The main risk is the thin schedule: on a route with only a few flights a week, a cancellation can mean waiting 1-3 days for the next one. No major safety incidents appear on its Wikipedia page.",
+      "pros": [
+        "Often far cheaper than US carriers on its routes, and Classic still includes a carry-on and seat selection",
+        "Seat selection in Classic lets you put a child next to a parent at booking",
+        "Counter check-in has been free since the December 2025 changes"
+      ],
+      "cons": [
+        "No screens or wifi, and power at the seat is uncertain, so the child's entertainment must be downloaded and charged in advance",
+        "Thin schedule, so a cancellation can strand travellers for days",
+        "Recent reviews describe delays, schedule changes and slow refunds",
+        "Tightest legroom here (29 in), and food is buy-on-board only"
+      ],
+      "sources": [
+        {"title": "Arajet - Fare Bundles", "url": "https://www.arajet.com/en-us/bundles"},
+        {"title": "Arajet - Baggage Prices & Fees", "url": "https://www.arajet.com/en-us/baggage-pricing-fees"},
+        {"title": "Arajet - Seats", "url": "https://www.arajet.com/en-us/seats"},
+        {"title": "Arajet - Traveling With Children", "url": "https://www.arajet.com/en/ninos"},
+        {"title": "TravelPress - Arajet announces baggage and service policy changes (Dec 2025)", "url": "https://www.travelpress.com/arajet-announces-baggage-and-service-policy-changes/"},
+        {"title": "Wikipedia - Arajet", "url": "https://en.wikipedia.org/wiki/Arajet"},
+        {"title": "Lara News - Arajet fourth anniversary (Sept 2026)", "url": "https://www.laranews.net/arajet-celebrates-143-rise-in-passenger-traffic-since-2022-founding/"},
+        {"title": "Trustpilot - Arajet reviews", "url": "https://www.trustpilot.com/review/arajet.com"},
+        {"title": "The Bulkhead Seat - Arajet 737 MAX 8 Extra MIA-PUJ (Feb 2026)", "url": "https://thebulkheadseat.com/flight-review-arajet-boeing-737-max-8-extra-mia-puj/"},
+        {"title": "Milesopedia - Arajet Boeing 737 MAX 8 review (2023)", "url": "https://milesopedia.com/en/reviews/flights/arajet-boeing-737/"},
+        {"title": "Airportia - Arajet flight status and on-time rating", "url": "https://www.airportia.com/airlines/arajet/flight-status/"}
+      ]
+    },
+    "American": {
+      "summary": "Major US airline. The routes researched here use Boeing 737s (mostly 737 MAX 8). The fare includes a carry-on and seat selection, and family seating is guaranteed free, but there are no seatback screens.",
+      "fare_includes": "Main Cabin, the cheapest non-Basic fare, includes a carry-on and personal item, advance seat selection and no change fee (you pay any fare difference). Checked bags to the Caribbean and Mexico for tickets bought on or after 9 April 2026: first bag $45 online or $50 at the airport, second bag $55 online or $60. Basic Economy pays $5 more per bag.",
+      "family_notes": "Children under 15 are seated next to at least one adult on the same reservation at no extra cost on every fare, including Basic Economy. The system looks for seats together automatically.",
+      "seat_and_comfort": "737 MAX 8 (Oasis interior) with 30 in of legroom per Google Flights. No seatback screens: free movies and TV stream to your own device, so bring a tablet and headphones for the child. AC and USB power at every seat. Wifi is free for AAdvantage members (free to join) since January 2026 on Viasat- and Intelsat-equipped narrowbodies, including 737s. Complimentary snacks are standard but not verified for these routes.",
+      "reliability": "Cirium 2025: 76.43% on time. OAG August 2026: 71.92% on time and 2.43% of flights cancelled, behind Delta and United. No route-level data found.",
+      "pros": [
+        "Guaranteed free seat next to a parent for children under 15 on any fare",
+        "Power at every seat, plus free wifi with a free AAdvantage account",
+        "Main Cabin includes a carry-on and seat selection with no change fee"
+      ],
+      "cons": [
+        "No seatback screens; the child's entertainment relies on a charged device",
+        "Bag fees rose in April 2026 ($45 online for the first bag)"
+      ],
+      "sources": [
+        {"title": "The Points Guy - Airline family seating policies (Mar 2026)", "url": "https://thepointsguy.com/airline/family-seats-together-plane/"},
+        {"title": "Bloomberg - American Airlines raises bag charges (Apr 9, 2026)", "url": "https://www.bloomberg.com/news/articles/2026-04-09/american-airlines-becomes-latest-us-carrier-to-raise-bag-fees"},
+        {"title": "The Points Guy - American raises checked bag fees, basic economy rules", "url": "https://thepointsguy.com/news/american-airlines-raises-checked-bag-fees-basic-economy-rules"},
+        {"title": "One Mile at a Time - American Airlines free wifi rollout", "url": "https://onemileatatime.com/news/american-airlines-free-wifi/"},
+        {"title": "Simple Flying - Why American is getting rid of seatback screens", "url": "https://simpleflying.com/why-american-airlines-getting-rid-seatback-screens/"},
+        {"title": "Airways - Cirium 2025 on-time performance results", "url": "https://www.airwaysmag.com/new-post/cirium-2025-on-time-performance-results"},
+        {"title": "OAG - North America on-time performance (Aug 2026)", "url": "https://www.oag.com/nam-on-time-performance-data"}
+      ]
+    },
+    "Delta": {
+      "summary": "Most punctual of the five airlines here: Cirium's top North American airline for on-time performance for the fifth year running. The routes researched here mostly use A321neos with seatback screens. It has no formal family-seating guarantee, but the non-Basic fare includes seat selection.",
+      "fare_includes": "Main Cabin (not Basic Economy, which has no advance seat selection) includes a carry-on and personal item, advance seat selection and no change fee (you pay any fare difference). Checked bags to Mexico and the Caribbean: first bag $45, second $55, after the April 2026 increase. SkyMiles members can pay the first-bag fee with 3,000 miles (secondary source).",
+      "family_notes": "Delta has no written guarantee of seating children with parents. It says it holds some economy rows for families and asks families to book on one reservation and see gate agents if needed. Main Cabin includes seat selection, so choosing seats together at booking avoids the problem.",
+      "seat_and_comfort": "A321neo (CUN, PUJ): seatback screens with Bluetooth audio, universal power and USB at the seat, and Viasat wifi. Google Flights shows 31 in of legroom. Delta Sync wifi is free for SkyMiles members (free to join) and covers Mexico, Central America and the Caribbean. The MBJ route uses a 737 whose screens and power are unverified, though most Delta 737s have screens.",
+      "reliability": "Cirium 2025: 80.90% on time, best in North America. OAG August 2026: 77.39% on time and 1.96% cancelled, best of the four US airlines here. No route-level data found.",
+      "pros": [
+        "Best on-time and cancellation record of the five airlines",
+        "Seatback screens plus free wifi on the A321neo for CUN and PUJ",
+        "Main Cabin includes seat selection, so the family can sit together at booking"
+      ],
+      "cons": [
+        "No formal family-seating guarantee if you book Basic or seats run out",
+        "First checked bag is $45 each way"
+      ],
+      "sources": [
+        {"title": "Delta - Baggage Policy and Fees", "url": "https://www.delta.com/us/en/baggage/overview"},
+        {"title": "Delta - Onboard Wi-Fi", "url": "https://www.delta.com/us/en/onboard/inflight-entertainment/onboard-wifi"},
+        {"title": "AeroLOPA - Delta A321neo seat map", "url": "https://www.aerolopa.com/dl-32q"},
+        {"title": "The Points Guy - Airline family seating policies (Mar 2026)", "url": "https://thepointsguy.com/airline/family-seats-together-plane/"},
+        {"title": "Delta News Hub - Cirium's most on-time North American airline 2025", "url": "https://news.delta.com/delta-named-ciriums-most-time-north-america-airline-2025"},
+        {"title": "OAG - North America on-time performance (Aug 2026)", "url": "https://www.oag.com/nam-on-time-performance-data"},
+        {"title": "Upgraded Points - Delta baggage fees 2026", "url": "https://upgradedpoints.com/travel/airlines/delta-baggage-fees-policy/"}
+      ]
+    },
+    "JetBlue": {
+      "summary": "Best cabin for young children (seatback TV at every seat, free wifi for everyone, free snacks, 32 in of legroom). It also has the weakest on-time and cancellation record of the five airlines in 2026.",
+      "fare_includes": "Fares were renamed in mid-2026. Main Base (formerly Blue Basic) is the Basic fare: it still includes a carry-on, but seat selection costs extra and changes or cancellations cost $150. The cheapest non-Basic fare is Main Standard (formerly Blue), which includes a carry-on and personal item, free advance seat selection, no change fee, and travel credit on cancellation. Checked bags since 31 March 2026 (US, Caribbean, Latin America): first bag $39 off-peak or $49 peak if prepaid at least 24 hours ahead, $10 more within 24 hours. A second bag is about $59/$69 (secondary source). On select routes including Cartagena (CTG), Main fares include one free checked bag.",
+      "family_notes": "Children 13 and under are seated next to at least one adult on the same reservation at no charge on every fare, Main Base included. Free nut-free snacks and soft drinks. Seatback TV with live TV and movies, plus at least one family movie on flights over two hours. Strollers and car seats follow normal US-carrier practice: free gate-check (details unverified on jetblue.com, which would not load).",
+      "seat_and_comfort": "A320, A321 and A220 with 32 in of legroom per Google Flights, the most in economy here. Seatback screens at every seat. Fly-Fi wifi is free for everyone on the whole fleet with no login tier. Power at the seat. Restyled A320 and A220 cabins add wifi coverage over the Caribbean.",
+      "reliability": "Weakest of the five. Cirium 2025: 74.66% on time. OAG August 2026: 62.70% on time and 5.08% cancelled, about 2.5 times Delta's cancellation rate. A secondary report puts July 2026 at about 56% on time (unverified).",
+      "pros": [
+        "Seatback TV, free wifi and free snacks for the child on every flight",
+        "Free guaranteed seat next to a parent for children 13 and under, any fare",
+        "Most legroom in economy here (32 in), and every fare includes a carry-on",
+        "CTG fare includes a free checked bag"
+      ],
+      "cons": [
+        "Worst on-time and cancellation record of the airlines considered (62.7% on time, 5.1% cancelled in Aug 2026)",
+        "Bag fees rose in March 2026, with a peak-date surcharge"
+      ],
+      "sources": [
+        {"title": "JetBlue - Our fares", "url": "https://www.jetblue.com/flying-with-us/our-fares"},
+        {"title": "Deep Arrival - JetBlue fare structure overhaul 2026", "url": "https://deeparrival.com/news/jetblue-fare-structure-overhaul-first-class-2026/"},
+        {"title": "The Points Guy - JetBlue BlueFirst and base fares", "url": "https://thepointsguy.com/news/jetblue-first-class-cabin-base-fares-expanded/"},
+        {"title": "Boston.com - JetBlue has raised checked bag fees (Mar 31, 2026)", "url": "https://www.boston.com/travel/flights/2026/03/31/jetblue-has-raised-checked-bag-fees/"},
+        {"title": "Deep Arrival - JetBlue baggage fees 2026", "url": "https://deeparrival.com/airlines/jetblue/baggage-fees/"},
+        {"title": "JetBlue - Fly-Fi free wifi", "url": "https://www.jetblue.com/flying-with-us/wifi"},
+        {"title": "JetBlue - Traveling with kids", "url": "https://www.jetblue.com/traveling-together/traveling-with-kids"},
+        {"title": "The Points Guy - Airline family seating policies (Mar 2026)", "url": "https://thepointsguy.com/airline/family-seats-together-plane/"},
+        {"title": "Airways - Cirium 2025 on-time performance results", "url": "https://www.airwaysmag.com/new-post/cirium-2025-on-time-performance-results"},
+        {"title": "OAG - North America on-time performance (Aug 2026)", "url": "https://www.oag.com/nam-on-time-performance-data"}
+      ]
+    },
+    "United": {
+      "summary": "Major US airline with a good family-seating policy and an on-time record second only to Delta here.",
+      "fare_includes": "Economy (not Basic Economy) includes a carry-on and personal item, advance seat selection and no change fee (you pay any fare difference). Standard seats appear free at booking, while preferred seats cost extra (exact rules unverified). Checked bags to Mexico and the Caribbean for tickets bought on or after 3 April 2026: first bag $45 online or $50 at the airport, second bag $55 online or $60.",
+      "family_notes": "The seat map lets up to two children under 12 sit next to an accompanying adult for free on any fare, including Basic Economy.",
+      "seat_and_comfort": "737 MAX 8s come with United's Signature Interior: 4K seatback screens, Bluetooth audio and power at every seat. Newer MAX 9s have the same; older MAX 9s are being retrofitted, behind schedule, so screens on a given flight are unverified. Google Flights shows 30 in of legroom. Starlink wifi, free for MileagePlus members (free to join), was on 400+ aircraft by June 2026 and is targeted at about 1,000 by the end of 2026. Whether these MAX jets have it is unverified; older systems may charge.",
+      "reliability": "Cirium 2025: 78.77% on time. OAG August 2026: 72.70% on time and 1.66% cancelled, the lowest cancellation rate of the four US airlines.",
+      "pros": [
+        "Free adjacent seat for a child under 12 on any fare",
+        "Seatback screens and power on 737 MAX 8s",
+        "Lowest cancellation rate of the US airlines here in Aug 2026"
+      ],
+      "cons": [
+        "Free Starlink wifi on these specific jets is not guaranteed yet",
+        "First checked bag is $45 online each way"
+      ],
+      "sources": [
+        {"title": "CNBC - United raises checked bag fee by $10 (Apr 2, 2026)", "url": "https://www.cnbc.com/2026/04/02/united-airlines-raises-checked-bag-fees-fuel-prices-climb.html"},
+        {"title": "The Points Guy - Airline family seating policies (Mar 2026)", "url": "https://thepointsguy.com/airline/family-seats-together-plane/"},
+        {"title": "The Blue Board - United 737 MAX 8", "url": "https://theblueboard.co/fleet/737-max-8"},
+        {"title": "Live and Let's Fly - United 737 MAX 9 economy review", "url": "https://liveandletsfly.com/united-airlines-737-max-9-economy-class-review/"},
+        {"title": "One Mile at a Time - United free Starlink wifi rollout (Jun 2026)", "url": "https://onemileatatime.com/news/united-airlines-free-starlink-wi-fi/"},
+        {"title": "Airways - Cirium 2025 on-time performance results", "url": "https://www.airwaysmag.com/new-post/cirium-2025-on-time-performance-results"},
+        {"title": "OAG - North America on-time performance (Aug 2026)", "url": "https://www.oag.com/nam-on-time-performance-data"}
+      ]
+    }
+  }
+}

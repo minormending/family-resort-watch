@@ -1,0 +1,42 @@
+{
+  "code": "dresc",
+  "name": "Dreams Sands Cancun Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (3-12) is included, was refurbished in 2022 and gets warm reviews; reported hours are about 9am-9pm with kids' dinners, but those reports are a few years old and current hours are unverified."},
+    "water_play": {"score": 3, "evidence": "Shallow kids' pool or section plus an inflatable slide and trampoline in the sea; no water park, water slides or splash pad found."},
+    "beach": {"score": 5, "evidence": "At Km 8.5 the beach faces the sheltered Bahia de Mujeres rather than the open Caribbean, so the water is calm, shallow and clear with soft sand. Sargassum is lighter here than on the east-facing Hotel Zone. The catch is that the beach is small (about 200 m) and crowded."},
+    "rooms": {"score": 4, "evidence": "Deluxe rooms come with two double beds (up to 4 people) but are only about 350 sq ft; a Family Suite of two connecting rooms is offered. Many rooms have no balcony."},
+    "food": {"score": 3, "evidence": "Six or so à la carte venues (Italian, Pan-Asian, Mexican, seafood/Mediterranean, a grill) plus a buffet, mostly with no reservations. 2026 reviews are mixed: some praise, some say early tables are hard to get or quality has slipped."},
+    "transfer": {"score": 5, "evidence": "About 23 km from CUN, roughly a 25-minute drive."},
+    "condition": {"score": 3, "evidence": "An older Hotel Zone building that closed from August to December 2022 for a refresh covering about 203 of its 400-plus rooms, the buffet, El Patio, the kids' club and pools. Reviewers still describe dated decor in places."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-9pm (older reports; current hours unverified)", "cost": "included", "notes": "Refurbished in the 2022 renovation; kids' dinners and weekly beach camp-outs reported."},
+  "transfer_minutes": {"CUN": 25},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Calm, shallow bay beach young children can wade in, with lower sargassum risk",
+    "About 25 minutes from CUN",
+    "Kids' club reportedly runs to 9pm, with kids' dinners",
+    "Two-double-bed rooms and connecting family suites",
+    "Hotel Zone location: restaurants and shops within reach"
+  ],
+  "cons": [
+    "No water park, slides or splash pad: just a shallow kids' pool and ocean inflatables",
+    "Small, crowded beach, with loungers gone early",
+    "Only about half the rooms were renovated in 2022, and some decor is dated",
+    "Standard rooms are a compact 350 sq ft and many lack balconies",
+    "Livelier, party-leaning crowd and timeshare sales pitches reported"
+  ],
+  "verdict": "The best sea for young children of the four, with a short transfer, but the pool area is basic and the rooms are older and smaller.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Inclusive Collection: Dreams Sands Cancun rooms & suites", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/sands-cancun-resort-spa/accommodations/rooms-suites/"},
+    {"title": "Air Canada Vacations: Dreams Sands Cancun Resort & Spa", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNDSC/dreams-sands-cancun-resort-spa"},
+    {"title": "Oyster: Dreams Sands Cancun Resort & Spa review", "url": "https://www.oyster.com/cancun/hotels/dreams-sands-cancun-resort-and-spa/"},
+    {"title": "All Inclusive Gal: Dreams Sands Cancun now reopen (Dec 2022)", "url": "https://allinclusivegal.com/dreams-sands-cancun-now-reopen/"},
+    {"title": "Family Destinations Guide: Dreams Sands Cancun reviews", "url": "https://familydestinationsguide.com/dreams-sands-cancun-reviews/"},
+    {"title": "Tripadvisor: Dreams Sands Cancun 2026 reviews (search snippets only, page blocked)", "url": "https://www.tripadvisor.com/Hotel_Review-g150807-d671540-Reviews-Dreams_Sands_Cancun_Resort_Spa-Cancun_Yucatan_Peninsula.html"},
+    {"title": "How Is The Sargassum: Which Cancun beaches have the least sargassum (Mar 2026)", "url": "https://www.howisthesargassum.com/blog/which-cancun-beaches-least-sargassum"}
+  ]
+}

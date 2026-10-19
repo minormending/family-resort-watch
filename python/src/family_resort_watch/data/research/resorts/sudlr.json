@@ -1,0 +1,41 @@
+{
+  "code": "sudlr",
+  "name": "Sunscape Dominicus La Romana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club":  {"score": 4, "evidence": "Explorer's Club takes ages 3-12 from 9am to 10pm at no extra charge, with its own garden and playground and staff certified in child CPR. Parents describe it as well run for little ones, but there are few detailed reviews."},
+    "water_play": {"score": 5, "evidence": "A lighthouse-themed shallow kids' pool has mini slides and water jets, and the resort also has larger slides for older guests."},
+    "beach":      {"score": 5, "evidence": "It is on the same sheltered Playa Dominicus as Dreams Dominicus: calm, almost waveless water and a regional guide rating Bayahibe seaweed-free nearly all year. A 2026 stay found the beach clean and free of seaweed."},
+    "rooms":      {"score": 3, "evidence": "Two-double-bed and two-bedroom family suites exist, but a 2026 reviewer found the entry room tight for a family with an extra bed. Connecting rooms are unverified."},
+    "food":       {"score": 3, "evidence": "Around 11 outlets with walk-in Italian, Asian, Mexican and South American à la carte restaurants. Without reservations, peak dinner times mean waits of around 30 minutes; the oceanfront steak restaurant (La Cala) is reservation-only and reportedly costs extra."},
+    "transfer":   {"score": 3, "evidence": "It is on Playa Dominicus next to Dreams Dominicus, about 50-60 minutes from PUJ. No Sunscape-specific transfer quote was found."},
+    "condition":  {"score": 3, "evidence": "This is the former Be Live Canoa, renovated and reopened as a Sunscape around December 2023 to January 2024. Reviews from 2025-26 praise cleanliness and some renovated rooms but mention inconsistent maintenance, noise, mosquitoes and competition for loungers at an 854-room resort."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Has an outdoor playground and garden, and staff are Red Cross CPR-certified. The lighthouse splash pool is next to the club; teens have Core Zone."},
+  "transfer_minutes": {"PUJ": 60},
+  "sargassum_late_april": "low",
+  "pros": [
+    "The lighthouse splash pool with mini slides is aimed at young children",
+    "Calm Bayahibe beach with very low sargassum risk in late April",
+    "Free kids' club open until 10pm",
+    "Plenty of walk-in restaurants (Italian, Asian, Mexican, pizza)"
+  ],
+  "cons": [
+    "The cheapest rooms feel tight for a family; you may need a two-double or family room",
+    "No dinner reservations, so expect queues around 7:30pm",
+    "Very large (854 rooms), with reports of uneven maintenance, noise and lounger competition",
+    "About an hour from PUJ; mosquitoes reported"
+  ],
+  "verdict": "Probably the best mix of calm, low-sargassum beach and splash play for young children at a budget price, as long as families book a room with two beds and accepts busy-resort rough edges.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt - Sunscape Dominicus La Romana (sudlr)", "url": "https://www.hyatt.com/sunscape/en-US/sudlr-sunscape-dominicus-la-romana"},
+    {"title": "Hyatt Inclusive Collection - Sunscape Dominicus La Romana activities (Explorer's Club hours, via search listing)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/sunscape/dominican-republic/dominicus-la-romana/activities/"},
+    {"title": "Hospitality Net - Sunscape Dominicus La Romana opening announcement (Dec 2023)", "url": "https://www.hospitalitynet.org/announcement/41010449.html"},
+    {"title": "Travel Weekly - Be Live resorts in DR transition to Sunscape", "url": "https://www.travelweekly.com/Travel-News/Hotel-News/Be-Live-resorts-in-DR-will-transition-to-Sunscape"},
+    {"title": "Descubriendo Viajes - Sunscape Dominicus La Romana honest review (2026)", "url": "https://descubriendoviajes.com/en/dominican-republic/sunscape-dominicus-la-romana-my-honest-review-after-staying/"},
+    {"title": "ResortFlock - Sunscape Dominicus La Romana dining", "url": "https://www.resortflock.com/resorts/sunscape-dominicus-la-romana/dining"},
+    {"title": "TripAdvisor - Sunscape Dominicus La Romana reviews (via search listing)", "url": "https://www.tripadvisor.com/Hotel_Review-g23594254-d27106593-Reviews-or10-Sunscape_Dominicus_La_Romana-Dominicus_Bayahibe_La_Altagracia_Province_Dominic.html"},
+    {"title": "Punta Cana Travel Blog - seaweed guide (updated Jan 2026)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

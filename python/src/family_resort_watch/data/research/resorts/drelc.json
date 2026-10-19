@@ -1,0 +1,43 @@
+{
+  "code": "drelc",
+  "name": "Dreams Los Cabos Golf Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club (3-12) is included and listed as open 9am-10pm, with its own fenced playground and private splash pad; recent parents of 4- and 7-year-olds say their kids loved it."},
+    "water_play": {"score": 4, "evidence": "Children's pool with a splash pad and a water slide into a lower pool; no full water park."},
+    "beach": {"score": 1, "evidence": "Not safe for young children. The Sea of Cortez beach here is posted with red flags all year because of strong undertow and a sharp drop-off just past the break, and water sports are not allowed. The nearest calm swimming is a cove 10-15 minutes' walk away or Medano Beach about 20 minutes' drive. Sargassum is not an issue on this coast."},
+    "rooms": {"score": 4, "evidence": "All-suite resort (about 287-308 suites, 650 sq ft and up) with junior suites in king-plus-sofa-bed or two-double configurations and one-bedroom suites; connecting rooms unverified."},
+    "food": {"score": 2, "evidence": "Only four à la carte restaurants (Mediterranean, seafood, French, grill) plus a buffet. Recent family reviews say getting kids fed early is a nightly scramble: queues before the 5:30pm opening, and only two venues have kids' menus. The food itself is praised."},
+    "transfer": {"score": 5, "evidence": "In Cabo Real on the Tourist Corridor; listed at about 25-30 minutes from SJD."},
+    "condition": {"score": 4, "evidence": "Built in 1997 and rebuilt after Hurricane Odile in 2014, with a renovation listed for 2024. Recent reviews are mostly positive, though some mention dated furnishings and renovation dust."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Private splash pad, fenced playground, climbing wall and weekly campouts. The children's pool is at the front of the resort, out of sight of the main pool."},
+  "transfer_minutes": {"SJD": 30},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Kids' club runs 9am-10pm with its own splash pad",
+    "All-suite rooms with space for a family",
+    "About 30 minutes from SJD",
+    "No sargassum on the Pacific/Sea of Cortez side"
+  ],
+  "cons": [
+    "Ocean is red-flagged and unsafe for young children: beach time means sand only",
+    "Only four à la carte restaurants, with nightly queues for early kids' dinners",
+    "No water park, just a kids' pool, splash pad and one slide",
+    "Kids' pool is out of sight of the main pool",
+    "Getting to a swimmable beach means a walk or a taxi"
+  ],
+  "verdict": "A good kids' club and pool setup, but no swimmable sea and a nightly scramble for early dinners make it a weak fit for a beach week with young children.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Inclusive Collection: Dreams Los Cabos activities", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/los-cabos-suites-golf-resort-spa/activities/"},
+    {"title": "Hyatt Inclusive Collection: Dreams Los Cabos dining", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/los-cabos-suites-golf-resort-spa/dining-drinks/"},
+    {"title": "Air Canada Vacations: Dreams Los Cabos Suites Golf Resort & Spa", "url": "https://vacations.aircanada.com/en/accommodation-details/SJDDLC/dreams-los-cabos-suites-golf-resort-spa"},
+    {"title": "Oyster: Dreams Los Cabos Suites Golf Resort and Spa review", "url": "https://www.oyster.com/los-cabos/hotels/dreams-los-cabos-suites-golf-resort-and-spa/"},
+    {"title": "Cvent: Dreams Los Cabos Suites (built/renovated dates)", "url": "https://www.cvent.com/venues/san-jose-del-cabo/resort/dreams-los-cabos-suites-golf-resort-spa-all-ages/venue-727146cb-7d43-4b4c-a0df-be8c199b7a1a"},
+    {"title": "Tripadvisor: 'A few small changes would go a long way for parents and kids' (search snippet only, page blocked)", "url": "https://www.tripadvisor.com/ShowUserReviews-g152516-d482539-r1000602214-Dreams_Los_Cabos_Suites_Golf_Resort_Spa-San_Jose_del_Cabo_Los_Cabos_Baja_Califor.html"},
+    {"title": "Tripadvisor FAQ: Is the ocean swimmable at Dreams Los Cabos?", "url": "https://www.tripadvisor.com/FAQ_Answers-g152516-d482539-t2011719-Is_the_ocean_swimmable_at_Dreams_Los_Cabos.html"},
+    {"title": "Cabo Villas: Dreams Los Cabos", "url": "https://www.cabovillas.com/resorts/dreams-los-cabos"},
+    {"title": "Travel Weekly: Dreams Los Cabos reopens (post-Odile)", "url": "https://www.travelweekly.com/Mexico-Travel/Dreams-Los-Cabos-reopens"}
+  ]
+}

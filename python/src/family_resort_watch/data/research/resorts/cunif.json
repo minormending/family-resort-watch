@@ -1,0 +1,52 @@
+{
+  "code": "cunif",
+  "name": "Dreams Puerto Morelos Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Revised from 3: the official Dreams activities page (post-rebrand, Dec 2025) lists the Explorer's Club as free for ages 3-12, open daily 9am-10pm with its own splash park and kids' dinner, which meets the hours and cost anchors. 2026 reports remain mixed: one staffer is praised highly, but others mention a strong air-freshener smell and parents being called back when the group goes outdoors."},
+    "water_play": {"score": 5, "evidence": "Kept after the rebrand: the official site lists a family waterpark with four waterslides plus a splash park at the Explorer's Club, and day-pass listings give waterpark hours of 9am-5pm. One September 2026 guest found the slides closed during their stay; the cause and length are unverified."},
+    "beach": {"score": 2, "evidence": "Narrow beach on Bahía Petempich north of Puerto Morelos; reviewers still call it the weakest part of the resort, with seagrass and rocks underfoot. The offshore reef breaks up some sargassum and local guides rate April low to moderate even in the record 2026 season, but an April 2026 guest still reported a weedy shoreline."},
+    "rooms": {"score": 4, "evidence": "Every entry Junior Suite is 668 sq ft with a balcony and comes as one king or two double beds, sleeping up to 4 (max 3 adults), so a two-bed room suits families. A 2023 family blog counted about 24 connecting rooms in the Ziva era; the Dreams pages don't mention them, so availability now is unverified."},
+    "food": {"score": 3, "evidence": "The official dining page lists nine venues: Mexican, Italian, seafood, teppanyaki/sushi, a steakhouse, a French restaurant for adults only, a pool grill and a café. Afthonia serves a buffet at breakfast only, with à la carte lunch and dinner. The resort says not every restaurant opens every night, and 2026 guests report 2-3 open on quieter nights and walk-in waits from none to long."},
+    "transfer": {"score": 5, "evidence": "The resort and tour operators put it about 20 minutes (20 km) from CUN, one of the closest resorts to the airport."},
+    "condition": {"score": 3, "evidence": "The 13 November 2025 rebrand came with no announced renovation; amenities carried over, and the only visible new feature is a two-story Dreams Spa. 2026 reviews are mixed: the suites are roomy and clean but worn in places (stained furniture, scratched cabinets, odours near one building), while others praise the staff and upkeep. Tripadvisor rating is 4.0 from about 2,400 reviews."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12 (official Dreams page; the Ziva-era club and one 2026 magazine piece say 4-12)", "hours": "9am-10pm daily (official page; programming can change without notice)", "cost": "included", "notes": "Took over from the Hyatt Ziva kids' club in November 2025, in the same space beside the waterpark, with its own splash park. Staff are Red Cross CPR-certified; babysitting costs extra. 2026 reviews are mixed: strong air-freshener smell, and parents are asked to collect children when the group moves outdoors."},
+  "transfer_minutes": {"CUN": 20},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "About 20 minutes from Cancun airport",
+    "Explorer's Club is free, takes 3-12s, and is listed as open 9am-10pm daily",
+    "Four waterslides plus a splash park next to the kids' club",
+    "668 sq ft junior suites come with two double beds",
+    "Seafood, Mexican, Italian and Asian dinners add variety"
+  ],
+  "cons": [
+    "Narrow beach with seagrass and rocks underfoot; sargassum still possible in late April",
+    "No lunch or dinner buffet, only 2-3 restaurants open on quieter nights, and walk-in waits",
+    "Kids' club reviews are mixed: a strong air-freshener smell, and parents are called back when the group goes outdoors",
+    "Rooms are worn in places, and the rebrand brought no renovation"
+  ],
+  "verdict": "The 20-minute transfer, a free kids' club open until 10pm, and the slides suit young children well, but expect a weak beach, rotating restaurant closures and some worn rooms.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Dreams Puerto Morelos official site: Activities (Explorer's Club ages and hours, waterslides, splash park; Wayback snapshot 8 Dec 2025)", "url": "https://web.archive.org/web/20251208160605/https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/puerto-morelos-resort-spa/activities/"},
+    {"title": "Dreams Puerto Morelos official site: Rooms & Suites (bed types, occupancy; Wayback snapshot 8 Dec 2025)", "url": "https://web.archive.org/web/20251208162541/https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/puerto-morelos-resort-spa/accommodations/rooms-suites/"},
+    {"title": "Dreams Puerto Morelos official site: Dining & Drinks (venues and hours; Wayback snapshot 8 Dec 2025)", "url": "https://web.archive.org/web/20251208165153/https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/puerto-morelos-resort-spa/dining-drinks/"},
+    {"title": "Dreams Puerto Morelos official site: overview (new Dreams Spa, 20 min from CUN, Tripadvisor rating; Wayback snapshot 21 Apr 2026)", "url": "https://web.archive.org/web/20260421100023/https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/mexico/puerto-morelos-resort-spa/"},
+    {"title": "Air Canada Vacations: Dreams Puerto Morelos Resort & Spa", "url": "https://dreamofsun.aircanadavacations.com/hotel/dreams-puerto-morelos-resort-spa"},
+    {"title": "ResortPass: Dreams Puerto Morelos day pass (waterpark hours)", "url": "https://www.resortpass.com/hotels/dreams-puerto-morelos-resort-spa"},
+    {"title": "Recommend: Dreams Puerto Morelos set to replace Hyatt Ziva Riviera Maya (Nov 2025)", "url": "https://recommend.com/editors-picks/hyatt-ziva-riviera-maya-to-rebrand-as-dreams-puerto-morelos/"},
+    {"title": "All Inclusive Gal: Some major resort changes to report (Nov 2025)", "url": "https://allinclusivegal.com/some-major-resort-changes-to-report/"},
+    {"title": "Carful of Kids: Hyatt Ziva Riviera Cancun for families (Jan 2023, Ziva era; connecting rooms)", "url": "https://www.carfulofkids.com/resort-review-hyatt-ziva-riviera-cancun-for-families/"},
+    {"title": "The Sterling Traveler: Dreams Puerto Morelos (ex Hyatt Ziva) review (Jan 2023 stay)", "url": "https://www.thesterlingtraveler.com/hotel-review-hyatt-ziva-riviera-cancun-resort/"},
+    {"title": "LA Living Magazine: Inside Dreams Puerto Morelos Resort & Spa (Apr 2026)", "url": "https://www.lalivingmagazine.com/post/a-new-standard-of-escape-inside-dreams-puerto-morelos-resort-spa"},
+    {"title": "Travel Off Path: Dreams Puerto Morelos review (Apr 2026)", "url": "https://www.traveloffpath.com/epic-pools-jungle-adventures-and-amazing-food-why-dreams-puerto-morelos-resort-spa-is-the-ultimate-riviera-maya-getaway/"},
+    {"title": "ResortFlock: Dreams Puerto Morelos Resort & Spa", "url": "https://www.resortflock.com/resorts/dreams-puerto-morelos-resort-and-spa"},
+    {"title": "Tripadvisor: Dreams Puerto Morelos reviews (2026, via search excerpts; site blocks direct fetch)", "url": "https://www.tripadvisor.com/Hotel_Review-g240327-d23439941-Reviews-Dreams_Puerto_Morelos_Resort_Spa-Puerto_Morelos_Yucatan_Peninsula.html"},
+    {"title": "Tripadvisor: Dreams Puerto Morelos kids club reviews (via search excerpts)", "url": "https://www.tripadvisor.com/Hotel_Feature-g240327-d23439941-zft12121-Dreams_Puerto_Morelos_Resort_Spa.html"},
+    {"title": "Rivieramayanews.mx: record 2026 sargassum collection by municipality", "url": "https://www.rivieramayanews.mx/sargassum-collection-in-quintana-roo-tops-133000-tons-setting-new-record/"},
+    {"title": "Cancun Trip Insider: Puerto Morelos sargassum (June 2026)", "url": "https://www.cancuntripinsider.com/guides/puerto-morelos/puerto-morelos-sargassum"},
+    {"title": "Sargassum.today: Puerto Morelos", "url": "https://sargassum.today/puerto-morelos"}
+  ]
+}

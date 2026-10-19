@@ -1,0 +1,10 @@
+{
+  "name": "family-resort-watch",
+  "version": "0.1.0",
+  "description": "Watch Hyatt Inclusive Collection all-inclusive and flight prices for your family's trip, with a private claude.ai report that updates on a schedule.",
+  "author": { "name": "minormending", "url": "https://github.com/minormending" },
+  "homepage": "https://github.com/minormending/family-resort-watch",
+  "repository": "https://github.com/minormending/family-resort-watch",
+  "license": "MIT",
+  "keywords": ["travel", "all-inclusive", "hyatt", "flights", "family", "price-watch"]
+}

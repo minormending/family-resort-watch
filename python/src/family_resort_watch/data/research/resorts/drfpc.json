@@ -1,0 +1,41 @@
+{
+  "code": "drfpc",
+  "name": "Dreams Flora Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (ages 3-12) is included and runs 9am-9:30pm daily with its own programme (crafts, treasure hunts, supervised dinners). Hours and price are excellent, but I found few detailed parent reports specific to Flora's club, so quality is unverified."},
+    "water_play": {"score": 5, "evidence": "On-site water park with a slide tower and racer slide, plus a separate toddler area with a shallow pool and small slides. Sources disagree on the exact slide count (2, 4 or 7); the park is open roughly 10am-6pm."},
+    "beach": {"score": 4, "evidence": "Cabeza de Toro beach is described as usually calm with little or no wave action, and the resort uses offshore fences and daily cleaning. Reviewers still report heavy seaweed in peak months, and the lagoon behind the resort brings mosquitoes."},
+    "rooms": {"score": 5, "evidence": "Standard rooms and junior suites come with a king or two double beds (about 500-580 sq ft), and Junior Suite Family Rooms (king plus two doubles, about 1,165 sq ft) are interconnecting configurations."},
+    "food": {"score": 3, "evidence": "Only four dinner à la carte venues (French, Mexican, Asian teppanyaki, Italian) plus a grill and buffet, and the French one is adults-only, so families have three dinner options. Some TripAdvisor reviewers report long waits and having to book days ahead."},
+    "transfer": {"score": 5, "evidence": "About 20 minutes (roughly 15 miles) from PUJ according to the travel blog and Costco Travel listing."},
+    "condition": {"score": 4, "evidence": "Opened in February 2023 after a full rebuild of the former Natura Park Eco Resort, and holds about 4.5/5 on TripAdvisor across 4,000+ reviews. Early 2024 had some sharply negative reports, but 2025 reviews skew positive."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-9:30pm", "cost": "included", "notes": "Core Zone teen club (13-17) runs 9am-11pm. Babysitting is extra. Separate toddler water area with small slides beside the main water park."},
+  "transfer_minutes": {"PUJ": 20},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "About 20 minutes from PUJ",
+    "Kids' club is free and open until 9:30pm, so dinner without the kids is possible",
+    "Separate toddler water area with a shallow pool and small slides, plus the main slide park",
+    "Rooms with two double beds are standard, and family rooms are interconnecting",
+    "Calm, low-wave water on Cabeza de Toro, with seaweed fences"
+  ],
+  "cons": [
+    "Only three dinner à la carte restaurants are open to a family with a child (the French one is adults-only)",
+    "Reports of long waits and booking popular restaurants several days ahead",
+    "Mosquitoes from the lagoon behind the resort",
+    "Seaweed can still reach the beach in season, despite the fences"
+  ],
+  "verdict": "A strong fit: close to the airport, calm water, a toddler water area and a late kids' club, held back mainly by a thin restaurant line-up for a family.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Dreams Flora Punta Cana review (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/accommodation-resorts/dreams-flora-punta-cana-all-inclusive-resort/"},
+    {"title": "Dreams Flora Resort & Spa (Costco Travel listing)", "url": "https://www.costcotravel.com/Hotels/Caribbean/Dominican-Republic/PuntaCanaDreamsFlora"},
+    {"title": "Dreams Flora Resort & Spa review (Shoreline Destinations)", "url": "https://www.shorelinedestinations.com/travel-blog/dreams-flora-resort-and-spa-resort-review"},
+    {"title": "Dreams Flora Resort & Spa (TripAdvisor)", "url": "https://www.tripadvisor.com/Hotel_Review-g25226430-d25323278-Reviews-Dreams_Flora_Resort_Spa-Cabeza_De_Toro_Punta_Cana_La_Altagracia_Province_Dominican_.html"},
+    {"title": "Dreams Flora Resort & Spa (Hyatt Inclusive Collection)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/dominican-republic/flora-resort-spa/"},
+    {"title": "Punta Cana seaweed guide (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"},
+    {"title": "Dreams Flora Resort & Spa (Travelocity)", "url": "https://www.travelocity.com/Punta-Cana-Hotels-Dreams-Flora-Resort-Spa.h83709942.Hotel-Information"}
+  ]
+}

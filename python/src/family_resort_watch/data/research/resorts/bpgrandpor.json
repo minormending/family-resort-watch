@@ -1,0 +1,54 @@
+{
+  "code": "bpgrandpor",
+  "name": "Bahia Principe Explore El Portillo",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club":  {"score": 3, "evidence": "The official site lists an included Kids Club for ages 4-12 (tour operators still call it Bahia Scouts) and a Teens Club for 13-17. Hours are not published anywhere we could find, and the few parent comments are mixed, from strong praise to one family finding it unwelcoming at midday."},
+    "water_play": {"score": 5, "evidence": "A children's water park has slides and splash zones sized for kids 90-110 cm tall, which suits young children, with its own bar nearby; it sits alongside the resort's three pools."},
+    "beach":      {"score": 4, "evidence": "revised from 3: a very wide, soft-sand, calm beach that 2026 guests consistently praise as clean, with staff raking any seaweed. Sargassum is lighter here than in Punta Cana but not absent: a beach tracker showed moderate seaweed at the resort in early April 2026, so late-April risk is moderate."},
+    "rooms":      {"score": 5, "evidence": "revised from 4: standard rooms have two full beds or a king and take 2 adults + 1 child; junior suites add two doubles and a sofa bed. The resort's families page now confirms connecting options for groups of up to eight."},
+    "food":       {"score": 3, "evidence": "One buffet plus five à la carte restaurants (French, Brazilian steakhouse, Italian, Greek, seafood), with three à la carte dinners a week, booked on arrival or by app. 2026 guests rate the seafood and other à la carte meals highly and note a renovated, roomier buffet, but some find buffet dishes dry or inconsistent and report lunch queues."},
+    "transfer":   {"score": 1, "evidence": "PUJ is about 300 km away, a 4-4.5 hour drive. El Catey (AZS) is only 35-45 minutes away but has no US routes (only Canadian carriers and Air Caraïbes from Paris), and JetBlue's 2012 service to AZS is no longer listed."},
+    "condition":  {"score": 3, "evidence": "It reopened in December 2020 after a US$10M redesign that followed a fire. 2026 reviews are mixed: grounds, beach and staff are praised (about 4.3-4.5 out of 5 across roughly 9,000 Tripadvisor reviews), but several guests describe dated rooms with AC failures, leaks or musty smells, while some rooms have been renovated."}
+  },
+  "kids_club": {"name": "Kids Club (historically Bahia Scouts)", "ages": "4-12 (Privilege Club page says 3-12); Teens Club 13-17", "hours": "unverified; not published", "cost": "included", "notes": "The official site lists supervised activities; reviews mention crafts, games, pool play and an evening mini disco. Other Bahia Principe resorts reportedly close the club for a 12:30-14:30 lunch pickup, not confirmed here. Babysitting costs extra."},
+  "transfer_minutes": {"AZS": 40, "PUJ": 255},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "A kids' water park with slides sized for a child about 90-110 cm tall",
+    "Rooms with two full beds, junior suites with two doubles plus a sofa bed, and connecting options",
+    "A wide, calm, raked beach that 2026 guests rate highly, with less seaweed than Punta Cana",
+    "Seafood, Greek, Italian and French à la carte choices, so the steakhouse is easy to skip"
+  ],
+  "cons": [
+    "No US nonstop to nearby AZS, so it means a 4+ hour drive from PUJ (SDQ is about 2.5-3 hours)",
+    "Only three à la carte dinners a week, all needing reservations",
+    "Kids' club hours are unpublished and parent reviews are mixed",
+    "Some rooms are dated, with 2026 reports of AC failures and leaks"
+  ],
+  "verdict": "The water park and beach suit young children, but with no US nonstop into El Catey the 4-hour transfer from PUJ rules it out for a short trip.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe - Explore El Portillo (overview, room types, airport distance)", "url": "https://www.bahia-principe.com/en/dominican-republic/samana/resort-el-portillo/"},
+    {"title": "Bahia Principe - Explore El Portillo services (Kids Club 4-12 included, water park 90-110 cm)", "url": "https://www.bahia-principe.com/en/dominican-republic/samana/resort-el-portillo/services/"},
+    {"title": "Bahia Principe - Explore El Portillo families (connecting rooms for up to eight)", "url": "https://www.bahia-principe.com/en/dominican-republic/samana/resort-el-portillo/families/"},
+    {"title": "Bahia Principe - Explore El Portillo restaurants (three à la carte dinners per week)", "url": "https://www.bahia-principe.com/en/dominican-republic/samana/resort-el-portillo/restaurants/"},
+    {"title": "Bahia Principe - Explore El Portillo rooms", "url": "https://www.bahia-principe.com/en/dominican-republic/samana/resort-el-portillo/rooms/"},
+    {"title": "BP Privilege Club - El Portillo (kids club 3-12, teens 13-17, restaurant and bar hours)", "url": "https://bpprivilegeclub.com/Hotel-El-Portillo"},
+    {"title": "Air Canada Vacations - Explore El Portillo (Bahia Scouts 4-12, babysitting extra, reservations)", "url": "https://vacations.aircanada.com/en/accommodation-details/AZSBGP/bahia-principe-explore-el-portillo"},
+    {"title": "WestJet - Grand El Portillo guest reviews (2026: rooms, food, beach)", "url": "https://www.westjet.com/en-ca/hotels/samana/AZSBP4/bahia-principe-grand-el-portillo/reviews"},
+    {"title": "Tripadvisor - Explore El Portillo 2026 reviews, rooms, buffet, seaweed (via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Review-g259440-d149384-Reviews-Bahia_Principe_Explore_El_Portillo-Las_Terrenas_Samana_Province_Dominican_Republic.html"},
+    {"title": "Tripadvisor - Explore El Portillo kids club reviews (via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g259440-d149384-zft12121-Bahia_Principe_Explore_El_Portillo.html"},
+    {"title": "Shorewatch - moderate sargassum at Grand El Portillo, 8 April 2026 (via search excerpt)", "url": "https://shorewatch.net/republica-dominicana/las-terrenas/bahia-principe-grand-el-portillo"},
+    {"title": "Transekur - DR sargassum by month (Las Terrenas moderate in April)", "url": "https://transekur.com/dominican-republic-sargassum-seaweed-guide"},
+    {"title": "DR Simplified - sargassum in the DR (Las Terrenas and El Portillo can get summer seaweed, July 2026)", "url": "https://drsimplified.com/what-to-know-about-sargassum-in-the-dominican-republic"},
+    {"title": "FanGass - DR sargassum map (Samaná usually clear)", "url": "https://fangass.com/en/sargassum-dominican-republic"},
+    {"title": "BP Privilege Club - Grand El Portillo officially reopens (Dec 2020)", "url": "https://bpprivilegeclub.com/blog/bahia-principe-grand-el-portillo-en/"},
+    {"title": "Travel Courier - First look at renovated Grand El Portillo (Dec 2020)", "url": "https://www.travelcourier.ca/a-first-look-at-the-newly-renovated-bahia-principe-grand-el-portillo/"},
+    {"title": "Wikipedia - Samaná El Catey International Airport (airlines and destinations)", "url": "https://en.wikipedia.org/wiki/Saman%C3%A1_El_Catey_International_Airport"},
+    {"title": "JetBlue - launch of Samaná service (2012, via search excerpt)", "url": "https://ir.jetblue.com/news/news-details/2012/JetBlue-Launches-its-Sixth-Destination-in-the-Dominican-Republic-Samana-11-14-2012/default.aspx"},
+    {"title": "VacationsTaxis - Bahia Principe El Portillo airport transfer times (AZS, SDQ, PUJ)", "url": "https://www.vacationstaxis.com/bahia-principe-el-portillo-airport-transfer"},
+    {"title": "This Temporal - How to get to Las Terrenas (2026)", "url": "https://thistemporal.com/en/como-llegar-las-terrenas/"},
+    {"title": "FlightsFrom - nonstop routes from AZS (via search listing, Sept 2026)", "url": "https://www.flightsfrom.com/AZS"}
+  ]
+}

@@ -1,0 +1,28 @@
+# Which airport(s) serve each booking-engine area. A list is searched airport
+# by airport and a resort's trip total uses whichever is cheapest. A trip
+# config can override any area in its own [airports] section.
+[airports]
+"Cancun Area" = "CUN"
+"Playa del Carmen" = "CUN"
+"Riviera Maya" = "CUN"
+"Tulum" = ["CUN", "TQO"]
+"Cozumel" = "CZM"
+"Los Cabos" = "SJD"
+"Puerto Vallarta Area" = "PVR"
+"Huatulco" = "HUX"
+"Ixtapa" = "ZIH"
+"Mazatlán" = "MZT"
+"Acapulco" = "ACA"
+"Cartagena" = "CTG"
+"Curaçao" = "CUR"
+"Cap Cana" = "PUJ"
+"Punta Cana" = "PUJ"
+"Playa Esmeralda" = "PUJ"
+"La Romana" = ["PUJ", "LRM", "SDQ"]   # SDQ (Santo Domingo) is ~55-90 min by road
+"Samaná" = "AZS"                     # PUJ is a 4-4.5 h drive, so no fallback
+"Runaway Bay" = "MBJ"
+"Montego Bay" = "MBJ"
+"Panamá" = "PTY"
+"Aruba" = "AUA"
+"Liberia" = "LIR"
+"Saint Lucia" = "UVF"

@@ -1,0 +1,41 @@
+{
+  "code": "drsrc",
+  "name": "Dreams Sapphire Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club (3-12) is included, open 9am-10pm, with its own small pool, splash park and toddler pool added in the 2021 conversion; 2026 reviews are consistently positive about the kids' activities."},
+    "water_play": {"score": 5, "evidence": "Family water park with three slides, a splash pad and a children's wading pool, alongside the main pool."},
+    "beach": {"score": 3, "evidence": "Long white-sand beach behind the reef with a built breakwater that keeps swimming calm; reviews still note seasonal seaweed in the water."},
+    "rooms": {"score": 5, "evidence": "Entry Junior Suites (about 520 sq ft) come with two double beds, and two-bedroom Family Suites were added in the 2021 conversion; connecting options are mentioned by one guide."},
+    "food": {"score": 4, "evidence": "Six à la carte venues (grill, Italian/Mediterranean, Mexican, teppanyaki, adults-only French, plus a lunch grill) and a buffet, mostly without reservations; teppanyaki seats are forfeited if late, and quality varies."},
+    "transfer": {"score": 5, "evidence": "About 20-30 minutes from CUN."},
+    "condition": {"score": 4, "evidence": "Converted from Now Sapphire in late 2021 with a new water park and room categories, with further work around 2024 and a newer Club & Villas section; standard areas still look older in places."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Has its own small pool, splash park and toddler pool; beach campouts and crafts. Core Zone teen club also on site."},
+  "transfer_minutes": {"CUN": 25},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Water park with three slides and a splash pad",
+    "Kids' club open 9am-10pm, with its own pool",
+    "Breakwater keeps the swimming area calm for young children",
+    "Junior Suites with two double beds, plus two-bedroom Family Suites",
+    "About 25 minutes from Cancun airport"
+  ],
+  "cons": [
+    "Seaweed still reaches the beach in season",
+    "Standard rooms and some common areas are older and less cool than the newer Club section",
+    "Collared-shirt dress code at most dinner restaurants",
+    "Large resort (over 500 suites), so walks are long"
+  ],
+  "verdict": "The best all-round fit of these five for young children: a strong kids' club, a real water park and a calm breakwater beach, close to the airport.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Costco Travel: Dreams Sapphire Resort & Spa", "url": "https://www.costcotravel.com/hotels/mexico/riviera-maya/RivieraMayaNowSapphireRivieraCancun"},
+    {"title": "Travel by Bob: Now Sapphire becomes Dreams Sapphire (2021)", "url": "https://www.travelbybob.com/three-now-branded-properties-to-become-dreams-branded-properties/"},
+    {"title": "ResortFlock: Dreams Sapphire review and tips (2026)", "url": "https://www.resortflock.com/resorts/dreams-sapphire-resort-and-spa"},
+    {"title": "Traveling Ears: Dreams Sapphire review (April 2026)", "url": "https://travelingears.com/dreams-sapphire-resort-review/"},
+    {"title": "Marriage Kids and Money: Dreams Sapphire review (2025)", "url": "https://marriagekidsandmoney.com/dreams-sapphire-resort-review/"},
+    {"title": "Tripadvisor: Dreams Sapphire reviews (2026, via search excerpts)", "url": "https://www.tripadvisor.ca/Hotel_Review-g240327-d248849-Reviews-Dreams_Sapphire_Resort_Spa-Puerto_Morelos_Yucatan_Peninsula.html"},
+    {"title": "Cancun Trip Insider: Puerto Morelos sargassum (June 2026)", "url": "https://www.cancuntripinsider.com/guides/puerto-morelos/puerto-morelos-sargassum"}
+  ]
+}

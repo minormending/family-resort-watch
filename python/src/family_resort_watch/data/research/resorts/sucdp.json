@@ -1,0 +1,44 @@
+{
+  "code": "sucdp",
+  "name": "Sunscape Coco Punta Cana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (ages 3-12) is included, takes children without parents, and is open 9am-9:30pm (one source says 10pm), with a splash pad, playground and crafts. Reviewers praise the staff, but with 1,059 rooms how crowded it gets is unverified."},
+    "water_play": {"score": 3, "evidence": "There's a kids' splash pad and pool and a waterslide for older kids, but no real water park, despite some listings saying there is. Several reviews describe slimy, dated pool walls and floating muck in the kids' pool."},
+    "beach": {"score": 3, "evidence": "Cabeza de Toro is usually sheltered and fenced against seaweed, but several Sunscape-specific reviews describe sargassum piling up again during the day, murky water too dirty to swim in, and some rocky patches. A sargassum tracker rated it very high in July 2026."},
+    "rooms": {"score": 4, "evidence": "Triple rooms and two- and three-bedroom family suites are listed. Whether standard rooms have two beds is unverified, so book a triple or family category."},
+    "food": {"score": 3, "evidence": "About 12 dining options, but reviews say the à la carte slots in the app are gone by just after 9am even though Hyatt says no reservations are needed. Buffets are crowded, with slow service for clean glasses and cups, and food quality is called just okay."},
+    "transfer": {"score": 5, "evidence": "About 20 minutes from PUJ."},
+    "condition": {"score": 3, "evidence": "Was Be Live Collection Punta Cana and reopened as Sunscape in November 2023 after a $25M renovation that mostly covered common areas, with only a décor refresh in rooms. Recent reviews are split between clean, spacious rooms and worn bathrooms, odours, broken fridges and damaged floors."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-9:30pm (one source says 10pm)", "cost": "included", "notes": "Has a splash pad; a separate small waterslide serves older kids. Core Zone teen club (13-17) runs about 10am-10pm. No full water park on site."},
+  "transfer_minutes": {"PUJ": 20},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "About 20 minutes from PUJ",
+    "Kids' club is free and open until 9:30pm, with friendly staff in reviews",
+    "Triple rooms and multi-bedroom family suites are bookable",
+    "Lively entertainment team and plenty of daytime activities"
+  ],
+  "cons": [
+    "No real water park, just a splash pad and a slide, with complaints about dirty, slimy pools including the kids' pool",
+    "Reviewers say à la carte bookings in the app sell out just after 9am, so most dinners may end up at a crowded buffet",
+    "Huge resort (1,059 rooms) with crowding at buffets and pools",
+    "The 2023 renovation only refreshed room décor; recent reviews report worn bathrooms, odours and broken fridges",
+    "Several reports of murky water and piled-up seaweed on its stretch of Cabeza de Toro"
+  ],
+  "verdict": "The cheapest option has a decent free kids' club and a short transfer, but expect worn rooms, a scramble for restaurant bookings and no water park to fall back on if seaweed spoils the beach.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Sunscape Coco Punta Cana celebrates its grand opening (Hyatt Newsroom)", "url": "https://newsroom.hyatt.com/news-releases?item=124436"},
+    {"title": "On Location: Sunscape Coco Punta Cana (PAX News)", "url": "https://www.paxnews.com/news/pax-trips/location-sunscape-coco-punta-cana-perfect-blend-family-fun-adult-amusements"},
+    {"title": "Sunscape Coco Punta Cana (cocopuntacana.com)", "url": "https://www.cocopuntacana.com/"},
+    {"title": "Sunscape Coco Punta Cana Refreshed Following $25M Renovation (TravelPulse)", "url": "https://www.travelpulse.ca/news/hotels-and-resorts/sunscape-coco-punta-cana-refreshed-following-25m-renovation"},
+    {"title": "Sunscape Coco Punta Cana (Travel Republic)", "url": "https://www.travelrepublic.co.uk/2-274433-1/be-live-collection-punta-cana"},
+    {"title": "Sunscape Coco Punta Cana (TripAdvisor)", "url": "https://www.tripadvisor.com/Hotel_Review-g25226430-d26867234-Reviews-Sunscape_Coco_Punta_Cana-Cabeza_De_Toro_Punta_Cana_La_Altagracia_Province_Dominican.html"},
+    {"title": "Seaweed Nightmare review (TripAdvisor)", "url": "https://www.tripadvisor.com/ShowUserReviews-g25226430-d26867234-r968969558-Sunscape_Coco_Punta_Cana-Cabeza_De_Toro_Punta_Cana_La_Altagracia_Province_Dom.html"},
+    {"title": "Sunscape Coco Punta Cana Kids Club (TripAdvisor)", "url": "https://www.tripadvisor.com/Hotel_Feature-g25226430-d26867234-zft12121-Sunscape_Coco_Punta_Cana.html"},
+    {"title": "Sunscape Coco Punta Cana sargassum (ShoreWatch)", "url": "https://shorewatch.net/dominican-republic/la-altagracia/punta-cana/sunscape-coco-punta-cana"},
+    {"title": "Punta Cana seaweed guide (Punta Cana Travel Blog)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "code": "dretu",
+  "name": "Dreams Tulum Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 5, "evidence": "Explorer's Club is included for ages 3-12 and runs about 9am-9:30pm. It has its own Maya-themed space with a water park inside, and June and September 2026 reviewers praised warm staff and a varied daily program."},
+    "water_play": {"score": 4, "evidence": "There is a kids' water-play area with several slides, tipping buckets and a splash pad, plus a kids' pool. The slide area sits inside the Explorer's Club and parents are not allowed in, so it is not a family water park."},
+    "beach": {"score": 2, "evidence": "A long white-sand beach on the open Tulum coast. Reviewers mention rocky patches at the edges and a lot of seaweed in season. Staff clean it actively, but this stretch is among the hardest hit in spring."},
+    "rooms": {"score": 4, "evidence": "Junior suites come with 2 double beds and a separate sitting area and fit 3 comfortably; family suites sleep up to 7. Rooms were dated before 2026 but have since been refurbished. Unverified whether connecting rooms exist."},
+    "food": {"score": 4, "evidence": "Six à la carte restaurants with no weekly cap: French, Italian, Mexican, sushi/Asian, seafood grill. A few need reservations. Food reviews are mixed, and restaurants were refurbished in 2026."},
+    "transfer": {"score": 2, "evidence": "About 111 km from CUN, roughly 90-110 min by private shuttle. From Tulum airport (TQO) it is about 50 km and around 50 min, but TQO has fewer international nonstops than CUN."},
+    "condition": {"score": 4, "evidence": "A two-phase renovation (Apr 15 to Oct 31, 2026, dates tentative) redid 385 rooms, restaurants, bars, the lobby, spa and pools. Before that, reviews often called the rooms dated. There are no post-renovation reviews yet, and the end date could slip."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "about 9am-9:30pm (traveller reports 2026)", "cost": "included", "notes": "The water park with slides and splash pad is inside the club and kids only. A teen club is separate."},
+  "transfer_minutes": {"CUN": 100, "TQO": 50},
+  "sargassum_late_april": "high",
+  "pros": [
+    "Kids' club runs about 9am-9:30pm, so parents get evening dinners",
+    "Kids' club has its own slide water park and splash pad",
+    "Six à la carte restaurants with no weekly cap",
+    "Rooms and restaurants freshly renovated in 2026",
+    "Junior suites have 2 double beds"
+  ],
+  "cons": [
+    "Open-coast Tulum beach with rocky edges and heavy spring seaweed",
+    "Slide area is inside the club, so parents can't play there with their children",
+    "About 100 min from CUN",
+    "Food quality reviews are mixed",
+    "No reviews yet of the renovated resort"
+  ],
+  "verdict": "Best kids' club of these four Tulum-area options and newly renovated, but families should plan around a long CUN transfer and a seaweed-prone late-April beach.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Air Canada Vacations: Dreams Tulum Resort & Spa (rooms, restaurants, kids club, distances, renovation)", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNDTL/dreams-tulum-resort-spa"},
+    {"title": "Global Agents: Dreams Tulum 2026 resort enhancement plan (Apr 15, 2026)", "url": "https://globalagents.ca/news/dreams-tulum-unveils-2026-resort-enhancement-plan-hyatt-inclusive-collection"},
+    {"title": "TripAdvisor: Dreams Tulum Resort & Spa reviews", "url": "https://www.tripadvisor.com/Hotel_Review-g150813-d591029-Reviews-Dreams_Tulum_Resort_Spa-Tulum_Yucatan_Peninsula.html"},
+    {"title": "TripAdvisor: Dreams Tulum kids club reviews", "url": "https://www.tripadvisor.com/Hotel_Feature-g150813-d591029-zft12121-Dreams_Tulum_Resort_Spa.html"},
+    {"title": "Outoria: Dreams Tulum Resort & Spa review (Jun 2025)", "url": "https://www.outoria.com/travel/dreams-tulum-resort-spa/"},
+    {"title": "Travel Codex: Dreams Tulum review", "url": "https://www.travelcodex.com/review-dreams-tulum-resort-and-spa-tulum-mexico/"},
+    {"title": "Happy Shuttle Cancun: CUN to Dreams Tulum", "url": "https://happyshuttlecancun.com/cancun-airport-transportation-to-dreams-tulum-resort-spa"},
+    {"title": "Rome2rio: TQO to Dreams Tulum", "url": "https://www.rome2rio.com/s/Tulum-Airport-TQO/Dreams-Tulum-Resort-Spa"},
+    {"title": "How Is The Sargassum: season calendar (Mar 2026)", "url": "https://www.howisthesargassum.com/blog/sargassum-season-cancun-riviera-maya"},
+    {"title": "The Cancun Sun: first major sargassum wave, Cancun to Tulum (Mar 2026)", "url": "https://thecancunsun.com/first-major-sargassum-wave-arrives-on-the-ground-report-from-cancun-to-tulum/"},
+    {"title": "Mexico News Daily: Playa del Carmen red alert as sargassum hits Riviera Maya (late April)", "url": "https://mexiconewsdaily.com/travel/playa-del-carmen-declares-red-alert-as-sargassum-overwhelms-riviera-maya-beaches/"}
+  ]
+}

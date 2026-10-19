@@ -1,0 +1,53 @@
+{
+  "code": "bpgrandrom",
+  "name": "Bahia Principe Explore La Romana",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "An included kids club for ages 4-12 (now called Bahia Kids Club on the official site), and 2025 family reviews praise its staff. Hours are not published; traveller reports from other Bahia Principe resorts describe a split day with a midday pickup (about 12:30-14:30), which would mean short hours, but that is unverified for this resort."},
+    "water_play": {"score": 3, "evidence": "A lagoon-style main pool, a family pool and a small children's pool, plus whirlpools. Neither the official site, the Privilege Club page nor tour operators list a water park or splash pad."},
+    "beach": {"score": 2, "evidence": "A sheltered, calm bay, but 2025-26 guests keep reporting murky water (a river empties nearby), weed on the bottom and stinging jellyfish, with warning signs on the beach; one June 2025 family group stopped swimming after stings. Late-April sargassum risk looks moderate: the south coast gets lighter landings than Punta Cana, but a local hotel association says Saona Island deflects seaweed toward this San Pedro de Macorís stretch."},
+    "rooms": {"score": 5, "evidence": "400 junior suites of about 45 m2, with two double beds or a king plus a sofa bed (up to 2 adults + 2 children). Connecting suites are advertised for families."},
+    "food": {"score": 3, "evidence": "A buffet plus 3 à la carte restaurants (Italian, gourmet, seafood), and the plan allows 3 à la carte dinners a week, booked on arrival or by app. 2025-26 reviews rate the buffet as fresh with plenty of choice and praise the à la carte food, though some find the buffet repetitive."},
+    "transfer": {"score": 2, "evidence": "La Romana airport has no nonstop flights, so the trip goes through PUJ, about 100 km away: private transfers are listed at about 1 hour 20 minutes, longer by shared coach. Santo Domingo (SDQ), which has many US nonstops, is only about 55-70 minutes away, but the trip is priced via PUJ."},
+    "condition": {"score": 3, "evidence": "Opened in 2007; grounds and cleaning are praised in 2025-26 reviews, but several 2026 guests describe tired rooms, loose walkway bricks and repeated hot-water or water-pressure problems. Apart from the 2026 Explore rebrand, we found no renovation."}
+  },
+  "kids_club": {"name": "Bahia Kids Club (formerly Bahia Scouts)", "ages": "4-12 (the Privilege Club page says 3-12)", "hours": "unverified; not published", "cost": "included", "notes": "Official site lists games, crafts and age-based programmes; evening entertainment is daily. Other Bahia Principe resorts reportedly run about 10:00-12:30 and 14:30-17:00 with a midday pickup, not confirmed here. Babysitting is available at extra cost. The neighbouring adults-only Bouganville side is off-limits with a child."},
+  "transfer_minutes": {"PUJ": 80},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Connecting junior suites with two double beds and a sofa bed",
+    "Small (400 rooms) and calm, with uncrowded pools and a separate small children's pool",
+    "Kids club and entertainment staff praised by 2025 family reviewers",
+    "Specialty restaurants are Italian, seafood and gourmet, with no steakhouse"
+  ],
+  "cons": [
+    "About 80-90 minutes from PUJ, because La Romana airport has no nonstop flights",
+    "Murky bay water and stinging jellyfish, still reported in 2025-26, make the beach weak for young children",
+    "No water park or splash pad, only a small kids' pool",
+    "Kids club hours unpublished, with a likely midday pickup",
+    "Dated rooms, with recurring 2026 hot-water complaints and no renovation found"
+  ],
+  "verdict": "A quiet, small resort with good family rooms, but the long transfer, a jellyfish-prone murky beach and no water play make it a poor fit for a short trip.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore La Romana (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/la-romana/resort-la-romana/"},
+    {"title": "Bahia Principe Explore La Romana services (official: Bahia Kids Club 4-12, lagoon pool, sheltered bay)", "url": "https://www.bahia-principe.com/en/dominican-republic/la-romana/resort-la-romana/services/"},
+    {"title": "BP Privilege Club: La Romana (kids club 3-12, children's pool, restaurant hours)", "url": "https://bpprivilegeclub.com/Hotel-La-Romana"},
+    {"title": "Hyatt: Bahia Principe Explore La Romana", "url": "https://www.hyatt.com/bahia-principe-explore/en-US/bp012-bahia-principe-Explore-la-romana"},
+    {"title": "Air Canada Vacations: Explore La Romana (kids' pool, babysitting, 3 à la carte dinners a week)", "url": "https://vacations.aircanada.com/en/accommodation-details/LRMBLR/bahia-principe-explore-la-romana"},
+    {"title": "First Choice: Bahia Principe Explore La Romana", "url": "https://www.firstchoice.co.uk/holiday/accommodation/overview/San-Pedro-de-Macoris/Bahia-Principe-Explore-La-Romana-028329"},
+    {"title": "Rome2Rio: PUJ to Bahia Principe Explore La Romana", "url": "https://www.rome2rio.com/s/Punta-Cana-Airport-PUJ/Bahia-Principe-Explore-La-Romana-All-Inclusive"},
+    {"title": "Viator: private transfer PUJ to Bahia Principe La Romana, 1h20 (via search excerpt)", "url": "https://www.viator.com/en-CA/tours/La-Romana/Bahia-Principe-Grand-La-Romana-Punta-Cana-Airport-Transfer/d4176-66443P30"},
+    {"title": "Rome2Rio: SDQ to Bahia Principe Explore La Romana (via search excerpt)", "url": "https://www.rome2rio.com/s/Santo-Domingo-Airport-SDQ/Bahia-Principe-Explore-La-Romana-All-Inclusive"},
+    {"title": "Oyster review: Grand Bahia Principe La Romana", "url": "https://www.oyster.com/dominican-republic/hotels/grand-bahia-principe-la-romana/"},
+    {"title": "ResortFlock overview: Grand La Romana", "url": "https://www.resortflock.com/resorts/bahia-principe-grand-la-romana/overview"},
+    {"title": "Tripadvisor review: murky water", "url": "https://www.tripadvisor.com/ShowUserReviews-g10293056-d218528-r188318284-Bahia_Principe_Explore_La_Romana-El_Soco_San_Pedro_de_Macoris_San_Pedro_de_Maco.html"},
+    {"title": "Tripadvisor: June 2025 family group review, jellyfish and murky water (via search excerpt)", "url": "https://www.tripadvisor.com/ShowUserReviews-g147292-d25402924-r1020400769-Bahia_principe_la_Romana-La_Romana_La_Romana_Province_Dominican_Republic.html"},
+    {"title": "Tripadvisor: Explore La Romana 2026 reviews, beach, food, hot water (via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Review-g10293056-d218528-Reviews-Bahia_Principe_Explore_La_Romana-El_Soco_San_Pedro_de_Macoris_San_Pedro_de_Macoris_Pr.html"},
+    {"title": "Tripadvisor: Explore Punta Cana kids club page, 12:30-14:30 pickup lead (via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "Booked and Barefoot: La Romana review aggregator (claims no sargassum; conflicts with guest reports)", "url": "https://bookedandbarefoot.com/resort/bahia-principe-explore-la-romana-565"},
+    {"title": "Transekur: DR sargassum by month (La Romana and Juan Dolio moderate in April)", "url": "https://transekur.com/dominican-republic-sargassum-seaweed-guide"},
+    {"title": "Inmobiliario.do: Saona diverts sargassum toward San Pedro de Macorís and Juan Dolio (May 2026)", "url": "https://inmobiliario.do/en/saona-island-protects-roman-bayahibe-from-sargassum/"},
+    {"title": "FanGass: DR sargassum map (south coast has lighter landings than the east)", "url": "https://fangass.com/en/sargassum-dominican-republic"}
+  ]
+}

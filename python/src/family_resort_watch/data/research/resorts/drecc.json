@@ -1,0 +1,43 @@
+{
+  "code": "drecc",
+  "name": "Dreams Cap Cana Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club":  {"score": 4, "evidence": "Explorer's Club takes ages 3-12 (potty-trained) daily 9am-10pm at no extra charge. Some guests say programming leans toward older kids and scheduled activities sometimes don't happen, though others praise the staff."},
+    "water_play": {"score": 4, "evidence": "There is a toddler-oriented splash pad, a family pool and a lazy river. A booking site claims slides, but guest reports describe limited water-park features and little shade at the splash pad, so slides are unverified."},
+    "beach":      {"score": 2, "evidence": "Juanillo Beach has soft white sand and generally calm water, but Cap Cana is described as the most sargassum-affected stretch of the Punta Cana area, with murky water during bloom years. April is rated moderate risk and May high."},
+    "rooms":      {"score": 5, "evidence": "Entry categories (Garden View Double, Deluxe Ocean View) come with two queen beds and sleep up to four. Connecting rooms are listed by booking sites (not confirmed on the official site)."},
+    "food":       {"score": 4, "evidence": "Roughly nine to ten à la carte venues plus a buffet and 24-hour café, generally no reservations, and recent reviews rate the food well (Mexican and Asian venues praised). Complaints: not every restaurant opens nightly and the Italian venue is slow and bland."},
+    "transfer":   {"score": 5, "evidence": "About 15 minutes from PUJ inside the gated Cap Cana community."},
+    "condition":  {"score": 4, "evidence": "Rebranded from Margaritaville Island Reserve Cap Cana to Dreams in late November 2024, a relatively young property; aggregated reviews average about 4.5/5 with high cleanliness and room scores. Few 2025-26 maintenance complaints found, but the Dreams era is short."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Kids must be fully potty-trained. Some reviews say activities skew to older kids and posted sessions sometimes don't run; teens have the separate Core Zone club."},
+  "transfer_minutes": {"PUJ": 15},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "About 15 minutes from PUJ, so young children aren't stuck in a long van ride after the flight",
+    "Kids' club is free and open until 10pm, so parents can have a dinner on their own",
+    "Standard rooms have two queen beds, so no sofa bed is needed",
+    "Many à la carte restaurants with mostly no reservations, including Mexican, Asian and seafood options"
+  ],
+  "cons": [
+    "Cap Cana is the most sargassum-exposed beach area around Punta Cana, and late April is when the season can begin",
+    "The splash pad is toddler-level with little shade, and slides are unconfirmed",
+    "Some parents say the kids' club programming suits older kids better than young children",
+    "Not every restaurant opens every night"
+  ],
+  "verdict": "Easiest logistics of the group with a free kids' club open late and two-queen rooms, but the beach is a real sargassum gamble for late April.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Hyatt Inclusive Collection - Dreams Cap Cana activities (Explorer's Club ages and hours, via search listing; page blocks direct fetch)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/dominican-republic/cap-cana-resort-spa/activities/"},
+    {"title": "Hyatt - Dreams Cap Cana Resort & Spa (Explorer's Club 3-12, 9am-10pm, via search listing)", "url": "https://www.hyatt.com/dreams/en-US/drecc-dreams-cap-cana-resort-and-spa"},
+    {"title": "PAX News - Margaritaville Island Reserve Cap Cana to become a Dreams", "url": "https://www.paxnews.com/news/hotel/margaritaville-island-reserve-cap-cana-become-dreams"},
+    {"title": "Shoreline Destinations - Dreams Cap Cana resort review", "url": "https://www.shorelinedestinations.com/travel-blog/dreams-cap-cana-resort-review"},
+    {"title": "Dreamworthy Destinations - Dreams Cap Cana family review", "url": "https://www.dreamworthydestinations.com/post/dreams-cap-cana"},
+    {"title": "Nitty Gritty Travelers - Dreams Cap Cana (formerly Margaritaville) review", "url": "https://nittygrittytravelers.com/margaritaville-cap-cana-review/"},
+    {"title": "WestJet - Dreams Cap Cana reviews (TripAdvisor aggregate)", "url": "https://www.westjet.com/en-ca/hotels/punta-cana/PUJDR2/dreams-cap-cana/reviews"},
+    {"title": "TripAdvisor - Dreams Cap Cana kids club Q&A (via search listing)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d32681262-zft12121-Dreams_Cap_Cana_Resort_Spa.html"},
+    {"title": "Punta Cana Travel Blog - seaweed guide (updated Jan 2026)", "url": "https://www.puntacanatravelblog.com/general-information-faq/seaweed-punta-cana-sargassum/"},
+    {"title": "Sargassum Report - Secrets Cap Cana / Juanillo overview", "url": "https://www.sargassumreport.com/hotels/secrets-cap-cana-sargassum-overview"}
+  ]
+}

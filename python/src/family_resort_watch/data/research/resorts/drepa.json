@@ -1,0 +1,43 @@
+{
+  "code": "drepa",
+  "name": "Dreams Aventuras Riviera Maya",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (3-12) is included and runs from 9am into the evening (sources give 9pm or 10pm), with its own space, a splash area and weekly campouts. Reports are broadly positive but few detailed 2025-26 family accounts were reachable."},
+    "water_play": {"score": 5, "evidence": "A water-park annex has two slides and a kids' spray park, and the main pool has a shallow area for young children; a lazy river is also mentioned."},
+    "beach": {"score": 3, "evidence": "The resort sits on a small, calm cove inside the Puerto Aventuras marina community; a rock wall keeps much seaweed out, but the sand is compacted, the water is described as murky, and some guests found sargassum in the cove anyway."},
+    "rooms": {"score": 5, "evidence": "Deluxe rooms (about 420 sq ft) come with two double beds plus a sofa, Family Suites have two doubles, and guaranteed connecting-room family options exist."},
+    "food": {"score": 4, "evidence": "Seven à la carte venues plus a buffet with no reservations needed; Italian, Mexican, seafood and Japanese give plenty of choice. Recurring gripes are a repetitive buffet and a weak Mexican restaurant."},
+    "transfer": {"score": 2, "evidence": "Puerto Aventuras is roughly 85-95 km south of CUN; package sellers quote an hour, transfer companies 80-100 minutes."},
+    "condition": {"score": 3, "evidence": "Reviews describe spacious rooms but dated décor, some mildew smell and a renovation that looks cosmetic; no major 2025-26 renovation found."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-9pm or 10pm (sources differ)", "cost": "included", "notes": "Supervised; activities include crafts, treasure hunts, mini-spa, trampoline and weekly beach campouts. Exact 2027 hours unverified."},
+  "transfer_minutes": {"CUN": 80},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Water-park annex with slides and a spray park sized for young children",
+    "Calm, walled cove means no surf for a young swimmer",
+    "Rooms with two double beds and connecting family options",
+    "No restaurant reservations, with several cuisines",
+    "Small resort (305 rooms) with a marina village to walk to"
+  ],
+  "cons": [
+    "About 80 minutes from Cancun airport, the longest transfer of this group",
+    "Beach is a small cove with compacted sand and murky water, not a long sandy strand",
+    "Rooms read as dated in recent reviews",
+    "Sargassum can still collect inside the cove in spring",
+    "Dolphin swims on site cost extra"
+  ],
+  "verdict": "Strong on kids' water play and room layout, but the long transfer and a cove rather than a real beach make it a compromise for families.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "All-Inclusive Resorts: Dreams Aventuras Riviera Maya overview", "url": "https://www.allinclusiveresorts.com/dreams-aventuras-riviera-maya"},
+    {"title": "Virgin Atlantic Holidays: Dreams Aventuras Riviera Maya (family)", "url": "https://www.virginatlantic.com/holidays/holiday-types/family-holidays/hotels/dreams-aventuras-riviera-maya"},
+    {"title": "Hyatt: Dreams Aventuras rooms", "url": "https://www.hyatt.com/en-US/hotel/mexico/dreams-puerto-aventuras/drepa/rooms"},
+    {"title": "Tripadvisor: Dreams Aventuras Riviera Maya reviews (2026, via search excerpts)", "url": "https://www.tripadvisor.com/Hotel_Review-g153510-d530105-Reviews-Dreams_Aventuras_Riviera_Maya-Puerto_Aventuras_Yucatan_Peninsula.html"},
+    {"title": "Rome2rio: Cancun Airport to Dreams Aventuras", "url": "https://www.rome2rio.com/s/Cancun-Airport-CUN/Dreams-Aventuras-Riviera-Maya-All-Inclusive-Puerto-Aventuras"},
+    {"title": "Cancun Airport Transportations: Dreams Aventuras transfer", "url": "https://www.cancunairporttransportations.com/dreams-aventuras-riviera-maya"},
+    {"title": "dreamsaventurasresort.com (third-party guide): Is it worth it?", "url": "https://dreamsaventurasresort.com/is-dreams-aventuras-riviera-maya-worth-it-honest-review-pros-cons-who-its-best-for/"},
+    {"title": "Rio Times: record 2026 sargassum season in Quintana Roo", "url": "https://www.riotimesonline.com/sargassum-quintana-roo-weddings-season-2026/"}
+  ]
+}

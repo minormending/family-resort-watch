@@ -1,0 +1,41 @@
+{
+  "code": "drerc",
+  "name": "Dreams Riviera Cancun Resort & Spa",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club (3-12) is included, open 9am-10pm, in its own building with a climbing wall, a small theater and a splash fountain, and parents get pagers. Most family reviews, including 2026 ones, praise the staff; a minority found it thin for older kids."},
+    "water_play": {"score": 4, "evidence": "A shallow kids' pool (starting under a foot deep) with small slides, plus a splash fountain at the kids' club; no full water park, and sources differ on the slides."},
+    "beach": {"score": 3, "evidence": "Palm-lined white-sand beach south of Puerto Morelos, behind the reef, normally calm; several reviews, including 2026 ones, say it is prone to seaweed and less pristine than the photos, though staff clear it."},
+    "rooms": {"score": 5, "evidence": "Standard Premium Deluxe rooms (about 450 sq ft) come with two double beds, and the Family Suite is two connecting rooms; connecting rooms are also available on request."},
+    "food": {"score": 4, "evidence": "Six à la carte restaurants (Italian, Mexican, seafood, pan-Asian, grill, plus an adults-only French) and a buffet, with no reservations except teppanyaki; some reviews note uneven quality."},
+    "transfer": {"score": 5, "evidence": "About 20-30 minutes from CUN."},
+    "condition": {"score": 4, "evidence": "Opened 2009, with renovations around 2017-2019 and work finishing in 2022; reviews call it well kept, with complaints mostly about seaweed and limited pool shade rather than wear."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "9am-10pm", "cost": "included", "notes": "Climbing wall, small planetarium-style theater, splash fountain, weekly beach campouts; parents get pagers. Unsupervised baby play area also on site."},
+  "transfer_minutes": {"CUN": 25},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Kids' club open 9am-10pm with its own climbing wall and theater",
+    "Very shallow kids' pool with small slides",
+    "Rooms with two double beds, and connecting Family Suites",
+    "About 25 minutes from Cancun airport",
+    "No reservations at most restaurants, with many cuisines"
+  ],
+  "cons": [
+    "Beach is prone to seaweed, and spring 2026 was a record year",
+    "No full water park; slides are small",
+    "The French restaurant is adults-only, so families have five à la carte options",
+    "Little shade around the main pools"
+  ],
+  "verdict": "A solid, close-to-the-airport pick with a well-liked kids' club and two-bed rooms; the main risk is seaweed on the beach.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Costco Travel: Dreams Riviera Cancun Resort & Spa", "url": "https://www.costcotravel.com/hotels/mexico/riviera-maya/RivieraMayaDreamsRivieraCancun"},
+    {"title": "Oyster: Dreams Riviera Cancun review", "url": "https://www.oyster.com/riviera-maya/hotels/dreams-riviera-cancun-resort-and-spa/"},
+    {"title": "ResortFlock: Dreams Riviera Cancun review and tips", "url": "https://www.resortflock.com/resorts/dreams-riviera-cancun-resort-and-spa"},
+    {"title": "Our Little Voyages: Dreams Riviera Cancun full review", "url": "https://ourlittlevoyages.com/destinations/dreams-cancun-riviera/"},
+    {"title": "Tripadvisor: Family trip with toddler (2026 review, via search excerpt)", "url": "https://www.tripadvisor.com/ShowUserReviews-g240327-d1550490-r1055602414-Dreams_Riviera_Cancun_Resort_Spa-Puerto_Morelos_Yucatan_Peninsula.html"},
+    {"title": "Cancun Trip Insider: Puerto Morelos sargassum (June 2026)", "url": "https://www.cancuntripinsider.com/guides/puerto-morelos/puerto-morelos-sargassum"},
+    {"title": "Riviera Maya News: Puerto Morelos sargassum barrier and cleanup (June 2026)", "url": "https://riviera-maya-news.com/4000-tons-collected-strategies-keeping-puerto-morelos-beaches-sargassum-free-says-mayor/2026.html"}
+  ]
+}

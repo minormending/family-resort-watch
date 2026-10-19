@@ -1,0 +1,42 @@
+{
+  "code": "sucur",
+  "name": "Sunscape Curaçao Resort, Spa & Casino",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Explorer's Club takes ages 3-12, potty-trained, and is included in the rate. Most sources give hours of 8am-9pm, but one says 9am-6pm, and another says hours change with the season. It has its own clubhouse and a large outdoor playground, and recent family reviews call it a highlight."},
+    "water_play": {"score": 3, "evidence": "A separate quiet kids' area has three shallow tiered pools. One aggregator mentions a waterslide, but this is unverified, and no source confirms a splash pad or water park."},
+    "beach": {"score": 5, "evidence": "The resort sits on Mambo Beach, where a man-made beach behind a rock jetty keeps the water calm and shallow for swimming and snorkeling. Curaçao lies south of the main sargassum belt, and sources describe it as rare here. Shade fills up early."},
+    "rooms": {"score": 4, "evidence": "Standard Deluxe rooms (about 328 sq ft) come with two doubles or a king and sleep up to 4. One source says connecting rooms are available, but confirm before booking."},
+    "food": {"score": 3, "evidence": "Six venues: the World Café buffet, Da Mario (Italian), Himitsu (Asian/teppanyaki), Oceana (seafood), Bluewater Grill and Coco Café. None needs a reservation. Food quality is the second most common complaint in recent reviews, though Himitsu, Oceana and Da Mario give plenty of choice."},
+    "transfer": {"score": 5, "evidence": "About 15 km from CUR, around 20 minutes by car."},
+    "condition": {"score": 2, "evidence": "It became a Sunscape in 2012 (formerly Breezes), with its last broad update around 2013 and a spa refresh in 2015. Dated rooms are the top complaint in 2025-26 reviews, and some guests expect a renovation, but no official renovation or closure has been announced."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "8am-9pm daily (one source says 9am-6pm; varies by season)", "cost": "included", "notes": "Kids must be fully potty-trained, and staff are Red Cross CPR-certified. It has its own clubhouse with video games, a large outdoor playground, weekly campouts, movie nights and sandcastle contests. The Core Zone teens' club (13-17) is separate."},
+  "transfer_minutes": {"CUR": 20},
+  "sargassum_late_april": "low",
+  "pros": [
+    "The kids' club is likely open into the evening (8am-9pm per most sources) and is included",
+    "Calm, shallow beach behind a jetty on Mambo Beach, with little sargassum risk",
+    "Three shallow tiered kids' pools",
+    "No restaurant reservations, with seafood, Asian and Italian options",
+    "Walkable to the Mambo Beach strip and close to the Sea Aquarium"
+  ],
+  "cons": [
+    "Rooms are dated, the top complaint in recent reviews",
+    "Food quality complaints are common",
+    "Standard rooms are fairly small for a family",
+    "No confirmed splash pad or slides",
+    "Not next to Dreams Curaçao: it is about 8 km away on Mambo Beach, so the two do not share facilities"
+  ],
+  "verdict": "A calm beach, long kids' club hours and a short transfer make it easy with young children, as long as families accept dated rooms and average food.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Oyster - Sunscape Curaçao review (location, jetty-protected beach, tiered kids' pools, restaurants)", "url": "https://www.oyster.com/curacao/hotels/sunscape-curacao-resort-spa-and-casino-curacao/"},
+    {"title": "It's All Inclusive - Sunscape Curaçao review (2026; beach, rooms, connecting rooms, complaint themes)", "url": "https://www.itsallinclusive.com/resort/sunscape-curacao-resort-spa-casino"},
+    {"title": "Air Canada Vacations - Sunscape Curaçao (rooms, restaurants, pools, kids' club, distance)", "url": "https://vacations.aircanada.com/en/accommodation-details/CURSCU/sunscape-curacao-resort-spa-casino"},
+    {"title": "All Inclusivist - Sunscape Curaçao (location by Mambo Beach, restaurants)", "url": "https://www.allinclusivist.com/resort/sunscape-curacao-resort"},
+    {"title": "Hyatt Inclusive Collection - Sunscape Curaçao activities (Explorer's Club hours; seen via search excerpt)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/sunscape/curacao/curacao-resort-spa-casino/activities/"},
+    {"title": "TripAdvisor - Sunscape Curaçao 2026 reviews (dated rooms, renovation speculation; seen via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Review-g147278-d254238-Reviews-Sunscape_Curacao_Resort_Spa_Casino-Willemstad_Curacao.html"},
+    {"title": "Avila Beach Hotel - Why Curaçao stays largely sargassum-free", "url": "https://www.avilabeachhotel.com/curacao-tips/news-facts/sargassum-in-the-caribbean-why-curacao-remains-a-clear-sargassum-free-escape/"}
+  ]
+}

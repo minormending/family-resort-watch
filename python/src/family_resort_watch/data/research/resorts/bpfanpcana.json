@@ -1,0 +1,48 @@
+{
+  "code": "bpfanpcana",
+  "name": "Bahia Principe Explore Legend",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Its own included kids club sits in one of the themed castles (official site), BP Privilege Club lists it for ages 3-12, and reviews consistently praise how staff treat children. Official hours are unverified; TripAdvisor reports for the complex's clubs describe roughly 9am-5pm with a mandatory 12:30-2:30pm pickup, which would limit kid-free time for parents."},
+    "water_play": {"score": 5, "evidence": "The official site and BP Privilege Club both list Legend's own children's water park with slides, plus a children's pool, so it does not depend on the shared park at Turquesa. Slide counts are not published; the Wave Rider wave pool costs extra (age 4+, fee not published)."},
+    "beach": {"score": 3, "evidence": "Not beachfront. A 5-10 minute walk or frequent trolley takes guests to a reserved Legend section of Arena Gorda, with soft sand and generally calm water. Arena Gorda is moderately exposed to sargassum from April."},
+    "rooms": {"score": 4, "evidence": "All 512 rooms are junior suites of about 45 m2, with two double beds or a king plus a sofa bed, officially for up to 3 adults + 2 children. Connecting rooms are not listed on the official, Privilege Club or Air Canada pages, so they remain unverified."},
+    "food": {"score": 4, "evidence": "Officially unlimited à la carte (reservation and dress code): 3 restaurants of its own plus Explore Punta Cana's and Las Olas Beach House's, with the Oneiro dinner show included on stays of 4+ nights. Tables can be booked in the app up to 10 days ahead, which eases the fill-up reviewers describe; the buffet is called inconsistent."},
+    "transfer": {"score": 5, "evidence": "About 25 km from PUJ, a drive of roughly 25-30 minutes."},
+    "condition": {"score": 3, "evidence": "Renamed from Fantasia in 2026 and repositioned with a projection-mapping show on the castle. Recent reviewers still report dated furnishings, weak air conditioning and plumbing or mould problems in some rooms. We found no 2025-26 room renovation."}
+  },
+  "kids_club": {"name": "Kids Club (Bahia Scouts, castle-based)", "ages": "3-12 per BP Privilege Club (other listings say 4-12)", "hours": "about 9am-5pm with a 12:30-2:30pm pickup, per TripAdvisor reports for the complex; official hours unverified", "cost": "included", "notes": "The kids club, the Garden Circus/Oneiro restaurant and a bar are each in their own themed castle. A separate teen club, The Loft (13-17), is also on site. Babysitting (2-12) costs extra. Legend guests can also use Explore Punta Cana and Explore Turquesa, buffets excluded. Explore Esmeralda's own policy excludes Legend, and the Explore Punta Cana and Turquesa pages don't list Legend restaurants, so Legend's facilities appear to be reserved for its own guests."},
+  "transfer_minutes": {"PUJ": 30},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Own water park, kids' pool and castle kids club, all aimed squarely at young children",
+    "Unlimited à la carte dinners, bookable in the app up to 10 days before arrival",
+    "Wide cuisine variety: Italian, Indian, Mexican, Greek, Japanese, Mongolian",
+    "Nightly castle light show and dinner show (included on stays of 4+ nights)"
+  ],
+  "cons": [
+    "Not beachfront: a 5-10 minute walk or trolley ride to the sand",
+    "Reports of dated rooms, weak air conditioning and plumbing or mould problems",
+    "Kids club reportedly needs a midday pickup (about 12:30-2:30pm), so no full-day drop-off",
+    "Garden Circus, the dinner-show restaurant, is listed as a steakhouse by BP Privilege Club and Air Canada; check the menu before booking",
+    "Own specialty restaurants serve only about 6-9:30pm, and the Fish Market seafood restaurant is adults-only"
+  ],
+  "verdict": "The most kid-focused hotel in the complex, with its own water park and castle kids club, but expect older rooms, a midday kids-club pickup and a short trip to the beach.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Legend (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-legend/"},
+    {"title": "Explore Legend restaurants (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-legend/restaurants/"},
+    {"title": "Explore Legend rooms (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-legend/rooms/"},
+    {"title": "Explore Legend all-inclusive (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-legend/all-inclusive/"},
+    {"title": "Explore Esmeralda services: exchange excludes Legend (official)", "url": "https://www.bahia-principe.com/en/dominican-republic/punta-cana/resort-esmeralda/services/"},
+    {"title": "BP Privilege Club: Explore Legend (kids club ages, water park, restaurant hours)", "url": "https://bpprivilegeclub.com/Hotel-Legend"},
+    {"title": "Air Canada Vacations: Explore Legend (app booking, Garden Circus, Wave Rider)", "url": "https://vacations.aircanada.com/en/accommodation-details/PUJBPF/bahia-principe-explore-legend"},
+    {"title": "TripAdvisor: Explore Punta Cana kids club reports (seen via search excerpts; page did not load)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "Hyatt newsroom: Bahia Principe joins World of Hyatt (Mar 2026)", "url": "https://newsroom.hyatt.com/2026-march-25-bahiaprincipejoinsworldofhyatt"},
+    {"title": "Hospitality Net: Bahia Principe introduces Explore/Escape sub-brands", "url": "https://www.hospitalitynet.org/news/4131725/bahia-principe-introduces-new-audience-centric-sub-brands-and-refreshed-visual-identity"},
+    {"title": "Oyster review: Fantasia Bahia Principe Punta Cana", "url": "https://www.oyster.com/dominican-republic/hotels/fantasia-bahia-principe-punta-cana/"},
+    {"title": "ResortFlock overview: Fantasia Punta Cana", "url": "https://www.resortflock.com/resorts/bahia-principe-fantasia-punta-cana/overview"},
+    {"title": "BP Privilege Club blog: children activities in Punta Cana", "url": "https://bpprivilegeclub.com/blog/children-activities/"},
+    {"title": "Where Is My Beach: Arena Gorda", "url": "https://whereismybeach.com/en/beach/playa-de-arena-gorda"}
+  ]
+}

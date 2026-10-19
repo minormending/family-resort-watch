@@ -1,0 +1,17 @@
+{
+  "name": "family-resort-watch",
+  "owner": {
+    "name": "minormending",
+    "url": "https://github.com/minormending"
+  },
+  "metadata": {
+    "description": "Family all-inclusive price watch for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "family-resort-watch",
+      "source": "./",
+      "description": "Watch Hyatt Inclusive Collection all-inclusive and flight prices for your family's trip, with a private claude.ai report that updates on a schedule."
+    }
+  ]
+}

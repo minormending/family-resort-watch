@@ -1,0 +1,54 @@
+{
+  "code": "bpgrandjam",
+  "name": "Bahia Principe Explore Jamaica",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "Before the closure the club was free for ages 4-12 and open through the day, with babysitting at extra cost for under-4s (Oyster), and older TripAdvisor reviews praised the staff. Exact hours and any midday pickup rule after the December 2026 reopening are unverified, and the current resort site gives no ages or hours."},
+    "water_play": {"score": 5, "evidence": "revised from 4: two reviews describe the children's water park (opened 2016) as having slides and splash features such as tipping buckets, and an older review mentions two separate children's pool areas. The official site still lists a children's water park and 3 pools for the reopening; whether the renovation changes the park is unverified."},
+    "beach": {"score": 3, "evidence": "revised from 2: the reef-protected frontage is split into calm, shallow artificial coves that reviewers call suitable for small children, and the west end has softer sand with shade. Much of the rest is pebbly or rocky with sea grass and urchins, so water shoes are needed and sand-castle sand is scarce. St Ann is not among Jamaica's worst-hit sargassum parishes, but late-April risk for this beach is unverified (moderate)."},
+    "rooms": {"score": 4, "evidence": "The official site lists 2-double-bed Deluxe Junior Suites for up to 3 adults plus a child, and Family Suites with two separate bedrooms; pre-closure junior suites also had a sofa bed. Connecting rooms are unverified."},
+    "food": {"score": 3, "evidence": "The official site lists the Nyam and Round Island buffets, a Jerk Center and a beach food truck, plus four reservation-only à la carte restaurants: Dolce Vita (Italian), Mongol (Asian), Route 66 (American diner) and The Knife (steakhouse). Two of the four lean on beef, pre-closure guests were capped at 3 à la carte dinners a week and prime slots sold out, and whether a cap applies after reopening is unverified."},
+    "transfer": {"score": 3, "evidence": "revised from 2: transfer companies put MBJ to Runaway Bay at about 43 miles (71 km) and 60-85 minutes by private car, depending on traffic. Shared shuttles with stops at other hotels will take longer (unverified)."},
+    "condition": {"score": 3, "evidence": "Closed since Hurricane Melissa (October 2025) for a full renovation. The official site was taking bookings from 1 December 2026 and a resort-status tracker still showed that date on 28 Sep 2026, but Bahia Principe has not published what the renovation changes, and there will be no post-reopening reviews before booking."}
+  },
+  "kids_club": {"name": "Kids Club (Bahia Scouts brand-wide)", "ages": "4-12 (pre-closure; unverified after reopening)", "hours": "open through the day (pre-closure); exact hours unverified", "cost": "included; babysitting extra", "notes": "Free for ages 4-12 before the closure, with paid babysitting for under-4s. A TripAdvisor kids-club page for a Punta Cana sister resort mentions a 12:30-14:30 pickup; whether Jamaica does the same is unverified. Confirm programming after the 1 December 2026 reopening."},
+  "transfer_minutes": {"MBJ": 70},
+  "sargassum_late_april": "moderate",
+  "pros": [
+    "Children's water park with small slides and splash features, plus separate kids' pools",
+    "Calm, shallow, reef-protected coves where young children can paddle",
+    "2-double-bed Junior Suites and two-bedroom Family Suites fit families easily",
+    "Kids' club was free for ages 4-12 before the closure",
+    "Should be freshly renovated by April 2027, about five months after the planned 1 December 2026 reopening"
+  ],
+  "cons": [
+    "Closed until 1 December 2026 after Hurricane Melissa, the date has already slipped once, and renovation details are unpublished",
+    "Much of the beach is pebbly or rocky with sea grass and urchins, so water shoes are needed and sand-castle sand is scarce",
+    "About 60-85 minutes from MBJ by private transfer, longer on a shared shuttle",
+    "Kids' club hours are unverified, and a sister resort requires a midday pickup",
+    "Four à la carte restaurants need reservations, and two (the steakhouse and Route 66) lean on beef"
+  ],
+  "verdict": "A gamble for April 2027: the water park, calm coves and big suites suit young children, but the resort will have been open only about five months with no reviews, the renovation scope is unpublished, and the beach is rocky in places.",
+  "confidence": "low",
+  "sources": [
+    {"title": "Bahia Principe - Explore Jamaica (reopening offer from 1 Dec 2026, rooms, 3 pools, water park)", "url": "https://www.bahia-principe.com/en/jamaica/runaway-bay/resort-jamaica/"},
+    {"title": "Bahia Principe - Explore Jamaica services (kids' club, children's water park, beach)", "url": "https://www.bahia-principe.com/en/jamaica/runaway-bay/resort-jamaica/services/"},
+    {"title": "Bahia Principe - Explore Jamaica restaurants", "url": "https://www.bahia-principe.com/en/jamaica/runaway-bay/resort-jamaica/restaurants/"},
+    {"title": "Jamaica Gleaner - Hurricane Melissa pushes back reopening of Bahia Principe resort (Nov 2025)", "url": "https://jamaica-gleaner.com/article/news/20251116/hurricane-melissa-pushes-back-timeline-reopening-bahia-principe-resort"},
+    {"title": "PAX - Bahia Principe announces reopening and renovation plans for two Jamaica resorts (Feb 2026; renovation details to come later)", "url": "https://www.paxnews.com/news/hotel/bahia-principe-announces-reopening-renovation-plans-two-jamaica-resorts"},
+    {"title": "Caribbean National Weekly - Bahia Principe reopens in Runaway Bay (Apr 2026; second property due 1 Dec 2026)", "url": "https://www.caribbeannationalweekly.com/travel/bahia-principe-reopens-in-runaway-bay-adding-664-rooms-and-800-jobs/"},
+    {"title": "Golden Vacays - Jamaica resort status (updated 28 Sep 2026; Explore Jamaica closed, reopening 1 Dec 2026)", "url": "https://goldenvacays.com/hotel-status/"},
+    {"title": "OpenJaw - Adults-only favourite is back in Jamaica (Apr 2026; Escape reopening, access to family resort)", "url": "https://openjaw.com/headliner/260413-acv-bahia-principe/adults-only-favourite-is-back-in-jamaica/"},
+    {"title": "Oyster - Grand Bahia Principe Jamaica review (pre-closure; kids' club 4-12, water park slides, pebbly beach, 3 à la carte a week)", "url": "https://www.oyster.com/jamaica/hotels/grand-bahia-principe-jamaica/"},
+    {"title": "Best All-Inclusive Resorts - Bahia Principe Grand Jamaica review (protected coves, splash park, transfer time)", "url": "https://best-all-inclusiveresorts.com/bahia-principe-jamaica-resort/"},
+    {"title": "Travel Shop Girl - Grand Bahia Principe Jamaica review (2012; beach, pools, rooms)", "url": "https://travelshopgirl.com/resort-review-grand-bahia-principe-jamaica-runaway-bay-jamaica/"},
+    {"title": "TripAdvisor - 'Great beach for snorkeling' review (rocky, shallow swim area; seen via search excerpt)", "url": "https://www.tripadvisor.com/ShowUserReviews-g147317-d629722-r582304084-Bahia_Principe_Explore_Jamaica-Runaway_Bay_Saint_Ann_Parish_Jamaica.html"},
+    {"title": "TripAdvisor - Bahia Principe Grand Jamaica private beach feature page (soft-sand west end vs rocky east; seen via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147317-d629722-zft11441-Bahia_Principe_Grand_Jamaica.html"},
+    {"title": "TripAdvisor - Bahia Principe Explore Punta Cana kids' club page (12:30-14:30 pickup; seen via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147293-d1163894-zft12121-Bahia_Principe_Explore_Punta_Cana.html"},
+    {"title": "Major One Tours - MBJ to Bahia Principe Grand Jamaica private transfer (71 km, about 60 min)", "url": "https://www.majoronetours.com/product/bahia-principe-grand-jamaica-private-airport-transfer/"},
+    {"title": "Best Jamaica Tours - private transfer to Grand Bahia Principe Runaway Bay (70-85 min)", "url": "https://bestjamaicatours.com/private-airport-transportation-grand-bahia-principe-runaway-bay/"},
+    {"title": "Flylink Shuttle - MBJ to Bahia Principe Escape Runaway Bay (42.5 miles, about 67 min)", "url": "https://flylinkshuttle.com/montego-bay-airport-transfer-to-bahia-principe-escape-runaway-bay"},
+    {"title": "Sargassum Information Hub - Jamaica (most-affected parishes)", "url": "https://sargassumhub.org/jamaica/"},
+    {"title": "Wikipedia - Runaway Bay, Jamaica (offshore reef)", "url": "https://en.wikipedia.org/wiki/Runaway_Bay,_Jamaica"}
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "code": "bpgrandtulum",
+  "name": "Bahia Principe Explore Tulum",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 4, "evidence": "Bahia Scouts is included for ages 4-12, based in the Zama kids' area with Maya-themed play. 2026 reviewers repeatedly rate it the best kids' club they have used: crafts, piñatas, water-park time, supervised lunch, kids on stage in evening shows. Hours are not published (about 9am-5pm per traveller reports)."},
+    "water_play": {"score": 5, "evidence": "Tulum has its own kids' water park with height-gated slides (two winding, one straight, kids only), bumper boats, a lazy river and a kids' pool, plus a large three-level main pool."},
+    "beach": {"score": 2, "evidence": "It has the longest beachfront in the complex, but the hotel itself warns the restored beach erodes daily and changes width; sandbags line parts of the shore. Waves can be choppy for small kids, and this open-coast stretch takes heavy seaweed in spring despite daily cleaning."},
+    "rooms": {"score": 4, "evidence": "Junior suites have 2 double beds (or a king) and sleep 3 adults plus a child; Family Suites (bedroom plus living room) and 2-bedroom suites with two bathrooms are available. The family area is a 5-10 min walk from the lobby. Unverified whether connecting rooms exist."},
+    "food": {"score": 3, "evidence": "Four à la carte restaurants (Indian, gourmet, Brazilian, Mexican) plus a buffet and snack bars, with exchange dinners at Coba and Akumal. They are capped at 3 bookings a week, and the buffet closed for dinner two nights a week through Oct 2026. The Brazilian churrascaria is meat-heavy; Indian and Mexican add variety."},
+    "transfer": {"score": 2, "evidence": "96 km from CUN; about 90 min by private van. TQO is about 64 km and roughly an hour away but has fewer international nonstops than CUN."},
+    "condition": {"score": 4, "evidence": "Fully refurbished in 2020 with new pools and room categories, and newer water slides added since. 2026 reviews describe well-kept grounds and spacious rooms. No 2026-27 renovation is announced here."}
+  },
+  "kids_club": {"name": "Bahia Scouts (Zama Kids Zone) + Teens Club", "ages": "4-12", "hours": "not published; about 9am-5pm plus evening shows per traveller reports (unverified)", "cost": "included", "notes": "The club runs water-park sessions twice a day and takes kids to lunch. The shared Hacienda Doña Isabel hosts kids' carnival nights."},
+  "transfer_minutes": {"CUN": 90, "TQO": 60},
+  "sargassum_late_april": "high",
+  "pros": [
+    "2026 families rate the kids' club the best they have used",
+    "Slide water park, lazy river and kids' pool on site",
+    "Family suites and 2-bedroom suites available",
+    "Indian and Mexican à la carte restaurants add variety"
+  ],
+  "cons": [
+    "The hotel warns its beach erodes daily; sandbags line parts of the shore",
+    "Open-coast beach takes heavy sargassum from spring",
+    "Only 3 à la carte dinners a week",
+    "Family rooms are a 5-10 min walk from the lobby",
+    "About 90 min from CUN"
+  ],
+  "verdict": "Strongest kids' club and water play in the Bahia Principe complex, but families should expect an eroded, seaweed-prone beach in late April.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Bahia Principe Explore Tulum (official)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-tulum/"},
+    {"title": "Bahia Principe Explore Tulum services (official)", "url": "https://www.bahia-principe.com/en/mexico/riviera-maya/resort-tulum/services/"},
+    {"title": "Air Canada Vacations: Bahia Principe Explore Tulum", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNBPT/bahia-principe-explore-tulum"},
+    {"title": "Air Canada Vacations: Bahia Principe Explore Tulum notices (à la carte cap, buffet closures)", "url": "https://vacations.aircanada.com/en/accommodation-details/CUNBPT/bahia-principe-grand-tulum"},
+    {"title": "All-Inclusive Guide: Bahia Principe Grand Tulum (updated Sep 2026)", "url": "https://all-inclusive-guide.com/resorts/bahia-principe-grand-tulum/"},
+    {"title": "TripAdvisor: Bahia Principe Explore Tulum reviews", "url": "https://www.tripadvisor.com/Hotel_Review-g24189352-d503104-Reviews-Bahia_Principe_Explore_Tulum-Gran_Bahia_Principe_Tulum_Yucatan_Peninsula.html"},
+    {"title": "Renee Tsang Travel: Grand Bahia Principe Tulum family review", "url": "https://reneetsangtravel.com/grand-bahia-principe-tulum-review-a-fun-fantastic-family-vacation/"},
+    {"title": "Find My Food Stu: Bahia Principe Riviera Maya (Nov 2025)", "url": "https://findmyfoodstu.com/bahia-principe-riviera-maya-mexico/"},
+    {"title": "Hyatt newsroom: Bahia Principe joins World of Hyatt (Mar 25, 2026)", "url": "https://newsroom.hyatt.com/2026-march-25-bahiaprincipejoinsworldofhyatt"},
+    {"title": "Rome2rio: TQO to Bahia Principe Explore Tulum", "url": "https://www.rome2rio.com/s/Tulum-Airport-TQO/Bahia-Principe-Explore-Tulum-All-Inclusive-Akumal"},
+    {"title": "The Cancun Sun: first major sargassum wave, Cancun to Tulum (Mar 2026)", "url": "https://thecancunsun.com/first-major-sargassum-wave-arrives-on-the-ground-report-from-cancun-to-tulum/"},
+    {"title": "Mexico News Daily: Playa del Carmen red alert as sargassum hits Riviera Maya (late April)", "url": "https://mexiconewsdaily.com/travel/playa-del-carmen-declares-red-alert-as-sargassum-overwhelms-riviera-maya-beaches/"}
+  ]
+}

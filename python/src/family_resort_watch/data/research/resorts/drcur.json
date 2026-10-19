@@ -1,0 +1,42 @@
+{
+  "code": "drcur",
+  "name": "Dreams Curaçao Resort, Spa & Casino",
+  "researched_on": "2026-10-03",
+  "criteria": {
+    "kids_club": {"score": 3, "evidence": "Explorer's Club takes ages 3-12, potty-trained, and is included in the rate, but it is open only 8am-5pm. Staff get good marks, though some guests found the clubhouse unfinished, and a few say the kids' pool area needs updating."},
+    "water_play": {"score": 3, "evidence": "Three pools for families (main, infinity and a kids' pool), plus an adults-only pool for Il Mare. No source mentions a splash pad, slides or water park."},
+    "beach": {"score": 5, "evidence": "Sandy beachfront on sheltered Piscadera Bay. A 2026 guide calls the calm water suitable for young children, and guests describe the beach as clean and relaxed. Curaçao lies south of the main sargassum belt, and its south-coast beaches rarely see it, even in the record 2025 season."},
+    "rooms": {"score": 4, "evidence": "Deluxe rooms come in king or two-double versions in most view categories, with occupancy of 2-4 depending on category. Connecting rooms are unverified."},
+    "food": {"score": 3, "evidence": "Family-side dining is the World Café buffet, Oceana, Portofino (Italian), Seaside Grill, Barefoot Grill and Coco Café, with no reservations needed. Several recent reviews call the food below Hyatt-brand expectations, with the buffet the weakest."},
+    "transfer": {"score": 5, "evidence": "About 10 km from CUR, around 10-15 minutes by car."},
+    "condition": {"score": 3, "evidence": "The 1967 former Hilton had a $15M refresh before reopening as a Dreams in December 2019. The adults-only Il Mare section of 52 new beachfront bungalows opened in January 2025. Reviews still describe parts of the main building as dated."}
+  },
+  "kids_club": {"name": "Explorer's Club", "ages": "3-12", "hours": "8am-5pm daily", "cost": "included", "notes": "Kids must be fully potty-trained. Staff are CPR-certified and parents get pagers. Activities include crafts, treasure hunts, sandcastle contests and splash time in the kids' pool. Babysitting is available. The Core Zone teens' club is separate."},
+  "transfer_minutes": {"CUR": 15},
+  "sargassum_late_april": "low",
+  "pros": [
+    "Calm, sandy Piscadera Bay beach that suits young children, with little sargassum risk in late April",
+    "About 15 minutes from CUR",
+    "No restaurant reservations, with seafood and Italian options",
+    "Small resort where everything is within walking distance"
+  ],
+  "cons": [
+    "The kids' club closes at 5pm, so there is no evening drop-off",
+    "Only a kids' pool, with no splash pad or slides",
+    "Food is a recurring complaint, especially the buffet",
+    "The 1960s building still feels dated in places despite the 2019 refresh",
+    "Some beachfront now belongs to the adults-only Il Mare section"
+  ],
+  "verdict": "The beach and transfer are excellent for young children, but expect the kids' club to end at 5pm and only so-so food.",
+  "confidence": "medium",
+  "sources": [
+    {"title": "Curaçao Playbook - Dreams Curaçao review, the old Hilton reassessed (July 2026)", "url": "https://www.curacaoplaybook.com/blog/dreams-curacao-review"},
+    {"title": "Air Canada Vacations - Dreams Curaçao (rooms, restaurants, pools, distance)", "url": "https://vacations.aircanada.com/en/accommodation-details/CURDRE/dreams-curacao-resort-spa-casino"},
+    {"title": "Wikipedia - Dreams Curaçao Resort (history, 2019 renovation)", "url": "https://en.wikipedia.org/wiki/Dreams_Cura%C3%A7ao_Resort"},
+    {"title": "Hotel-Online - Dreams Curaçao debuts Il Mare adults-only Preferred Club", "url": "https://www.hotel-online.com/news/dreams-curacao-resort-spa-casino-debuts-ii-mare-adults-only-preferred-club"},
+    {"title": "Hyatt Inclusive Collection - Dreams Curaçao activities (Explorer's Club; seen via search excerpt)", "url": "https://www.hyattinclusivecollection.com/en/resorts-hotels/dreams/curacao/curacao-resort-spa-casino/activities/"},
+    {"title": "TripAdvisor - Dreams Curaçao kids club reviews (seen via search excerpt)", "url": "https://www.tripadvisor.com/Hotel_Feature-g147278-d19141400-zft12121-Dreams_Curacao_Resort_Spa_Casino.html"},
+    {"title": "Booking.com - Dreams Curaçao verified reviews (food, beach; seen via search excerpt)", "url": "https://www.booking.com/reviews/cw/hotel/dreams-curacao-resort-spa-amp-casino.html"},
+    {"title": "Avila Beach Hotel - Why Curaçao stays largely sargassum-free", "url": "https://www.avilabeachhotel.com/curacao-tips/news-facts/sargassum-in-the-caribbean-why-curacao-remains-a-clear-sargassum-free-escape/"}
+  ]
+}
