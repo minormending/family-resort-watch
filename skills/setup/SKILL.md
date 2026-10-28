@@ -84,7 +84,10 @@ An `error:` line names the bad answer. Fix it with the user and run again.
 The first run finds which resorts take the children, prices every stay at
 each of them, and searches every flight route with its paired returns. It
 takes 10–30 minutes. Run it in the background and tell the user it is
-running. When it finishes, run `frw --trip <trip> page`.
+running. When it finishes, run `frw --trip <trip> geo` (it routes the drive
+from the airport for any resort the tool has a location for but no drive
+time yet; it lists resorts with no location, whose drive stays unknown), then
+`frw --trip <trip> report` and `frw --trip <trip> page`.
 
 If it exits non-zero, or most hotel requests in the trip's `changes.md`
 are errors, show the user the last lines of the output and stop. A few flight

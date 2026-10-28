@@ -361,6 +361,16 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
               <option value="8">8+</option>
             </select>
           </label>
+          <label for="driveSel">Max drive from airport
+            <select id="driveSel">
+              <option value="">Any</option>
+              <option value="30">30 min</option>
+              <option value="45">45 min</option>
+              <option value="60">1 hour</option>
+              <option value="90">1.5 hours</option>
+              <option value="120">2 hours</option>
+            </select>
+          </label>
           <label class="check" for="clubChk"><input type="checkbox" id="clubChk" checked> Has a kids club</label>
         </div>
       </details>
@@ -547,6 +557,12 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     return returnFiltersActive() ? null : { price: o.price, back: null };
   }
 
+  // Drive limit: an airport counts only when its road time to the resort is
+  // within it. An airport with no known drive time always counts.
+  const maxDrive = () => +$("driveSel").value || 0;
+  const driveOf = (r, ap) => (r.drive || {})[ap];
+  const airportOk = (r, ap) => !maxDrive() || driveOf(r, ap) == null || driveOf(r, ap) <= maxDrive();
+  const driveText = (r, ap) => driveOf(r, ap) == null ? "" : `${driveOf(r, ap)} min drive`;
   // "Delta Main Classic", "JetBlue Main": the airline and the fare tier priced
   // for it on this route (sbw/flights routes[ap][stay].fares), when known.
   function fareName(airline, route) {
@@ -580,6 +596,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
   function fareFor(resort, key) {
     let best = null;
     for (const ap of resort.airports || [resort.airport]) {
+      if (!airportOk(resort, ap)) continue;
       const f = routeFare(ap, key);
       if (f.status === "ok" && (!best || f.price < best.price)) best = { ...f, airport: ap };
     }
@@ -587,7 +604,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
   }
   // Why a resort has no fare: "nomatch" beats "none" beats "unsearched".
   function fareStatus(resort, key) {
-    const st = (resort.airports || [resort.airport]).map((ap) => routeFare(ap, key).status);
+    const st = (resort.airports || [resort.airport]).filter((ap) => airportOk(resort, ap)).map((ap) => routeFare(ap, key).status);
     return st.includes("ok") ? "ok" : st.includes("nomatch") ? "nomatch" : st.includes("none") ? "none" : "unsearched";
   }
   const noFareLabel = { nomatch: "No match", none: "No nonstop", unsearched: "Not searched yet" };
@@ -653,7 +670,8 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     const c = $("countrySel").value, b = $("brandSel").value, club = $("clubChk").checked;
     const minFit = +$("fitSel").value || 0;
     return L.resorts.filter((r) => (!c || r.country === c) && (!b || r.brand === b) && (!club || r.kids_club)
-      && (!minFit || (fitOf(r) ?? 0) >= minFit));
+      && (!minFit || (fitOf(r) ?? 0) >= minFit)
+      && (r.airports || [r.airport]).some((ap) => airportOk(r, ap)));
   }
   function spark(code, key, current) {
     const doc = state.hist[docFor(key)];
@@ -715,7 +733,10 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
       const tr = el("tr", { class: "row" + (isSel ? " sel" : ""), tabindex: "0", "aria-selected": String(isSel), "data-code": r.code },
         el("td", { class: "rank" }, i + 1),
         el("td", {}, el("div", { class: "name" }, r.name),
-          el("div", { class: "sub" }, `${r.area}, ${r.country} · ${r.airport || "?"} `,
+          el("div", { class: "sub" }, (() => {
+            const ap = (p.fare && p.fare.airport) || (r.airports || []).find((a) => airportOk(r, a)) || r.airport;
+            return `${r.area}, ${r.country} · ${ap || "?"}${driveText(r, ap) ? " · " + driveText(r, ap) : ""} `;
+          })(),
             r.kids_club ? el("span", { class: "pill ok" }, `${r.kids_club} ${r.kids_ages}`) : el("span", { class: "pill" }, "No kids club"),
             fitPill(r))),
         el("td", { class: "sub", style: "white-space:nowrap" }, p.key ? shortStay(p.key) : "—",
@@ -900,6 +921,17 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     return facts;
   }
 
+  // Road time from each of the resort's airports, the fare's airport first.
+  function transferLine(r, p) {
+    const aps = Object.keys(r.drive || {});
+    if (!aps.length) return null;
+    const first = p.fare && p.fare.airport;
+    aps.sort((a, b) => (b === first) - (a === first) || r.drive[a] - r.drive[b]);
+    return el("div", {}, el("span", { class: "lbl" }, "Transfer"),
+      el("span", { class: "num" }, `${r.drive[aps[0]]} min`),
+      el("span", { class: "sub" }, aps.map((ap) => `${r.drive[ap]} min from ${ap}`).join(" · ")
+        + " by road, no traffic; allow 10–30% more for a shuttle"));
+  }
   function overviewTab(r, p) {
     const v = reviewOf(r);
     const q = p.fare && p.fare.q;
@@ -920,7 +952,8 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
         el("div", {}, el("span", { class: "lbl" }, "Resort"), el("span", { class: "num" }, p.price != null ? usd(p.price) : "—"),
           el("span", { class: "sub" }, o ? `${o.room}${o.free_cancel_until ? " · free cancel to " + fmtDay(o.free_cancel_until, { month: "short", day: "numeric" }) : " · non-refundable"}` : "")),
         el("div", {}, el("span", { class: "lbl" }, "Flights"), el("span", { class: "num" }, p.fare ? usd(p.fare.price) : "—"),
-          el("span", { class: "sub" }, q ? `${fareName(q.airlines, p.fare && p.fare.route)} · out ${q.depart_airport} ${q.depart_time}${back ? ` · back ${back.depart_time} → ${back.arrive_airport} ${back.arrive_time}` : ""}` : noFare))));
+          el("span", { class: "sub" }, q ? `${fareName(q.airlines, p.fare && p.fare.route)} · out ${q.depart_airport} ${q.depart_time}${back ? ` · back ${back.depart_time} → ${back.arrive_airport} ${back.arrive_time}` : ""}` : noFare)),
+        transferLine(r, p)));
     const parts = [card];
     if (v) {
       parts.push(el("div", { class: "ov-review" },
@@ -1149,6 +1182,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     if ($("brandSel").value) parts.push($("brandSel").value);
     if ($("clubChk").checked) parts.push("kids club");
     if ($("fitSel").value) parts.push("fit " + $("fitSel").value + "+");
+    if (maxDrive()) parts.push("≤ " + selText("driveSel") + " drive");
     $("gResortSum").textContent = parts.filter(Boolean).join(" · ");
   }
   function renderAirlineChips() {
@@ -1421,7 +1455,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     db.doc("sbw/analysis").onSnapshot((snap) => { state.analysis = snap.exists ? snap.data() : null; renderRead(); }, () => {});
   }
 
-  ["rankSel", "metricSel", "countrySel", "brandSel", "sortSel", "fitSel", "clubChk"].forEach((id) => {
+  ["rankSel", "metricSel", "countrySel", "brandSel", "sortSel", "fitSel", "driveSel", "clubChk"].forEach((id) => {
     const saved = recall(id);
     if (saved != null) { if (id === "clubChk") $(id).checked = saved === "1"; else $(id).value = saved; }
     $(id).addEventListener("change", () => { remember(id, id === "clubChk" ? ($(id).checked ? "1" : "0") : $(id).value); render(); });

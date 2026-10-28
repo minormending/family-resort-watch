@@ -85,6 +85,7 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("reviews", help="validate research and print each resort's family-fit score")
     p.add_argument("--thin", action="store_true", help="list only reviews that need another research pass")
     sub.add_parser("resorts", help="list the trip's family resorts and whose review each has (JSON)")
+    sub.add_parser("geo", help="route the drive from each family resort's airports (<home>/geo.toml)")
     sub.add_parser("published", help="record the publish plan as written to the artifact db")
     sub.add_parser("page", help="render the trip's artifact page")
     p = sub.add_parser("run", help="classify if stale, scan hotels and due flights, then report (the hourly job)")
@@ -178,6 +179,25 @@ def main(argv: list[str] | None = None) -> int:
     with storage.connect(config.DB_PATH) as conn:
         if args.command == "resorts":
             print(json.dumps(resorts(conn, cfg), indent=1, ensure_ascii=False))
+            return 0
+        if args.command == "geo":
+            from . import geo
+
+            g = geo.load()
+            rows = conn.execute("SELECT code, area, country FROM hotels WHERE takes_party = 1").fetchall()
+            wanted = {r["code"]: cfg.airports[r["area"]] for r in rows
+                      if r["country"] in cfg.countries and r["area"] in cfg.airports}
+            added, missing, failed = geo.fill(g, wanted)
+            if added:
+                geo.own_path().write_text(geo.dump(g))
+            for line in added:
+                print(f"routed {line}")
+            if missing:
+                print(f"no location yet (add it to {geo.own_path()}): " + ", ".join(missing))
+            for line in failed:
+                print(f"not routed: {line}")
+            for line in geo.slow(g):
+                print(f"slow, check the access road: {line}")
             return 0
         if args.command in ("classify", "run"):
             counts = scan.classify(conn, cfg, force=getattr(args, "force", False))

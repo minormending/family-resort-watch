@@ -88,6 +88,12 @@ writes the note.
   - The artifact page never needs republishing.
   - Most runs are one short Claude session that ends in a single line.
 
+- **Drive times:** each resort's location ships with the tool, checked by
+  hand, along with the drive from each of its airports, routed on
+  OpenStreetMap roads (no traffic, so allow 10–30% more for a shuttle). The
+  page shows the drive on every row and has a "Max drive from airport"
+  filter, which drops airports over the limit when choosing a resort's fare.
+
 Your trips, prices and reports live in `~/.family-resort-watch` (set
 `FRW_HOME` to move it). The plugin's own folder holds only its Python
 environment.

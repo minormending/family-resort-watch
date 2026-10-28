@@ -1,0 +1,213 @@
+# Resort and airport locations, and drive times between them. See geo.py.
+# Locations were found once and checked by hand; `source` says where each came from.
+# `frw geo` routes any resort and airport pair that has no drive yet.
+
+[airports]
+ACA = { lat = 16.75659, lon = -99.75294, name = "Aeropuerto Internacional de Acapulco \"General Juan N. Álvarez\"" }
+AUA = { lat = 12.50211, lon = -70.01412, name = "Aeropuerto Internacional Reina Beatrix" }
+AZS = { lat = 19.26877, lon = -69.74114, name = "Aeropuerto Internacional Presidente Profesor Juan Bosch" }
+CTG = { lat = 10.44164, lon = -75.51305, name = "Aeropuerto Internacional Rafael Núñez" }
+CUN = { lat = 21.0407, lon = -86.88176, name = "Aeropuerto Internacional de Cancún" }
+CUR = { lat = 12.18905, lon = -68.96216, name = "Curaçao International Airport" }
+CZM = { lat = 20.52296, lon = -86.92944, name = "Aeropuerto Internacional de Cozumel" }
+HUX = { lat = 15.77598, lon = -96.2587, name = "Aeropuerto Internacional de Bahías de Huatulco" }
+LIR = { lat = 10.59401, lon = -85.54184, name = "Aeropuerto Internacional Daniel Oduber Quirós" }
+LRM = { lat = 18.4518, lon = -68.91334, name = "Aeropuerto Internacional La Romana" }
+MBJ = { lat = 18.50378, lon = -77.91147, name = "Sangster International Airport" }
+MZT = { lat = 23.16485, lon = -106.26952, name = "Aeropuerto Internacional General Rafael Buelna" }
+PTY = { lat = 9.06779, lon = -79.37921, name = "Aeropuerto Internacional de Tocumen" }
+PUJ = { lat = 18.56979, lon = -68.36663, name = "Aeropuerto Internacional de Punta Cana" }
+PVR = { lat = 20.68132, lon = -105.24962, name = "Licenciado Gustavo Díaz Ordaz International Airport" }
+SDQ = { lat = 18.4293, lon = -69.67151, name = "Aeropuerto Internacional Las Américas" }
+SJD = { lat = 23.14517, lon = -109.71801, name = "Aeropuerto Internacional de Los Cabos" }
+TQO = { lat = 20.16818, lon = -87.65761, name = "Felipe Carrillo Puerto Intl. Airport - Tulum" }
+UVF = { lat = 13.73432, lon = -60.95389, name = "Hewanorra International Airport" }
+ZIH = { lat = 17.60361, lon = -101.462, name = "Aeropuerto Intl. de Ixtapa - Zihuatanejo" }
+
+[resorts]
+bpfanpcana = { lat = 18.72139, lon = -68.46263, source = "OSM building 'Luxury Bahia Principe Fantasia' (way 705174427), Bavaro Bahia Principe complex" }
+bpgrandcoba = { lat = 20.36365, lon = -87.33745, source = "OpenStreetMap: Lobby Bahia Principe Explore Coba" }
+bpgrandjam = { lat = 18.46096, lon = -77.34978, source = "OSM node 'Bahia Principe' (tourism=hotel), Runaway Bay; Wikidata Q111414702 'Bahia Principe Grand Jamaica' 18.4614,-77.35023 agrees (~50 m) https://www.openstre" }
+bpgrandpcana = { lat = 18.72114, lon = -68.46483, source = "OpenStreetMap: Grand Bahia Principe Punta Cana" }
+bpgrandpor = { lat = 19.32363, lon = -69.49568, source = "OSM way 'Gran Bahia Principe El Portillo' (tourism=hotel, 604 rooms); Wikidata Q111414770 19.32326,-69.49518 agrees (~60 m)" }
+bpgrandrom = { lat = 18.43529, lon = -69.19031, source = "OSM way 'Bahía Príncipe Playa Nueva La Romana' (tourism=hotel), Playa Nueva Romana / El Soco; listings give Carretera San Pedro-La Romana km 12, El Soco" }
+bpgrandtulum = { lat = 20.36808, lon = -87.33152, source = "OpenStreetMap: Bahia Principe Explore Tulum" }
+bpgrandtur = { lat = 18.72126, lon = -68.46727, source = "OpenStreetMap: Grand Bahia Principe Turquesa" }
+bpluxaku = { lat = 20.35977, lon = -87.33418, source = "OpenStreetMap: Bahia Principe Explore Akumal" }
+bpluxesm = { lat = 18.72496, lon = -68.45933, source = "OpenStreetMap: Luxury Bahia Principe Esmeralda" }
+cunif = { lat = 20.89519, lon = -86.8582, source = "OpenStreetMap: Dreams Puerto Morelos" }
+ddpbp = { lat = 8.89799, lon = -79.58107, source = "OpenStreetMap: Dreams Playa Bonita Panama" }
+draca = { lat = 16.84274, lon = -99.84991, source = "SkyScraperPage building b29680 (Costera Miguel Aleman #1, Col. Icacos; map link coords) https://skyscraperpage.com/b29680; address matches all listings" }
+drbmi = { lat = 20.75354, lon = -105.45174, source = "OpenStreetMap: Dreams/Secrets Bahia Mita Surf and Spa" }
+drctg = { lat = 10.54167, lon = -75.4917, source = "OSM node 'Karibana Golf Resort' (tourism=hotel), Vía Punta de Canoa; Kayak distances (Torre del Reloj 14.4 km, Playa La Boquilla 7.2 km) fit this point; listing" }
+drcur = { lat = 12.12037, lon = -68.96833, source = "OpenStreetMap: Dreams Curaçao Resort, Spa & Casino" }
+drczm = { lat = 20.407, lon = -87.016, source = "Estimate: OSM Secrets Aura Cozumel node 20.40558,-87.01600 + 'Windam' complex parking 20.4073,-87.0158; Kayak/Trip.com distances (Paradise Beach 0.8-0.94 km, Sa" }
+drecc = { lat = 18.4762, lon = -68.3985, source = "Estimate: former Margaritaville Island Reserve Cap Cana on Playa Juanillo; Kayak distances (0.97 km from Hyatt Zilara Cap Cana, Margaritaville Hammock 0.19 km);" }
+dredl = { lat = 18.34547, lon = -68.81981, source = "OpenStreetMap: Dreams Dominicus La Romana" }
+drehu = { lat = 15.77449, lon = -96.09463, source = "OpenStreetMap: Dreams Huatulco Resort & Spa" }
+drelc = { lat = 22.9755, lon = -109.777, source = "Estimate: Kayak (Villa La Valencia 0.19 km, Casa del Mar condos 0.35-0.44 km, Las Residencias 0.51 km) + OSM Villa La Valencia 22.97604,-109.77865 + Michelin Zo" }
+drena = { lat = 20.93681, lon = -86.83919, source = "Trip.com listing plus code W5P6+P8 (decoded) https://ph.trip.com/hotels/benito-juarez-hotel-detail-54487705/ ; Kayak lists Royalton Splash Riviera Cancun 0.22 k" }
+drepa = { lat = 20.50124, lon = -87.22095, source = "OSM way 'Dreams Puerto Aventuras' (tourism=hotel), Puerto Aventuras via Nominatim" }
+drepe = { lat = 19.01479, lon = -68.99955, source = "Trip.com Miches hotel list: Dreams Playa Esmeralda plus code 2272+W58, decoded (77FH2272+W58) https://ca.trip.com/hotels/miches-hotels-list-258500/ ; Kayak dist" }
+drepm = { lat = 21.26128, lon = -86.81438, source = "OpenStreetMap: Dreams Playa Mujeres Resort Service Road" }
+drerc = { lat = 20.87199, lon = -86.86741, source = "OpenStreetMap: Dreams Riviera Cancun Resort & Spa" }
+dresc = { lat = 21.13741, lon = -86.75239, source = "HotelPlanner listing coords (Blvd Kukulcan km 8.5 Lote B), which land on an unnamed OSM tourism=hotel building (way 200451678) on the north beach" }
+dretu = { lat = 20.25442, lon = -87.40359, source = "OSM relation 'Dreams Tulum Resort & spa' (beach_resort/hotel) + separate OSM node 20.25339,-87.40312; address Carretera Chetumal-Puerto Juarez km 236.7, Tankah" }
+drfpc = { lat = 18.65251, lon = -68.36627, road = { lat = 18.64869, lon = -68.36227 }, source = "OSM node 'Natura Park Beach Eco Resort & Spa' (tourism=hotel), Carretera Cabeza de Toro; Blue Bay Travel says Dreams Flora is a full renovation on the old Natur; routed from its entrance road, Carretera Cabeza de Toro (the access road is not in OpenStreetMap)" }
+drjrc = { lat = 20.8289, lon = -86.8951, source = "OSM way 'Now Jade Resort' (tourism=hotel), Puerto Morelos, which contains its Gym & Spa" }
+drmpc = { lat = 18.76953, lon = -68.54315, source = "OSM/Photon node 'Dreams Macao Beach' (leisure=beach_resort), La Otra Banda - El Macao road" }
+drmzt = { lat = 23.111, lon = -106.308, source = "Estimate: Kayak puts Dreams 0.72 mi (1.16 km) from Las Villas Hotel & Golf (OSM 23.11881,-106.31545); description says 'golf course next door'; OSM Estrella del" }
+dropc = { lat = 18.80751, lon = -68.57756, source = "OpenStreetMap: Dreams Onyx Punta Cana Resort & Spa" }
+drrpc = { lat = 18.67855, lon = -68.41471, source = "OpenStreetMap: Dreams Royal Beach Punta Cana" }
+drsrc = { lat = 20.87922, lon = -86.86613, source = "OpenStreetMap: Dreams Sapphire Resort & Spa" }
+drvpv = { lat = 20.63163, lon = -105.23125, source = "OpenStreetMap: Dreams Vallarta Bay" }
+sucdp = { lat = 18.64973, lon = -68.36193, source = "OSM node 'Be Live Grand Bavaro' (tourism=hotel), Carretera Cabeza de Toro; former names per viasun.ru (Grand Oasis Punta Cana / Be Live Grand Bavaro) and schaui" }
+sucur = { lat = 12.08952, lon = -68.90211, source = "OpenStreetMap: Sunscape Curaçao Resort, Spa & Casino" }
+sudix = { lat = 17.66092, lon = -101.60403, source = "OpenStreetMap: Sunscape Dorado Pacifico Ixtapa" }
+sudlr = { lat = 18.34254, lon = -68.81637, source = "OpenStreetMap: Sunscapes Dominicus La Romana" }
+sunpv = { lat = 20.64258, lon = -105.23845, source = "OpenStreetMap: Sunscape Puerto Vallarta" }
+zoapc = { lat = 18.83636, lon = -68.61039, source = "OSM node 'Zoetry Agua' (tourism=hotel), Uvero Alto; Wikidata Q111414785 18.83677,-68.61098 agrees (~70 m)" }
+zocdm = { lat = 22.97643, lon = -109.77349, source = "Michelin Guide hotel page (nearby-restaurants link lat/lon) https://guide.michelin.com/sg/en/hotels-stays/los-cabos/zoetry-casa-delmar-8015 ; address Carretera " }
+zomsl = { lat = 13.96445, lon = -61.02302, source = "Wikidata Q111414890 'Marigot Bay Resort and Marina' coords; OSM 'Hotel Car Park' and hotel wastewater plant beside it on Waterfront Road" }
+zvrim = { lat = 21.23315, lon = -86.74003, source = "OpenStreetMap: Hotel Villa Rolandi" }
+
+# Minutes and km by road from each airport (OSRM, no traffic).
+
+[drive.bpfanpcana]
+PUJ = { min = 23, km = 23.9 }
+
+[drive.bpgrandcoba]
+CUN = { min = 79, km = 96.7 }
+
+[drive.bpgrandjam]
+MBJ = { min = 75, km = 67.8 }
+
+[drive.bpgrandpcana]
+PUJ = { min = 23, km = 23.7 }
+
+[drive.bpgrandpor]
+AZS = { min = 51, km = 31.4 }
+
+[drive.bpgrandrom]
+LRM = { min = 34, km = 40.3 }
+PUJ = { min = 86, km = 109.3 }
+SDQ = { min = 61, km = 64.8 }
+
+[drive.bpgrandtulum]
+CUN = { min = 79, km = 96.7 }
+
+[drive.bpgrandtur]
+PUJ = { min = 25, km = 24.2 }
+
+[drive.bpluxaku]
+CUN = { min = 81, km = 97.2 }
+
+[drive.bpluxesm]
+PUJ = { min = 25, km = 24.6 }
+
+[drive.cunif]
+CUN = { min = 27, km = 20.6 }
+
+[drive.ddpbp]
+PTY = { min = 40, km = 40.5 }
+
+[drive.draca]
+ACA = { min = 21, km = 18.6 }
+
+[drive.drbmi]
+PVR = { min = 36, km = 31.8 }
+
+[drive.drctg]
+CTG = { min = 30, km = 17.9 }
+
+[drive.drcur]
+CUR = { min = 11, km = 8.3 }
+
+[drive.drczm]
+CZM = { min = 20, km = 16.9 }
+
+[drive.drecc]
+PUJ = { min = 19, km = 15.9 }
+
+[drive.dredl]
+LRM = { min = 19, km = 19.0 }
+PUJ = { min = 60, km = 72.0 }
+SDQ = { min = 97, km = 111.8 }
+
+[drive.drehu]
+HUX = { min = 19, km = 20.3 }
+
+[drive.drelc]
+SJD = { min = 21, km = 23.0 }
+
+[drive.drena]
+CUN = { min = 24, km = 17.0 }
+
+[drive.drepa]
+CUN = { min = 66, km = 78.5 }
+
+[drive.drepe]
+PUJ = { min = 102, km = 98.8 }
+
+[drive.drepm]
+CUN = { min = 42, km = 32.6 }
+
+[drive.drerc]
+CUN = { min = 23, km = 24.6 }
+
+[drive.dresc]
+CUN = { min = 33, km = 24.9 }
+
+[drive.dretu]
+CUN = { min = 89, km = 111.3 }
+TQO = { min = 55, km = 50.8 }
+
+[drive.drfpc]
+PUJ = { min = 17, km = 14.1 }
+
+[drive.drjrc]
+CUN = { min = 32, km = 29.2 }
+
+[drive.drmpc]
+PUJ = { min = 30, km = 33.5 }
+
+[drive.drmzt]
+MZT = { min = 20, km = 11.3 }
+
+[drive.dropc]
+PUJ = { min = 39, km = 39.0 }
+
+[drive.drrpc]
+PUJ = { min = 21, km = 16.1 }
+
+[drive.drsrc]
+CUN = { min = 24, km = 24.7 }
+
+[drive.drvpv]
+PVR = { min = 7, km = 5.9 }
+
+[drive.sucdp]
+PUJ = { min = 17, km = 14.1 }
+
+[drive.sucur]
+CUR = { min = 19, km = 15.9 }
+
+[drive.sudix]
+ZIH = { min = 18, km = 18.9 }
+
+[drive.sudlr]
+LRM = { min = 20, km = 19.6 }
+PUJ = { min = 61, km = 72.5 }
+SDQ = { min = 98, km = 112.4 }
+
+[drive.sunpv]
+PVR = { min = 6, km = 4.6 }
+
+[drive.zoapc]
+PUJ = { min = 52, km = 44.5 }
+
+[drive.zocdm]
+SJD = { min = 22, km = 22.8 }
+
+[drive.zomsl]
+UVF = { min = 62, km = 53.0 }

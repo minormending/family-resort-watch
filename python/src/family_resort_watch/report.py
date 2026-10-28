@@ -27,7 +27,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from . import bookcore, config, reviews, trends
+from . import bookcore, config, geo, reviews, trends
 from .config import Config, Window
 
 # Change points kept per resort and stay; older ones fall off.
@@ -453,6 +453,7 @@ def snapshot(conn: sqlite3.Connection, cfg: Config, now: datetime | None = None)
     ).fetchone()
 
     resort_reviews, _ = reviews.load_resorts()
+    places = geo.load()
     resorts, adults_only, unknown = [], [], []
     for h in hotels:
         if h["takes_party"] == 0:
@@ -485,6 +486,9 @@ def snapshot(conn: sqlite3.Connection, cfg: Config, now: datetime | None = None)
             "area": h["area"],
             "airports": list(cfg.airports.get(h["area"], ())),
             "airport": (cfg.airports.get(h["area"]) or ("",))[0],
+            # Minutes by road from each of its airports (geo.toml), when known.
+            "drive": {ap: m for ap, m in geo.drive_minutes(places, h["code"]).items()
+                      if ap in cfg.airports.get(h["area"], ())},
             "kids_club": club.get("kids_club"),
             "kids_ages": club.get("ages"),
             "note": extra.get("note", ""),
@@ -653,14 +657,16 @@ def _changes_md(
             f"{(flights_doc or {}).get('searched_as', '?')}. {(flights_doc or {}).get('fare_rule', '')} "
             f"{(flights_doc or {}).get('fare_basis', '')}",
             "",
-            "| # | Resort | Fit /10 | Kids club | Stay | Hotel | Flights | Airport | Trip total |",
-            "|---|---|---|---|---|---|---|---|---|",
+            "| # | Resort | Fit /10 | Kids club | Stay | Hotel | Flights | Airport | Drive | Trip total |",
+            "|---|---|---|---|---|---|---|---|---|---|",
         ]
         for i, r in enumerate(trips[:20], 1):
             t = r["best_trip"]
+            drive = (r.get("drive") or {}).get(t["airport"])
             lines.append(
                 f"| {i} | {r['name']} | {r['fit'] if r.get('fit') is not None else '—'} | {r['kids_club'] or 'none'} | {t['stay']} | {usd(t['hotel'])} | "
-                f"{usd(t['flight'])} ({kind_label[t['flight_kind']]}) | {t['airport']} | {usd(t['total'])} |"
+                f"{usd(t['flight'])} ({kind_label[t['flight_kind']]}) | {t['airport']} | "
+                f"{f'{drive} min' if drive is not None else '—'} | {usd(t['total'])} |"
             )
         no_fare = sorted({r["name"] for r in latest["resorts"] if r.get("best_primary") and not r.get("best_trip")})
         if no_fare:
