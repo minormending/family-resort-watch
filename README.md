@@ -26,7 +26,8 @@ Then ask Claude to set it up, or run:
 /family-resort-watch:setup
 ```
 
-You need Python 3.11 or newer on your PATH. The plugin installs its own
+You need Python 3.11 or newer on your PATH, and Google Chrome for fare tiers
+(optional; see below). The plugin installs its own
 virtual environment the first time it runs.
 
 ## What setup asks
@@ -67,6 +68,16 @@ writes the note.
     most international routes when a child is in the search. Child fares on
     these routes are usually the adult fare.
   - Booking links open with your real party.
+  - **Fare tiers:** Google's list price is the airline's own bottom tier,
+    which is often Basic: no seat selection, or seats for a fee. So the tool
+    opens Google's booking page in headless Chrome and prices each airline's
+    cheapest tier sold by the airline itself with free seat selection and a
+    carry-on (for example Delta Main Classic rather than Main Basic). It
+    looks up each airline's cheapest flight, adds the gap to that airline's
+    other flights, and reuses the result for 48 hours. Google refuses some of
+    these lookups; then the last known gap is used, and the page says which
+    tier each fare is. Without Google Chrome installed, fares stay at
+    Google's list price.
 - **Reviews:** 32 resorts ship with dated reviews: seven scored criteria,
   pros and cons, and sources. They were researched in October 2026 for two
   adults and a young child travelling in late April. The research skill

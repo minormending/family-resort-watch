@@ -27,8 +27,11 @@ paths below (`changes`, `analysis`, `publish_plan`). Hotel prices are member
 totals for the whole party and stay, taxes included. Fares are round trips
 for `seats_priced` seats (Google won't price most international routes with
 a child, so adults stand in), priced with the cheapest return that lands at a
-home airport. Trip total = hotel + fare. A resort whose airports have no
-eligible flight has no trip total.
+home airport. Each airline's fare is the airline's own price (never a
+third-party site) for its cheapest tier with free seat selection and a
+carry-on, such as Delta Main Classic rather than Main Basic, when Chrome is
+installed to look it up. Trip total = hotel + fare. A resort whose airports
+have no eligible flight has no trip total.
 
 If `artifact` is null, the trip was never published: say so in one line and
 stop.
@@ -43,7 +46,8 @@ Hotels are checked every run. Flights run only when due (every 6 hours for
 preferred stays, 12 for the rest), and a flight run also looks up each
 outbound's paired returns, so some runs take 15 minutes or more. Allow it.
 "flights: {'skipped': 1}" means another flight sweep holds the lock; that is
-fine.
+fine. "fares:" warnings mean Google refused a fare-tier lookup;
+those fares reuse the last known tier.
 
 Stop and write nothing to the artifact, reporting the error in one line, if:
 
@@ -98,6 +102,8 @@ When rewriting, keep exactly this shape (JSON):
   flight times when they matter for this party: a return landing near
   midnight with young children, a very early departure. The page's flight
   filters belong to the user; your ranking always uses unfiltered fares.
+  `changes` names each airline's tier and what it adds over the bottom tier;
+  name the tier when it explains why a fare is higher than Google shows.
 - Signal:
   - `act`: the cheapest trip total for a preferred stay hit a new low at
     least 5% under its previous low, a top-3 trip dropped 10% or more, or the

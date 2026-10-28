@@ -167,6 +167,10 @@ def _flights(raw: dict | None):
         every_hours=int(raw["every_hours"]),
         flex_every_hours=int(raw["flex_every_hours"]),
         return_lookups_per_route=int(raw.get("return_lookups_per_route", 20)),
+        fare_tiers=bool(raw.get("fare_tiers", True)),
+        fare_lookup_every_hours=int(raw.get("fare_lookup_every_hours", 48)),
+        fare_lookups_per_sweep=int(raw.get("fare_lookups_per_sweep", 20)),
+        chrome=raw.get("chrome") or None,
     )
 
 

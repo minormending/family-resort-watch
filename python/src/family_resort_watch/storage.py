@@ -108,6 +108,25 @@ CREATE TABLE IF NOT EXISTS flight_options (
 );
 
 -- Whether each outbound's paired returns were looked up, and how it went.
+-- The fare tier priced for each airline in one search (fares.py). `price` is
+-- what the airline charges for its cheapest tier with free seat selection on
+-- the looked-up pairing; `list_price` is Google's result price for the same
+-- pairing. The gap was added to every option of that airline in the search.
+-- source: lookup (done now), cached (an earlier lookup, same stay), route
+-- (an earlier lookup on another stay of the route), none (no tier known).
+CREATE TABLE IF NOT EXISTS flight_fares (
+    fetch_id INTEGER NOT NULL,
+    airline TEXT NOT NULL,
+    list_price INTEGER NOT NULL,
+    price INTEGER NOT NULL,
+    tier TEXT,
+    list_tier TEXT,
+    basis TEXT NOT NULL,             -- seat | not_basic | airline | third_party | unknown
+    source TEXT NOT NULL,
+    looked_at TEXT,
+    PRIMARY KEY (fetch_id, airline)
+);
+
 CREATE TABLE IF NOT EXISTS flight_return_lookups (
     fetch_id INTEGER NOT NULL,
     outbound_rank INTEGER NOT NULL,
@@ -168,6 +187,11 @@ def _migrate(conn: sqlite3.Connection) -> None:
     have = {r[1] for r in conn.execute("PRAGMA table_info(flight_options)")}
     if "arrive_airport" not in have:
         conn.execute("ALTER TABLE flight_options ADD COLUMN arrive_airport TEXT")
+    # "tier" once fares are priced at the airline's seat-selection tier; older
+    # searches (NULL) priced the airline's bottom tier.
+    have = {r[1] for r in conn.execute("PRAGMA table_info(flight_fetches)")}
+    if "fare_basis" not in have:
+        conn.execute("ALTER TABLE flight_fetches ADD COLUMN fare_basis TEXT")
 
 
 def upsert_hotels(conn: sqlite3.Connection, hotels: list[Hotel]) -> None:
@@ -290,12 +314,13 @@ def record_flights(
     quotes: dict[str, Quote],
     error: str | None = None,
     options: list[Option] | None = None,
+    fare_basis: str | None = None,
 ) -> int:
     status = "error" if error else ("ok" if quotes else "none")
     cur = conn.execute(
-        "INSERT INTO flight_fetches (dest, depart, ret, passengers, status, results, error, fetched_at)"
-        " VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
-        (dest, depart, ret, passengers, status, results, error, now()),
+        "INSERT INTO flight_fetches (dest, depart, ret, passengers, status, results, error, fetched_at, fare_basis)"
+        " VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (dest, depart, ret, passengers, status, results, error, now(), fare_basis),
     )
     fetch_id = int(cur.lastrowid)
     conn.executemany(
@@ -316,6 +341,27 @@ def record_flights(
         ],
     )
     return fetch_id
+
+
+def record_fares(conn: sqlite3.Connection, fetch_id: int, rows: list[dict]) -> None:
+    conn.executemany(
+        "INSERT INTO flight_fares (fetch_id, airline, list_price, price, tier, list_tier, basis, source, looked_at)"
+        " VALUES (:fetch_id, :airline, :list_price, :price, :tier, :list_tier, :basis, :source, :looked_at)",
+        [{**r, "fetch_id": fetch_id} for r in rows],
+    )
+
+
+def last_fare(conn: sqlite3.Connection, dest: str, depart: str | None, ret: str | None, airline: str):
+    """The latest looked-up tier for an airline on a route (and stay, when given)."""
+    sql = (
+        "SELECT ff.* FROM flight_fares ff JOIN flight_fetches f ON f.id = ff.fetch_id"
+        " WHERE f.dest = ? AND ff.airline = ? AND ff.looked_at IS NOT NULL AND ff.basis != 'unknown'"
+    )
+    args: list = [dest, airline]
+    if depart is not None:
+        sql += " AND f.depart = ? AND f.ret = ?"
+        args += [depart, ret]
+    return conn.execute(sql + " ORDER BY ff.looked_at DESC LIMIT 1", args).fetchone()
 
 
 def record_returns(

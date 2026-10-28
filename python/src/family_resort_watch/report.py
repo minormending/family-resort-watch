@@ -179,6 +179,12 @@ def _flight_series(conn: sqlite3.Connection, max_stops: int | None) -> dict[tupl
             "price": q["price"], "airlines": q["airlines"], "stops": q["stops"],
             "depart_airport": q["depart_airport"], "depart_time": q["depart_time"], "arrive_time": q["arrive_time"],
         }
+    fares: dict[int, dict[str, dict]] = defaultdict(dict)
+    for r in conn.execute("SELECT * FROM flight_fares"):
+        fares[r["fetch_id"]][r["airline"]] = {
+            "tier": r["tier"], "list_tier": r["list_tier"], "extra": r["price"] - r["list_price"],
+            "basis": r["basis"], "source": r["source"], "looked_at": r["looked_at"],
+        }
     out: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for f in conn.execute("SELECT * FROM flight_fetches WHERE status != 'error' ORDER BY id"):
         q = quotes.get(f["id"], {})
@@ -187,9 +193,26 @@ def _flight_series(conn: sqlite3.Connection, max_stops: int | None) -> dict[tupl
             {
                 "id": f["id"], "fetched_at": f["fetched_at"], "status": f["status"], "passengers": f["passengers"],
                 "quotes": q, "family": fam["price"] if fam else None, "any": q.get("any", {}).get("price"),
+                "fare_basis": f["fare_basis"], "fares": fares.get(f["id"], {}),
             }
         )
     return out
+
+
+def _since_tier_fares(fseries: dict) -> tuple[dict, str | None]:
+    """Each route's searches from its first one priced at seat-selection tiers.
+
+    Earlier searches priced the airline's bottom tier, so comparing across the
+    switch would read as a fare rise and keep a low nobody can book. Returns
+    (series, when the switch first happened).
+    """
+    out, first = {}, None
+    for key, fetches in fseries.items():
+        i = next((i for i, f in enumerate(fetches) if f["fare_basis"] == "tier"), None)
+        out[key] = fetches if i is None else fetches[i:]
+        if i is not None and (first is None or fetches[i]["fetched_at"] < first):
+            first = fetches[i]["fetched_at"]
+    return out, first
 
 
 # Columns of each row in sbw/flights-options, kept as arrays to stay small.
@@ -281,6 +304,8 @@ def _flights_doc(cfg: Config, fseries, dests: list[str], now: datetime) -> tuple
                 "delta_24h": delta(older[-1] if older else None),
                 "low": {"price": low["family"], "at": low["fetched_at"]} if low else None,
                 "url": flights.google_flights_url(s, cfg.party, dest, w.checkin, w.checkout),
+                # Per airline: the tier priced and what it adds to Google's price.
+                "fares": last["fares"],
             }
             pts, seen = [], None
             for f in fetches:
@@ -301,6 +326,12 @@ def _flights_doc(cfg: Config, fseries, dests: list[str], now: datetime) -> tuple
             f"Nonstop only: a route with no nonstop from {s.home_label} has no fare."
             if s.max_stops == 0
             else "Fewest stops first, at most %s." % s.max_stops
+        ),
+        "fare_basis": (
+            "Each airline's own price for its cheapest fare with free seat selection and a carry-on,"
+            " from Google Flights' booking page; not third-party sites."
+            if s.fare_tiers
+            else "Each airline's own cheapest fare with a carry-on, as Google Flights lists it."
         ),
         "routes": routes,
     }
@@ -471,7 +502,8 @@ def snapshot(conn: sqlite3.Connection, cfg: Config, now: datetime | None = None)
             continue
         resorts.append(entry)
 
-    fseries = _flight_series(conn, cfg.flights.max_stops if cfg.flights else None)
+    all_fseries = _flight_series(conn, cfg.flights.max_stops if cfg.flights else None)
+    fseries, tier_switch = _since_tier_fares(all_fseries)
     dests = sorted({ap for r in resorts for ap in r["airports"]})
     flights_doc, flights_hist = (
         _flights_doc(cfg, fseries, dests, now) if cfg.flights else ({"routes": {}}, {"points": {}})
@@ -480,7 +512,13 @@ def snapshot(conn: sqlite3.Connection, cfg: Config, now: datetime | None = None)
     for r in resorts:
         r["best_trip"] = _best_trip(r, flights_doc["routes"], cfg.primary)
     scan_times = {row["id"]: row["started_at"] for row in conn.execute("SELECT id, started_at FROM scans")}
-    trends_doc = trends.stay_trends(series, fseries, resorts, cfg.windows, scan_times, now)
+    # Trends keep their history across the switch to tier fares, marked.
+    trends_doc = trends.stay_trends(series, all_fseries, resorts, cfg.windows, scan_times, now)
+    if tier_switch and any(f["fare_basis"] is None for fs in all_fseries.values() for f in fs):
+        trends_doc["annotations"] = sorted(
+            trends_doc["annotations"] + [{"t": _epoch(tier_switch), "label": "Fares include seat selection"}],
+            key=lambda a: a["t"],
+        )
 
     resorts.sort(key=lambda r: (r["best_primary"] is None, (r["best_primary"] or {}).get("member_total", 0), r["name"]))
     for rank, r in enumerate(resorts, 1):
@@ -612,7 +650,8 @@ def _changes_md(
             "## Ranking by trip total (hotel + flights, best preferred stay)",
             "",
             f"Flights from {', '.join((flights_doc or {}).get('departure_airports', []))}, searched as "
-            f"{(flights_doc or {}).get('searched_as', '?')}. {(flights_doc or {}).get('fare_rule', '')}",
+            f"{(flights_doc or {}).get('searched_as', '?')}. {(flights_doc or {}).get('fare_rule', '')} "
+            f"{(flights_doc or {}).get('fare_basis', '')}",
             "",
             "| # | Resort | Fit /10 | Kids club | Stay | Hotel | Flights | Airport | Trip total |",
             "|---|---|---|---|---|---|---|---|---|",
@@ -668,9 +707,22 @@ def _changes_md(
                         name: ((route_research.get(f"{name}|{ap}") or {}).get("timing") or {}).get("rating")
                         for name in (r["airlines"] for r in by_airline)
                     }
+                    tiers = (routes.get(ap, {}).get(k) or {}).get("fares") or {}
+
+                    def fare_name(name):
+                        """'Delta Main Classic (+$270 over Delta Main Basic)', or the airline alone."""
+                        f = tiers.get(name) or {}
+                        if f.get("basis") == "unknown":
+                            return f"{name} (Google's price)"
+                        if not f.get("tier"):
+                            return name
+                        label = f["tier"] if f["tier"].lower().startswith(name.lower()) else f"{name} {f['tier']}"
+                        over = f" (+{usd(f['extra'])} over {f['list_tier']})" if f.get("extra") and f.get("list_tier") else ""
+                        return label + over
+
                     if by_airline:
                         lines.append(f"- {ap} {k}: " + " · ".join(
-                            f"{r['airlines']} {usd(r['price'])} (out {r['depart_airport']} {r['depart_time']}"
+                            f"{fare_name(r['airlines'])} {usd(r['price'])} (out {r['depart_airport']} {r['depart_time']}"
                             + (f", back {r['back']['depart_time']}→{r['back']['arrive_airport']} {r['back']['arrive_time']}"
                                if r["back"] else ", return not checked")
                             + (f"; timing {timing[r['airlines']]}" if timing.get(r["airlines"]) else "") + ")"

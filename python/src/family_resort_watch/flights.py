@@ -59,6 +59,10 @@ class FlightSettings:
     every_hours: int
     flex_every_hours: int
     return_lookups_per_route: int = 20
+    fare_tiers: bool = True  # look up each airline's tier with free seat selection (fares.py)
+    fare_lookup_every_hours: int = 48
+    fare_lookups_per_sweep: int = 20
+    chrome: str | None = None
 
 
 @dataclass(frozen=True)
@@ -299,14 +303,20 @@ def selected_flight_bytes(segments: tuple) -> bytes:
     return out
 
 
-def returns_for(s: FlightSettings, dest: str, depart: str, ret: str, outbound: Option) -> list[Option]:
-    """Returns Google pairs with one outbound, each priced as that round trip, cheapest first."""
+def selected_query(s: FlightSettings, dest: str, depart: str, ret: str, outbound: Option):
+    """The search with one outbound chosen, from the origin that found it: its page lists that outbound's returns."""
     if not outbound.segments:
         raise FlightError(f"{dest} {depart}: {outbound.flight_numbers or 'outbound'} has no flight numbers to select")
     query = _query(s, dest, depart, ret, Passengers(adults=s.proxy_adults), outbound.origin or None)
     query.flight_data[0] = FlightData.FromString(
         query.flight_data[0].SerializeToString() + selected_flight_bytes(outbound.segments)
     )
+    return query
+
+
+def returns_for(s: FlightSettings, dest: str, depart: str, ret: str, outbound: Option) -> list[Option]:
+    """Returns Google pairs with one outbound, each priced as that round trip, cheapest first."""
+    query = selected_query(s, dest, depart, ret, outbound)
     items = _items_with_retries(s, query, f"{dest} {depart} return for {outbound.flight_numbers}")
     return options(items, s.departure_airports, returning=True)
 

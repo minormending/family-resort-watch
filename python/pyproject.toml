@@ -1,6 +1,6 @@
 [project]
 name = "family-resort-watch"
-version = "0.1.0"
+version = "0.2.0"
 description = "Watch Hyatt Inclusive Collection all-inclusive and flight prices for one family's trip."
 license = "MIT"
 requires-python = ">=3.11"

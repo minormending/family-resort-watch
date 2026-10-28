@@ -547,6 +547,16 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     return returnFiltersActive() ? null : { price: o.price, back: null };
   }
 
+  // "Delta Main Classic", "JetBlue Main": the airline and the fare tier priced
+  // for it on this route (sbw/flights routes[ap][stay].fares), when known.
+  function fareName(airline, route) {
+    const f = ((route || {}).fares || {})[airline] || {};
+    const tier = f.tier;
+    // Tier not looked up yet (Google refused, or no lookup budget left): say so.
+    if (airline && f.basis === "unknown") return `${airline} (Google's price)`;
+    if (!airline || !tier) return airline || "";
+    return tier.toLowerCase().startsWith(airline.toLowerCase()) ? tier : `${airline} ${tier}`;
+  }
   // One airport and stay: {status: ok | none | nomatch | unsearched, price, q, url, route, list}.
   function routeFare(ap, key) {
     const rt = state.flights && state.flights.routes && state.flights.routes[ap] && state.flights.routes[ap][key];
@@ -910,7 +920,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
         el("div", {}, el("span", { class: "lbl" }, "Resort"), el("span", { class: "num" }, p.price != null ? usd(p.price) : "—"),
           el("span", { class: "sub" }, o ? `${o.room}${o.free_cancel_until ? " · free cancel to " + fmtDay(o.free_cancel_until, { month: "short", day: "numeric" }) : " · non-refundable"}` : "")),
         el("div", {}, el("span", { class: "lbl" }, "Flights"), el("span", { class: "num" }, p.fare ? usd(p.fare.price) : "—"),
-          el("span", { class: "sub" }, q ? `${q.airlines} · out ${q.depart_airport} ${q.depart_time}${back ? ` · back ${back.depart_time} → ${back.arrive_airport} ${back.arrive_time}` : ""}` : noFare))));
+          el("span", { class: "sub" }, q ? `${fareName(q.airlines, p.fare && p.fare.route)} · out ${q.depart_airport} ${q.depart_time}${back ? ` · back ${back.depart_time} → ${back.arrive_airport} ${back.arrive_time}` : ""}` : noFare))));
     const parts = [card];
     if (v) {
       parts.push(el("div", { class: "ov-review" },
@@ -1065,7 +1075,8 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
     if (!F || !L) return;
     const routes = F.routes || {};
     const aps = Object.keys(routes).sort();
-    $("fareNote").textContent = `Round trip, ${F.searched_as} seats, ${F.departure_airports.join(" or ")}`;
+    $("fareNote").textContent = `Round trip, ${F.searched_as} seats, ${F.departure_airports.join(" or ")}.`
+      + (F.fare_basis ? " " + F.fare_basis : "");
     const areaOf = {};
     for (const r of L.resorts) for (const ap of r.airports || [r.airport]) (areaOf[ap] = areaOf[ap] || new Set()).add(r.area);
     const head = el("tr", {}, el("th", {}, "Airport"), L.windows.map((w) =>
@@ -1082,7 +1093,7 @@ footer { font-size: 12px; color: var(--muted); max-width: 80ch; display: grid; g
         const more = f.list ? f.list.filter((o) => choose(o)).length - 1 : 0;
         return el("td", { class: "r" },
           el("div", {}, flightLink(f.url, usd(f.price)), d),
-          el("div", { class: "sub" }, `${q.airlines || ""} out ${q.depart_airport || ""} ${q.depart_time || ""}`),
+          el("div", { class: "sub" }, `${fareName(q.airlines, rt)} out ${q.depart_airport || ""} ${q.depart_time || ""}`),
           f.back ? el("div", { class: "sub" }, `back ${f.back.depart_time} → ${f.back.arrive_airport}`) : null,
           more > 0 ? el("div", { class: "sub" }, `+${more} more`) : null);
       })));
